@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "collection_date": "2025-08-06T19:44:48.048168",
+    "collector": "MedicalFacilitiesCollector",
+    "config_version": "1.0"
+  },
+  "data": {
+    "data": [],
+    "raw_units_count": 500,
+    "medical_facilities_count": 0,
+    "countries_data": {},
+    "collection_metadata": {
+      "total_processed": 500,
+      "medical_facilities_found": 0,
+      "data_quality_passed": 0
+    }
+  }
+}

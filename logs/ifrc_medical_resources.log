@@ -1,0 +1,5 @@
+2025-08-06 19:21:41,166 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 19:21:41,408 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 19:21:41,480 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:21:41,481 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_types.json
+2025-08-06 19:21:41,481 - HistoricalDisastersCollector - INFO - 收集到 24 种基础灾害类型

@@ -1,14 +1,11 @@
+
 import sys
 import os
 import argparse
 from pathlib import Path
 
 
-src_path = Path(__file__).parent / 'src'
-sys.path.insert(0, str(src_path))
-
-
-from config import get_config, validate_config
+from src.config import get_config, validate_config
 
 
 def setup_logging(config):
@@ -95,116 +92,142 @@ def check_dependencies():
 def run_data_collection():
 
     try:
-        from src.data_collection.disaster_collector import DisasterCollector
-        from src.data_collection.resource_collector import ResourceCollector
+        # 导入医疗设施和服务收集器
+        from src.data_collection.medical_facilities_collector import MedicalFacilitiesCollector
+        from src.data_collection.medical_services_collector import MedicalServicesCollector
 
-        print("🔄 Starting data collection...")
+        print("🔄 Starting medical data collection...")
 
+        config = get_config()
+        
+        # 收集医疗设施数据
+        facilities_collector = MedicalFacilitiesCollector(config)
+        print("  🏥 Collecting medical facilities...")
+        facilities_result = facilities_collector.run_collection()
+        
+        if facilities_result.get('collection_status') == 'failed':
+            print(f"❌ Medical facilities collection failed: {facilities_result.get('error', 'Unknown error')}")
+            return False
+        
+        print(f"  ✅ Medical facilities: {facilities_result.get('medical_facilities_count', 0)} facilities collected")
+        
+        # 收集医疗服务数据
+        services_collector = MedicalServicesCollector(config)
+        print("  🩺 Collecting medical services...")
+        services_result = services_collector.run_collection()
+        
+        if services_result.get('collection_status') == 'failed':
+            print(f"⚠️ Medical services collection had issues: {services_result.get('error', 'Unknown error')}")
+            # 服务收集失败不影响整体流程，因为它依赖于设施数据
+        else:
+            print(f"  ✅ Medical services: {services_result.get('services_summary', {}).get('services_extracted', 0)} services processed")
 
-        disaster_collector = DisasterCollector()
-        print("  📊 Collecting disaster events...")
-        disaster_collector.collect_upcoming_events()
-        disaster_collector.collect_historical_events()
-
-
-        resource_collector = ResourceCollector()
-        print("  🏥 Collecting medical resources...")
-        resource_collector.collect_local_units()
-
-        print("✅ Data collection completed successfully!")
+        print("✅ Medical data collection completed successfully!")
         return True
 
+    except ImportError as e:
+        print(f"❌ Data collection failed - Import error: {str(e)}")
+        print("Please ensure all required modules are properly implemented.")
+        return False
     except Exception as e:
         print(f"❌ Data collection failed: {str(e)}")
         return False
 
 
 def run_preprocessing():
-
+    """运行医疗数据预处理流程"""
     try:
-        from src.preprocessing.data_cleaner import DataCleaner
-        from src.preprocessing.feature_engineer import FeatureEngineer
+        from src.preprocessing.medical_facilities_cleaner import MedicalFacilitiesCleaner
+        from src.preprocessing.medical_services_cleaner import MedicalServicesCleaner
 
-        print("🔄 Starting data preprocessing...")
+        print("🔄 Starting medical data preprocessing...")
 
-        # 数据清洗
-        cleaner = DataCleaner()
-        print("  🧹 Cleaning data...")
-        cleaner.clean_disaster_data()
-        cleaner.clean_resource_data()
+        config = get_config()
+        
+        # 清洗医疗设施数据
+        facilities_cleaner = MedicalFacilitiesCleaner(config)
+        print("  🏥 Cleaning medical facilities data...")
+        facilities_result = facilities_cleaner.clean_data()
+        
+        if facilities_result.get('cleaning_summary', {}).get('error'):
+            print(f"  ⚠️ Facilities cleaning issues: {facilities_result['cleaning_summary']['error']}")
+        else:
+            facilities_count = facilities_result.get('summary', {}).get('total_facilities', 0)
+            print(f"  ✅ Medical facilities cleaned: {facilities_count} facilities")
+        
+        # 清洗医疗服务数据
+        services_cleaner = MedicalServicesCleaner(config)
+        print("  🩺 Cleaning medical services data...")
+        services_result = services_cleaner.clean_data()
+        
+        if services_result.get('cleaning_summary', {}).get('error'):
+            print(f"  ⚠️ Services cleaning issues: {services_result['cleaning_summary']['error']}")
+        else:
+            services_count = services_result.get('summary', {}).get('total_services', 0)
+            print(f"  ✅ Medical services cleaned: {services_count} service records")
+        
+        # 数据质量报告摘要
+        print("  📊 Data quality summary:")
+        
+        # 设施质量评估
+        if facilities_result.get('quality_report'):
+            facilities_quality = facilities_result['quality_report'].get('quality_assessment', {})
+            avg_quality = facilities_quality.get('average_quality_score', 0)
+            print(f"    📈 Facilities avg quality: {avg_quality:.2f}")
+        
+        # 服务质量评估
+        if services_result.get('quality_report'):
+            services_quality = services_result['quality_report'].get('quality_assessment', {})
+            avg_quality = services_quality.get('average_quality_score', 0)
+            print(f"    📈 Services avg quality: {avg_quality:.2f}")
+        
+        # IFRC合规性摘要
+        if services_result.get('compliance_analysis'):
+            compliance = services_result['compliance_analysis']
+            compliance_rate = compliance.get('compliance_rate', 0)
+            print(f"    📋 IFRC compliance rate: {compliance_rate:.2%}")
 
-        # 特征工程
-        engineer = FeatureEngineer()
-        print("  ⚙️ Engineering features...")
-        engineer.create_features()
-
-        print("✅ Data preprocessing completed successfully!")
+        print("✅ Medical data preprocessing completed successfully!")
+        print("  📁 Check data/02_processed/ for cleaned data files")
         return True
 
+    except ImportError as e:
+        print(f"❌ Data preprocessing failed - Import error: {str(e)}")
+        print("Please ensure data cleaner modules are properly implemented.")
+        return False
     except Exception as e:
         print(f"❌ Data preprocessing failed: {str(e)}")
         return False
 
 
 def run_model_training():
-
-    try:
-        from src.training.trainer import Trainer
-
-        print("🔄 Starting model training...")
-
-        trainer = Trainer()
-        print("  🤖 Training machine learning models...")
-
-
-        config = get_config()
-        for resource_type in config.RESOURCE_TYPES:
-            print(f"    📈 Training {resource_type} prediction model...")
-            trainer.train_resource_model(resource_type)
-
-        print("✅ Model training completed successfully!")
-        return True
-
-    except Exception as e:
-        print(f"❌ Model training failed: {str(e)}")
-        return False
+    """运行模型训练（暂未实现）"""
+    print("🔄 Model training...")
+    print("  ⚠️ Model training module is not yet implemented")
+    print("  📋 Focus: Currently prioritizing medical data collection and cleaning")
+    print("✅ Model training step skipped for now")
+    return True
 
 
 def run_prediction():
-
-    try:
-        from src.models.resource_predictor import ResourcePredictor
-        from src.output.prediction_service import PredictionService
-
-        print("🔄 Starting prediction...")
-
-
-        predictor = ResourcePredictor()
-        prediction_service = PredictionService()
-
-        print("  🔮 Generating predictions...")
-        predictions = prediction_service.generate_all_predictions()
-
-        print("  📤 Exporting results...")
-        prediction_service.export_predictions(predictions)
-
-        print("✅ Prediction completed successfully!")
-        return True
-
-    except Exception as e:
-        print(f"❌ Prediction failed: {str(e)}")
-        return False
+    """运行预测（暂未实现）"""
+    print("🔄 Prediction...")
+    print("  ⚠️ Prediction module is not yet implemented")
+    print("  📋 Focus: Currently prioritizing medical data collection and cleaning")
+    print("✅ Prediction step skipped for now")
+    return True
 
 
 def run_full_pipeline():
-
-    print("🚀 Starting full pipeline...")
+    """运行完整的医疗数据处理流程"""
+    print("🚀 Starting IFRC Medical Resource Data Pipeline...")
+    print("📋 Focus: Medical facilities and services data collection & cleaning")
 
     steps = [
-        ("Data Collection", run_data_collection),
-        ("Data Preprocessing", run_preprocessing),
-        ("Model Training", run_model_training),
-        ("Prediction", run_prediction)
+        ("Medical Data Collection", run_data_collection),
+        ("Medical Data Preprocessing", run_preprocessing),
+        ("Model Training (Placeholder)", run_model_training),
+        ("Prediction (Placeholder)", run_prediction)
     ]
 
     for step_name, step_function in steps:
@@ -218,7 +241,9 @@ def run_full_pipeline():
             return False
 
     print("\n" + "=" * 60)
-    print("🎉 Full pipeline completed successfully!")
+    print("🎉 Medical data pipeline completed successfully!")
+    print("📊 Check data/02_processed/ for cleaned medical data")
+    print("📈 Check data/04_results/ for data quality reports")
     print("=" * 60)
     return True
 

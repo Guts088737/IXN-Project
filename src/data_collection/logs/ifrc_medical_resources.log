@@ -1,0 +1,1602 @@
+2025-08-06 18:14:51,065 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 18:14:51,065 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 18:14:51,065 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 18:14:51,311 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/
+2025-08-06 18:14:51,844 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/
+2025-08-06 18:14:52,378 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/
+2025-08-06 18:14:52,378 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/
+2025-08-06 18:14:52,413 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/
+2025-08-06 18:14:52,946 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/
+2025-08-06 18:14:53,484 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/
+2025-08-06 18:14:53,484 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/
+2025-08-06 18:14:53,484 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disaster_types.json
+2025-08-06 18:14:53,485 - HistoricalDisastersCollector - INFO - 收集到 0 种基础灾害类型
+2025-08-06 18:14:53,485 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 18:14:53,485 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 18:14:53,517 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?start_date__gte=2022-08-07&start_date__lte=2025-08-06&ordering=-start_date&amount_requested__gte=10000&limit=100&offset=0&format=json
+2025-08-06 18:14:54,052 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?start_date__gte=2022-08-07&start_date__lte=2025-08-06&ordering=-start_date&amount_requested__gte=10000&limit=100&offset=0&format=json
+2025-08-06 18:14:54,588 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?start_date__gte=2022-08-07&start_date__lte=2025-08-06&ordering=-start_date&amount_requested__gte=10000&limit=100&offset=0&format=json
+2025-08-06 18:14:54,588 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:14:54,588 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 0 条记录
+2025-08-06 18:14:54,588 - HistoricalDisastersCollector - INFO - 按国家过滤: 0 → 0 条记录
+2025-08-06 18:14:54,589 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 18:14:54,589 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 18:14:54,589 - HistoricalDisastersCollector - INFO - 收集紧急行动数据...
+2025-08-06 18:14:54,622 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/
+2025-08-06 18:14:55,155 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/
+2025-08-06 18:14:55,690 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/
+2025-08-06 18:14:55,690 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/
+2025-08-06 18:14:55,723 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/
+2025-08-06 18:14:56,258 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/
+2025-08-06 18:14:56,793 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/
+2025-08-06 18:14:56,793 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/
+2025-08-06 18:14:56,827 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/
+2025-08-06 18:14:57,362 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/
+2025-08-06 18:14:57,898 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/
+2025-08-06 18:14:57,898 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/
+2025-08-06 18:14:57,898 - HistoricalDisastersCollector - WARNING - 没有找到可用的紧急行动API端点
+2025-08-06 18:14:57,898 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 18:14:57,898 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 18:14:57,930 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Turkey&limit=100&ordering=-start_date
+2025-08-06 18:14:58,465 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Turkey&limit=100&ordering=-start_date
+2025-08-06 18:14:58,998 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Turkey&limit=100&ordering=-start_date
+2025-08-06 18:14:58,998 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:14:58,998 - HistoricalDisastersCollector - INFO - Turkey: 找到 0 个灾害事件
+2025-08-06 18:14:58,998 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 18:14:59,030 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Pakistan&limit=100&ordering=-start_date
+2025-08-06 18:14:59,564 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Pakistan&limit=100&ordering=-start_date
+2025-08-06 18:15:00,097 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Pakistan&limit=100&ordering=-start_date
+2025-08-06 18:15:00,097 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:00,097 - HistoricalDisastersCollector - INFO - Pakistan: 找到 0 个灾害事件
+2025-08-06 18:15:00,097 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 18:15:00,134 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Philippines&limit=100&ordering=-start_date
+2025-08-06 18:15:00,670 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Philippines&limit=100&ordering=-start_date
+2025-08-06 18:15:01,204 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Philippines&limit=100&ordering=-start_date
+2025-08-06 18:15:01,204 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:01,204 - HistoricalDisastersCollector - INFO - Philippines: 找到 0 个灾害事件
+2025-08-06 18:15:01,204 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 18:15:01,237 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Indonesia&limit=100&ordering=-start_date
+2025-08-06 18:15:01,773 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Indonesia&limit=100&ordering=-start_date
+2025-08-06 18:15:02,307 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Indonesia&limit=100&ordering=-start_date
+2025-08-06 18:15:02,307 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:02,307 - HistoricalDisastersCollector - INFO - Indonesia: 找到 0 个灾害事件
+2025-08-06 18:15:02,307 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 18:15:02,343 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Bangladesh&limit=100&ordering=-start_date
+2025-08-06 18:15:02,877 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Bangladesh&limit=100&ordering=-start_date
+2025-08-06 18:15:03,410 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Bangladesh&limit=100&ordering=-start_date
+2025-08-06 18:15:03,410 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:03,410 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 0 个灾害事件
+2025-08-06 18:15:03,410 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 18:15:03,444 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=India&limit=100&ordering=-start_date
+2025-08-06 18:15:03,978 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=India&limit=100&ordering=-start_date
+2025-08-06 18:15:04,516 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=India&limit=100&ordering=-start_date
+2025-08-06 18:15:04,516 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:04,516 - HistoricalDisastersCollector - INFO - India: 找到 0 个灾害事件
+2025-08-06 18:15:04,516 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 18:15:04,549 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Nepal&limit=100&ordering=-start_date
+2025-08-06 18:15:05,083 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Nepal&limit=100&ordering=-start_date
+2025-08-06 18:15:05,620 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Nepal&limit=100&ordering=-start_date
+2025-08-06 18:15:05,620 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:05,620 - HistoricalDisastersCollector - INFO - Nepal: 找到 0 个灾害事件
+2025-08-06 18:15:05,620 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 18:15:05,654 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Myanmar&limit=100&ordering=-start_date
+2025-08-06 18:15:06,187 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Myanmar&limit=100&ordering=-start_date
+2025-08-06 18:15:06,721 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Myanmar&limit=100&ordering=-start_date
+2025-08-06 18:15:06,721 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:06,721 - HistoricalDisastersCollector - INFO - Myanmar: 找到 0 个灾害事件
+2025-08-06 18:15:06,721 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 18:15:06,756 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Afghanistan&limit=100&ordering=-start_date
+2025-08-06 18:15:07,290 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Afghanistan&limit=100&ordering=-start_date
+2025-08-06 18:15:07,826 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Afghanistan&limit=100&ordering=-start_date
+2025-08-06 18:15:07,826 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:07,826 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 0 个灾害事件
+2025-08-06 18:15:07,826 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 18:15:07,859 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Syria&limit=100&ordering=-start_date
+2025-08-06 18:15:08,398 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Syria&limit=100&ordering=-start_date
+2025-08-06 18:15:08,935 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Syria&limit=100&ordering=-start_date
+2025-08-06 18:15:08,935 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:15:08,935 - HistoricalDisastersCollector - INFO - Syria: 找到 0 个灾害事件
+2025-08-06 18:15:08,936 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disasters_by_country.json
+2025-08-06 18:15:08,936 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 18:15:08,937 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 18:15:08,937 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 18:15:08,937 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 18:15:08,937 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 18:15:08,937 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 18:15:08,937 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\collected_data.json
+2025-08-06 18:15:08,937 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 18:15:30,001 - MedicalFacilitiesCollector - INFO - 开始运行数据收集器...
+2025-08-06 18:15:30,002 - MedicalFacilitiesCollector - INFO - 开始收集医疗设施数据...
+2025-08-06 18:15:30,002 - MedicalFacilitiesCollector - INFO - 收集所有本地单位数据...
+2025-08-06 18:15:30,002 - MedicalFacilitiesCollector - INFO - 开始分页请求: local_units_list, 最大记录数: 2000
+2025-08-06 18:15:30,232 - MedicalFacilitiesCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/public-local-units/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/public-local-units/?limit=100&offset=0&format=json
+2025-08-06 18:15:30,768 - MedicalFacilitiesCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/public-local-units/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/public-local-units/?limit=100&offset=0&format=json
+2025-08-06 18:15:31,301 - MedicalFacilitiesCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/public-local-units/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/public-local-units/?limit=100&offset=0&format=json
+2025-08-06 18:15:31,301 - MedicalFacilitiesCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/public-local-units/
+2025-08-06 18:15:31,301 - MedicalFacilitiesCollector - INFO - 分页请求完成，共获取 0 条记录
+2025-08-06 18:15:31,301 - MedicalFacilitiesCollector - INFO - 筛选医疗设施...
+2025-08-06 18:15:31,302 - MedicalFacilitiesCollector - INFO - 按国家过滤: 0 → 0 条记录
+2025-08-06 18:15:31,302 - MedicalFacilitiesCollector - INFO - 找到 0 个医疗设施
+2025-08-06 18:15:31,302 - MedicalFacilitiesCollector - INFO - 按国家组织医疗设施数据...
+2025-08-06 18:15:31,302 - MedicalFacilitiesCollector - INFO - 验证和清理医疗设施数据...
+2025-08-06 18:15:31,302 - MedicalFacilitiesCollector - INFO - 数据验证完成：0/0 通过验证
+2025-08-06 18:15:31,302 - MedicalFacilitiesCollector - INFO - 数据收集成功
+2025-08-06 18:15:31,302 - MedicalFacilitiesCollector - INFO - 数据已保存: ..\data\01_raw\medical_facilities\collected_data.json
+2025-08-06 18:15:31,302 - MedicalFacilitiesCollector - INFO - 开始验证数据质量...
+2025-08-06 18:15:46,363 - MedicalServicesCollector - INFO - 开始运行数据收集器...
+2025-08-06 18:15:46,363 - MedicalServicesCollector - INFO - 开始收集医疗服务数据...
+2025-08-06 18:15:46,363 - MedicalServicesCollector - INFO - 加载医疗设施数据...
+2025-08-06 18:15:46,363 - MedicalServicesCollector - ERROR - 无法找到医疗设施数据文件
+2025-08-06 18:15:46,363 - MedicalServicesCollector - ERROR - 收集过程中发生错误: 无法加载医疗设施数据，请先运行医疗设施收集器
+Traceback (most recent call last):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\base_collector.py", line 368, in run_collection
+    collected_data = self.collect_data()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_services_collector.py", line 36, in collect_data
+    raise ValueError("无法加载医疗设施数据，请先运行医疗设施收集器")
+ValueError: 无法加载医疗设施数据，请先运行医疗设施收集器
+2025-08-06 18:15:57,769 - PredictedDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 18:15:57,769 - PredictedDisastersCollector - INFO - 开始收集预测灾害数据...
+2025-08-06 18:15:57,769 - PredictedDisastersCollector - INFO - 收集 earthquake_predictions 预测数据...
+2025-08-06 18:15:58,080 - PredictedDisastersCollector - INFO - API请求成功: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/earthquake/
+2025-08-06 18:15:58,084 - PredictedDisastersCollector - INFO - 数据已保存: ..\data\01_raw\predicted_disasters\earthquake_predictions_raw.json
+2025-08-06 18:15:58,085 - PredictedDisastersCollector - INFO - 收集 global_exposure_data 预测数据...
+2025-08-06 18:15:58,132 - PredictedDisastersCollector - INFO - API请求成功: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/global-exposure-data/
+2025-08-06 18:15:58,132 - PredictedDisastersCollector - INFO - 数据已保存: ..\data\01_raw\predicted_disasters\global_exposure_data_raw.json
+2025-08-06 18:15:58,132 - PredictedDisastersCollector - INFO - 收集 risk_scores 预测数据...
+2025-08-06 18:15:58,197 - PredictedDisastersCollector - INFO - API请求成功: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/risk-score/
+2025-08-06 18:15:58,204 - PredictedDisastersCollector - INFO - 数据已保存: ..\data\01_raw\predicted_disasters\risk_scores_raw.json
+2025-08-06 18:15:58,204 - PredictedDisastersCollector - INFO - 收集 seasonal_predictions 预测数据...
+2025-08-06 18:15:59,204 - PredictedDisastersCollector - INFO - API请求成功: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/seasonal/
+2025-08-06 18:15:59,435 - PredictedDisastersCollector - INFO - 数据已保存: ..\data\01_raw\predicted_disasters\seasonal_predictions_raw.json
+2025-08-06 18:15:59,435 - PredictedDisastersCollector - INFO - 收集 country_seasonal 预测数据...
+2025-08-06 18:15:59,470 - PredictedDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/, 错误: 400 Client Error: Bad Request for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/
+2025-08-06 18:16:00,004 - PredictedDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/, 错误: 400 Client Error: Bad Request for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/
+2025-08-06 18:16:00,539 - PredictedDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/, 错误: 400 Client Error: Bad Request for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/
+2025-08-06 18:16:00,539 - PredictedDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/
+2025-08-06 18:16:00,539 - PredictedDisastersCollector - INFO - 收集 early_warning_data 预测数据...
+2025-08-06 18:16:00,719 - PredictedDisastersCollector - INFO - API请求成功: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/early-actions/
+2025-08-06 18:16:00,726 - PredictedDisastersCollector - INFO - 数据已保存: ..\data\01_raw\predicted_disasters\early_warning_data_raw.json
+2025-08-06 18:16:00,727 - PredictedDisastersCollector - INFO - 收集 inform_risk_scores 预测数据...
+2025-08-06 18:16:11,381 - PredictedDisastersCollector - INFO - API请求成功: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/inform-score/
+2025-08-06 18:16:11,398 - PredictedDisastersCollector - INFO - 数据已保存: ..\data\01_raw\predicted_disasters\inform_risk_scores_raw.json
+2025-08-06 18:16:11,398 - PredictedDisastersCollector - INFO - 收集 adam_exposure 预测数据...
+2025-08-06 18:16:11,398 - PredictedDisastersCollector - INFO - adam_exposure 被配置禁用
+2025-08-06 18:16:11,398 - PredictedDisastersCollector - INFO - 整合预测数据...
+2025-08-06 18:16:11,398 - PredictedDisastersCollector - ERROR - 收集过程中发生错误: 'NoneType' object has no attribute 'lower'
+Traceback (most recent call last):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\base_collector.py", line 368, in run_collection
+    collected_data = self.collect_data()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\predicted_disasters_collector.py", line 72, in collect_data
+    integrated_predictions = self._integrate_prediction_data(collected_predictions)
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\predicted_disasters_collector.py", line 364, in _integrate_prediction_data
+    integrated_pred = self._create_standardized_prediction(warning, source_name)
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\predicted_disasters_collector.py", line 397, in _create_standardized_prediction
+    'medical_impact_estimate': self._estimate_medical_impact(raw_prediction),
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\predicted_disasters_collector.py", line 404, in _estimate_medical_impact
+    disaster_type = prediction.get('disaster_type', '').lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+2025-08-06 18:22:50,231 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 18:22:50,231 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 18:22:50,231 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 18:22:50,474 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/
+2025-08-06 18:22:51,011 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/
+2025-08-06 18:22:51,546 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/
+2025-08-06 18:22:51,546 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/disaster_type/
+2025-08-06 18:22:51,580 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/
+2025-08-06 18:22:52,115 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/
+2025-08-06 18:22:52,650 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/
+2025-08-06 18:22:52,650 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/aggregate_dtype/
+2025-08-06 18:22:52,651 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disaster_types.json
+2025-08-06 18:22:52,651 - HistoricalDisastersCollector - INFO - 收集到 0 种基础灾害类型
+2025-08-06 18:22:52,651 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 18:22:52,651 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 18:22:52,687 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?start_date__gte=2022-08-07&start_date__lte=2025-08-06&ordering=-start_date&amount_requested__gte=10000&limit=100&offset=0&format=json
+2025-08-06 18:22:53,224 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?start_date__gte=2022-08-07&start_date__lte=2025-08-06&ordering=-start_date&amount_requested__gte=10000&limit=100&offset=0&format=json
+2025-08-06 18:22:53,758 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?start_date__gte=2022-08-07&start_date__lte=2025-08-06&ordering=-start_date&amount_requested__gte=10000&limit=100&offset=0&format=json
+2025-08-06 18:22:53,758 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:22:53,758 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 0 条记录
+2025-08-06 18:22:53,758 - HistoricalDisastersCollector - INFO - 按国家过滤: 0 → 0 条记录
+2025-08-06 18:22:53,759 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 18:22:53,759 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 18:22:53,759 - HistoricalDisastersCollector - INFO - 收集紧急行动数据...
+2025-08-06 18:22:53,794 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/
+2025-08-06 18:22:54,328 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/
+2025-08-06 18:22:54,861 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/
+2025-08-06 18:22:54,862 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/emergency-operation/
+2025-08-06 18:22:54,896 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/
+2025-08-06 18:22:55,432 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/
+2025-08-06 18:22:55,966 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/
+2025-08-06 18:22:55,966 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/operation/
+2025-08-06 18:22:56,001 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/
+2025-08-06 18:22:56,535 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/
+2025-08-06 18:22:57,072 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/
+2025-08-06 18:22:57,072 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/emergency-operation/
+2025-08-06 18:22:57,072 - HistoricalDisastersCollector - WARNING - 没有找到可用的紧急行动API端点
+2025-08-06 18:22:57,072 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 18:22:57,072 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 18:22:57,105 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Turkey&limit=100&ordering=-start_date
+2025-08-06 18:22:57,640 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Turkey&limit=100&ordering=-start_date
+2025-08-06 18:22:58,174 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Turkey&limit=100&ordering=-start_date
+2025-08-06 18:22:58,174 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:22:58,174 - HistoricalDisastersCollector - INFO - Turkey: 找到 0 个灾害事件
+2025-08-06 18:22:58,174 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 18:22:58,208 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Pakistan&limit=100&ordering=-start_date
+2025-08-06 18:22:58,744 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Pakistan&limit=100&ordering=-start_date
+2025-08-06 18:22:59,282 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Pakistan&limit=100&ordering=-start_date
+2025-08-06 18:22:59,282 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:22:59,282 - HistoricalDisastersCollector - INFO - Pakistan: 找到 0 个灾害事件
+2025-08-06 18:22:59,282 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 18:22:59,316 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Philippines&limit=100&ordering=-start_date
+2025-08-06 18:22:59,853 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Philippines&limit=100&ordering=-start_date
+2025-08-06 18:23:00,386 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Philippines&limit=100&ordering=-start_date
+2025-08-06 18:23:00,386 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:23:00,386 - HistoricalDisastersCollector - INFO - Philippines: 找到 0 个灾害事件
+2025-08-06 18:23:00,386 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 18:23:00,419 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Indonesia&limit=100&ordering=-start_date
+2025-08-06 18:23:00,954 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Indonesia&limit=100&ordering=-start_date
+2025-08-06 18:23:01,495 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Indonesia&limit=100&ordering=-start_date
+2025-08-06 18:23:01,495 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:23:01,495 - HistoricalDisastersCollector - INFO - Indonesia: 找到 0 个灾害事件
+2025-08-06 18:23:01,495 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 18:23:01,528 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Bangladesh&limit=100&ordering=-start_date
+2025-08-06 18:23:02,063 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Bangladesh&limit=100&ordering=-start_date
+2025-08-06 18:23:02,603 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Bangladesh&limit=100&ordering=-start_date
+2025-08-06 18:23:02,603 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:23:02,603 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 0 个灾害事件
+2025-08-06 18:23:02,603 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 18:23:02,659 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=India&limit=100&ordering=-start_date
+2025-08-06 18:23:03,195 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=India&limit=100&ordering=-start_date
+2025-08-06 18:23:03,729 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=India&limit=100&ordering=-start_date
+2025-08-06 18:23:03,729 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:23:03,729 - HistoricalDisastersCollector - INFO - India: 找到 0 个灾害事件
+2025-08-06 18:23:03,729 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 18:23:03,766 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Nepal&limit=100&ordering=-start_date
+2025-08-06 18:23:04,302 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Nepal&limit=100&ordering=-start_date
+2025-08-06 18:23:04,837 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Nepal&limit=100&ordering=-start_date
+2025-08-06 18:23:04,837 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:23:04,837 - HistoricalDisastersCollector - INFO - Nepal: 找到 0 个灾害事件
+2025-08-06 18:23:04,837 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 18:23:04,869 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Myanmar&limit=100&ordering=-start_date
+2025-08-06 18:23:05,404 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Myanmar&limit=100&ordering=-start_date
+2025-08-06 18:23:05,939 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Myanmar&limit=100&ordering=-start_date
+2025-08-06 18:23:05,940 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:23:05,940 - HistoricalDisastersCollector - INFO - Myanmar: 找到 0 个灾害事件
+2025-08-06 18:23:05,940 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 18:23:05,988 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Afghanistan&limit=100&ordering=-start_date
+2025-08-06 18:23:06,522 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Afghanistan&limit=100&ordering=-start_date
+2025-08-06 18:23:07,060 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Afghanistan&limit=100&ordering=-start_date
+2025-08-06 18:23:07,060 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:23:07,060 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 0 个灾害事件
+2025-08-06 18:23:07,060 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 18:23:07,094 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Syria&limit=100&ordering=-start_date
+2025-08-06 18:23:07,630 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Syria&limit=100&ordering=-start_date
+2025-08-06 18:23:08,168 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/, 错误: 404 Client Error: Not Found for url: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/?country__name=Syria&limit=100&ordering=-start_date
+2025-08-06 18:23:08,168 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://go-risk-staging.northeurope.cloudapp.azure.com/api/v2/appeal/
+2025-08-06 18:23:08,168 - HistoricalDisastersCollector - INFO - Syria: 找到 0 个灾害事件
+2025-08-06 18:23:08,169 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disasters_by_country.json
+2025-08-06 18:23:08,169 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 18:23:08,170 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 18:23:08,170 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 18:23:08,170 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 18:23:08,170 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 18:23:08,170 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 18:23:08,171 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\collected_data.json
+2025-08-06 18:23:08,171 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 18:35:34,602 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 18:35:34,602 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 18:35:34,603 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 18:35:34,849 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 18:35:34,884 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/aggregate_dtype/
+2025-08-06 18:35:35,419 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/aggregate_dtype/
+2025-08-06 18:35:35,969 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v2/aggregate_dtype/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/aggregate_dtype/
+2025-08-06 18:35:35,969 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v2/aggregate_dtype/
+2025-08-06 18:35:35,970 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disaster_types.json
+2025-08-06 18:35:35,970 - HistoricalDisastersCollector - INFO - 收集到 24 种基础灾害类型
+2025-08-06 18:35:35,970 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 18:35:35,970 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 18:35:36,333 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:36,333 - HistoricalDisastersCollector - INFO - 已获取 100 条记录...
+2025-08-06 18:35:37,202 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:37,202 - HistoricalDisastersCollector - INFO - 已获取 200 条记录...
+2025-08-06 18:35:38,069 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:38,070 - HistoricalDisastersCollector - INFO - 已获取 300 条记录...
+2025-08-06 18:35:38,890 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:38,890 - HistoricalDisastersCollector - INFO - 已获取 400 条记录...
+2025-08-06 18:35:39,716 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:39,716 - HistoricalDisastersCollector - INFO - 已获取 465 条记录...
+2025-08-06 18:35:40,288 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:40,288 - HistoricalDisastersCollector - INFO - 没有更多数据
+2025-08-06 18:35:40,288 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 465 条记录
+2025-08-06 18:35:40,288 - HistoricalDisastersCollector - INFO - 按国家过滤: 465 → 0 条记录
+2025-08-06 18:35:40,288 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 18:35:40,288 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 18:35:40,289 - HistoricalDisastersCollector - INFO - 收集紧急行动数据...
+2025-08-06 18:35:40,326 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/emergency-operation/
+2025-08-06 18:35:40,862 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/emergency-operation/
+2025-08-06 18:35:41,400 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/emergency-operation/
+2025-08-06 18:35:41,400 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v2/emergency-operation/
+2025-08-06 18:35:41,434 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/operation/
+2025-08-06 18:35:41,968 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/operation/
+2025-08-06 18:35:42,504 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/operation/
+2025-08-06 18:35:42,504 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v2/operation/
+2025-08-06 18:35:42,536 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v1/emergency-operation/
+2025-08-06 18:35:43,069 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v1/emergency-operation/
+2025-08-06 18:35:43,604 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v1/emergency-operation/
+2025-08-06 18:35:43,604 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v1/emergency-operation/
+2025-08-06 18:35:43,605 - HistoricalDisastersCollector - WARNING - 没有找到可用的紧急行动API端点
+2025-08-06 18:35:43,605 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 18:35:43,605 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 18:35:43,984 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:43,984 - HistoricalDisastersCollector - INFO - Turkey: 找到 100 个灾害事件
+2025-08-06 18:35:43,984 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 18:35:44,321 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:44,321 - HistoricalDisastersCollector - INFO - Pakistan: 找到 100 个灾害事件
+2025-08-06 18:35:44,321 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 18:35:44,671 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:44,672 - HistoricalDisastersCollector - INFO - Philippines: 找到 100 个灾害事件
+2025-08-06 18:35:44,672 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 18:35:45,002 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:45,002 - HistoricalDisastersCollector - INFO - Indonesia: 找到 100 个灾害事件
+2025-08-06 18:35:45,002 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 18:35:45,369 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:45,369 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 100 个灾害事件
+2025-08-06 18:35:45,369 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 18:35:45,702 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:45,703 - HistoricalDisastersCollector - INFO - India: 找到 100 个灾害事件
+2025-08-06 18:35:45,703 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 18:35:46,029 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:46,030 - HistoricalDisastersCollector - INFO - Nepal: 找到 100 个灾害事件
+2025-08-06 18:35:46,030 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 18:35:46,358 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:46,358 - HistoricalDisastersCollector - INFO - Myanmar: 找到 100 个灾害事件
+2025-08-06 18:35:46,358 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 18:35:46,660 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:46,661 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 100 个灾害事件
+2025-08-06 18:35:46,661 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 18:35:47,008 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:35:47,008 - HistoricalDisastersCollector - INFO - Syria: 找到 100 个灾害事件
+2025-08-06 18:35:47,065 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disasters_by_country.json
+2025-08-06 18:35:47,065 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 18:35:47,066 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 18:35:47,066 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 18:35:47,066 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 18:35:47,066 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 18:35:47,067 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 18:35:47,067 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\collected_data.json
+2025-08-06 18:35:47,067 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 18:43:35,637 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 18:43:35,637 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 18:43:35,637 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 18:43:35,638 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:35,890 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 18:43:35,922 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 18:43:36,455 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 18:43:36,988 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 18:43:36,988 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 18:43:36,989 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disaster_types.json
+2025-08-06 18:43:36,989 - HistoricalDisastersCollector - INFO - 收集到 24 种基础灾害类型
+2025-08-06 18:43:36,989 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 18:43:36,989 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 18:43:37,322 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:37,322 - HistoricalDisastersCollector - INFO - 已获取 100 条记录...
+2025-08-06 18:43:38,640 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:38,640 - HistoricalDisastersCollector - INFO - 已获取 200 条记录...
+2025-08-06 18:43:39,497 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:39,497 - HistoricalDisastersCollector - INFO - 已获取 300 条记录...
+2025-08-06 18:43:40,346 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:40,346 - HistoricalDisastersCollector - INFO - 已获取 400 条记录...
+2025-08-06 18:43:41,129 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:41,129 - HistoricalDisastersCollector - INFO - 已获取 465 条记录...
+2025-08-06 18:43:41,713 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:41,713 - HistoricalDisastersCollector - INFO - 没有更多数据
+2025-08-06 18:43:41,713 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 465 条记录
+2025-08-06 18:43:41,713 - HistoricalDisastersCollector - INFO - 按国家过滤: 465 → 0 条记录
+2025-08-06 18:43:41,714 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 18:43:41,714 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 18:43:41,714 - HistoricalDisastersCollector - INFO - 收集紧急行动数据...
+2025-08-06 18:43:41,752 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/emergency-operation/
+2025-08-06 18:43:42,287 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/emergency-operation/
+2025-08-06 18:43:42,822 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v2/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/emergency-operation/
+2025-08-06 18:43:42,822 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v2/emergency-operation/
+2025-08-06 18:43:42,911 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/operation/
+2025-08-06 18:43:43,447 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/operation/
+2025-08-06 18:43:43,985 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v2/operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v2/operation/
+2025-08-06 18:43:43,985 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v2/operation/
+2025-08-06 18:43:44,017 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v1/emergency-operation/
+2025-08-06 18:43:44,552 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v1/emergency-operation/
+2025-08-06 18:43:45,088 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v1/emergency-operation/, 错误: 404 Client Error: Not Found for url: https://goadmin.ifrc.org/api/v1/emergency-operation/
+2025-08-06 18:43:45,088 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v1/emergency-operation/
+2025-08-06 18:43:45,088 - HistoricalDisastersCollector - WARNING - 没有找到可用的紧急行动API端点
+2025-08-06 18:43:45,088 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 18:43:45,088 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 18:43:45,089 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:45,696 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:45,696 - HistoricalDisastersCollector - INFO - Turkey: 找到 100 个灾害事件
+2025-08-06 18:43:45,696 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 18:43:45,697 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:46,220 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:46,220 - HistoricalDisastersCollector - INFO - Pakistan: 找到 100 个灾害事件
+2025-08-06 18:43:46,220 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 18:43:46,221 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:46,766 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:46,766 - HistoricalDisastersCollector - INFO - Philippines: 找到 100 个灾害事件
+2025-08-06 18:43:46,766 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 18:43:46,768 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:47,184 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:47,184 - HistoricalDisastersCollector - INFO - Indonesia: 找到 100 个灾害事件
+2025-08-06 18:43:47,184 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 18:43:47,185 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:47,685 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:47,685 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 100 个灾害事件
+2025-08-06 18:43:47,685 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 18:43:47,686 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:48,142 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:48,142 - HistoricalDisastersCollector - INFO - India: 找到 100 个灾害事件
+2025-08-06 18:43:48,142 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 18:43:48,143 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:48,621 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:48,621 - HistoricalDisastersCollector - INFO - Nepal: 找到 100 个灾害事件
+2025-08-06 18:43:48,621 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 18:43:48,622 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:49,139 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:49,139 - HistoricalDisastersCollector - INFO - Myanmar: 找到 100 个灾害事件
+2025-08-06 18:43:49,139 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 18:43:49,140 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:49,676 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:49,676 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 100 个灾害事件
+2025-08-06 18:43:49,676 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 18:43:49,677 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 18:43:50,114 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:43:50,115 - HistoricalDisastersCollector - INFO - Syria: 找到 100 个灾害事件
+2025-08-06 18:43:50,170 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\disasters_by_country.json
+2025-08-06 18:43:50,170 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 18:43:50,170 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 18:43:50,170 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 18:43:50,171 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 18:43:50,171 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 18:43:50,171 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 18:43:50,172 - HistoricalDisastersCollector - INFO - 数据已保存: ..\data\01_raw\historical_disasters\collected_data.json
+2025-08-06 18:43:50,172 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 18:59:53,598 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 18:59:53,598 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 18:59:53,598 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 18:59:53,905 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 18:59:53,943 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 18:59:54,477 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 18:59:55,016 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 18:59:55,016 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 18:59:55,018 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_types.json
+2025-08-06 18:59:55,018 - HistoricalDisastersCollector - INFO - 收集到 24 种基础灾害类型
+2025-08-06 18:59:55,018 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 18:59:55,018 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 18:59:55,486 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:59:55,486 - HistoricalDisastersCollector - INFO - 已获取 100 条记录...
+2025-08-06 18:59:56,426 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:59:56,427 - HistoricalDisastersCollector - INFO - 已获取 200 条记录...
+2025-08-06 18:59:57,423 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:59:57,423 - HistoricalDisastersCollector - INFO - 已获取 300 条记录...
+2025-08-06 18:59:58,438 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:59:58,438 - HistoricalDisastersCollector - INFO - 已获取 400 条记录...
+2025-08-06 18:59:59,323 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:59:59,323 - HistoricalDisastersCollector - INFO - 已获取 465 条记录...
+2025-08-06 18:59:59,944 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 18:59:59,944 - HistoricalDisastersCollector - INFO - 没有更多数据
+2025-08-06 18:59:59,944 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 465 条记录
+2025-08-06 18:59:59,944 - HistoricalDisastersCollector - INFO - 按国家过滤: 465 → 0 条记录
+2025-08-06 18:59:59,945 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 18:59:59,945 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 18:59:59,946 - HistoricalDisastersCollector - INFO - 紧急行动数据收集...
+2025-08-06 18:59:59,946 - HistoricalDisastersCollector - INFO - emergency-operation API暂不可用，返回空数据
+2025-08-06 18:59:59,946 - HistoricalDisastersCollector - INFO - 预留位置：待API可用时，将在此处收集紧急行动数据
+2025-08-06 18:59:59,948 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\emergency_operations_placeholder.json
+2025-08-06 18:59:59,948 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 18:59:59,948 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 19:00:00,493 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:00,493 - HistoricalDisastersCollector - INFO - Turkey: 找到 100 个灾害事件
+2025-08-06 19:00:00,493 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 19:00:00,993 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:00,993 - HistoricalDisastersCollector - INFO - Pakistan: 找到 100 个灾害事件
+2025-08-06 19:00:00,993 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 19:00:01,510 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:01,511 - HistoricalDisastersCollector - INFO - Philippines: 找到 100 个灾害事件
+2025-08-06 19:00:01,511 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 19:00:02,017 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:02,017 - HistoricalDisastersCollector - INFO - Indonesia: 找到 100 个灾害事件
+2025-08-06 19:00:02,017 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 19:00:02,477 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:02,477 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 100 个灾害事件
+2025-08-06 19:00:02,477 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 19:00:02,918 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:02,918 - HistoricalDisastersCollector - INFO - India: 找到 100 个灾害事件
+2025-08-06 19:00:02,918 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 19:00:03,351 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:03,351 - HistoricalDisastersCollector - INFO - Nepal: 找到 100 个灾害事件
+2025-08-06 19:00:03,351 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 19:00:03,855 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:03,855 - HistoricalDisastersCollector - INFO - Myanmar: 找到 100 个灾害事件
+2025-08-06 19:00:03,855 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 19:00:04,242 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:04,242 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 100 个灾害事件
+2025-08-06 19:00:04,242 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 19:00:05,218 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:00:05,219 - HistoricalDisastersCollector - INFO - Syria: 找到 100 个灾害事件
+2025-08-06 19:00:05,278 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disasters_by_country.json
+2025-08-06 19:00:05,278 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 19:00:05,279 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 19:00:05,279 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 19:00:05,279 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 19:00:05,279 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 19:00:05,280 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 19:00:05,281 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\collected_data.json
+2025-08-06 19:00:05,281 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 19:06:44,598 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:06:44,598 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 19:06:44,598 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 19:06:44,852 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 19:06:44,886 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:06:45,422 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:06:45,958 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:06:45,958 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:06:45,959 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_types.json
+2025-08-06 19:06:45,959 - HistoricalDisastersCollector - INFO - 收集到 24 种基础灾害类型
+2025-08-06 19:06:45,959 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 19:06:45,959 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 19:06:46,281 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:46,282 - HistoricalDisastersCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:06:47,153 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:47,153 - HistoricalDisastersCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:06:48,003 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:48,003 - HistoricalDisastersCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:06:48,870 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:48,870 - HistoricalDisastersCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:06:49,774 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:49,774 - HistoricalDisastersCollector - INFO - 已获取 465 条记录...
+2025-08-06 19:06:50,374 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:50,374 - HistoricalDisastersCollector - INFO - 没有更多数据
+2025-08-06 19:06:50,374 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 465 条记录
+2025-08-06 19:06:50,374 - HistoricalDisastersCollector - INFO - 按国家过滤: 465 → 0 条记录
+2025-08-06 19:06:50,375 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 19:06:50,375 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 19:06:50,375 - HistoricalDisastersCollector - INFO - 紧急行动数据收集...
+2025-08-06 19:06:50,375 - HistoricalDisastersCollector - INFO - emergency-operation API暂不可用，返回空数据
+2025-08-06 19:06:50,375 - HistoricalDisastersCollector - INFO - 预留位置：待API可用时，将在此处收集紧急行动数据
+2025-08-06 19:06:50,376 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\emergency_operations_placeholder.json
+2025-08-06 19:06:50,376 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 19:06:50,376 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 19:06:50,967 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:50,967 - HistoricalDisastersCollector - INFO - Turkey: 找到 100 个灾害事件
+2025-08-06 19:06:50,967 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 19:06:51,495 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:51,495 - HistoricalDisastersCollector - INFO - Pakistan: 找到 100 个灾害事件
+2025-08-06 19:06:51,495 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 19:06:51,902 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:51,902 - HistoricalDisastersCollector - INFO - Philippines: 找到 100 个灾害事件
+2025-08-06 19:06:51,902 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 19:06:52,397 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:52,397 - HistoricalDisastersCollector - INFO - Indonesia: 找到 100 个灾害事件
+2025-08-06 19:06:52,397 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 19:06:53,237 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:53,237 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 100 个灾害事件
+2025-08-06 19:06:53,237 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 19:06:53,596 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:53,596 - HistoricalDisastersCollector - INFO - India: 找到 100 个灾害事件
+2025-08-06 19:06:53,596 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 19:06:54,129 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:54,129 - HistoricalDisastersCollector - INFO - Nepal: 找到 100 个灾害事件
+2025-08-06 19:06:54,129 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 19:06:54,631 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:54,631 - HistoricalDisastersCollector - INFO - Myanmar: 找到 100 个灾害事件
+2025-08-06 19:06:54,632 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 19:06:55,160 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:55,160 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 100 个灾害事件
+2025-08-06 19:06:55,160 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 19:06:55,742 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:06:55,742 - HistoricalDisastersCollector - INFO - Syria: 找到 100 个灾害事件
+2025-08-06 19:06:55,795 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disasters_by_country.json
+2025-08-06 19:06:55,795 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 19:06:55,796 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 19:06:55,796 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 19:06:55,796 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 19:06:55,796 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 19:06:55,796 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 19:06:55,797 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\collected_data.json
+2025-08-06 19:06:55,797 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 19:09:12,972 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:09:12,972 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 19:09:12,972 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 19:09:13,218 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 19:09:13,254 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 1): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:09:13,789 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 2): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:09:14,323 - HistoricalDisastersCollector - WARNING - API请求失败 (尝试 3): https://goadmin.ifrc.org/api/v1/aggregate_dtype/, 错误: 400 Client Error: Bad Request for url: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:09:14,323 - HistoricalDisastersCollector - ERROR - API请求最终失败: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:09:14,324 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_types.json
+2025-08-06 19:09:14,324 - HistoricalDisastersCollector - INFO - 收集到 24 种基础灾害类型
+2025-08-06 19:09:14,324 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 19:09:14,324 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 19:09:14,702 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:14,702 - HistoricalDisastersCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:09:15,555 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:15,555 - HistoricalDisastersCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:09:16,375 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:16,375 - HistoricalDisastersCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:09:17,240 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:17,240 - HistoricalDisastersCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:09:17,988 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:17,988 - HistoricalDisastersCollector - INFO - 已获取 465 条记录...
+2025-08-06 19:09:18,575 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:18,575 - HistoricalDisastersCollector - INFO - 没有更多数据
+2025-08-06 19:09:18,575 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 465 条记录
+2025-08-06 19:09:18,576 - HistoricalDisastersCollector - INFO - 按国家过滤: 465 → 0 条记录
+2025-08-06 19:09:18,576 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 19:09:18,576 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 19:09:18,576 - HistoricalDisastersCollector - INFO - 紧急行动数据收集...
+2025-08-06 19:09:18,577 - HistoricalDisastersCollector - INFO - emergency-operation API暂不可用，返回空数据
+2025-08-06 19:09:18,577 - HistoricalDisastersCollector - INFO - 预留位置：待API可用时，将在此处收集紧急行动数据
+2025-08-06 19:09:18,577 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\emergency_operations_placeholder.json
+2025-08-06 19:09:18,577 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 19:09:18,577 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 19:09:18,933 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:18,933 - HistoricalDisastersCollector - INFO - Turkey: 找到 100 个灾害事件
+2025-08-06 19:09:18,933 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 19:09:19,285 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:19,286 - HistoricalDisastersCollector - INFO - Pakistan: 找到 100 个灾害事件
+2025-08-06 19:09:19,286 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 19:09:19,622 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:19,622 - HistoricalDisastersCollector - INFO - Philippines: 找到 100 个灾害事件
+2025-08-06 19:09:19,622 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 19:09:19,934 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:19,934 - HistoricalDisastersCollector - INFO - Indonesia: 找到 100 个灾害事件
+2025-08-06 19:09:19,935 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 19:09:20,286 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:20,286 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 100 个灾害事件
+2025-08-06 19:09:20,286 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 19:09:20,643 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:20,643 - HistoricalDisastersCollector - INFO - India: 找到 100 个灾害事件
+2025-08-06 19:09:20,643 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 19:09:20,985 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:20,986 - HistoricalDisastersCollector - INFO - Nepal: 找到 100 个灾害事件
+2025-08-06 19:09:20,986 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 19:09:21,339 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:21,339 - HistoricalDisastersCollector - INFO - Myanmar: 找到 100 个灾害事件
+2025-08-06 19:09:21,339 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 19:09:21,729 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:21,730 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 100 个灾害事件
+2025-08-06 19:09:21,730 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 19:09:22,033 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:09:22,034 - HistoricalDisastersCollector - INFO - Syria: 找到 100 个灾害事件
+2025-08-06 19:09:22,093 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disasters_by_country.json
+2025-08-06 19:09:22,094 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 19:09:22,094 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 19:09:22,095 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 19:09:22,095 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 19:09:22,095 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 19:09:22,095 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 19:09:22,096 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\collected_data.json
+2025-08-06 19:09:22,096 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 19:20:09,904 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:20:09,904 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 19:20:09,904 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 19:20:09,904 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:20:10,189 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 19:20:10,250 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:20:10,251 - HistoricalDisastersCollector - ERROR - 收集过程中发生错误: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\base_collector.py", line 368, in run_collection
+    collected_data = self.collect_data()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\historical_disasters_collector.py", line 32, in collect_data
+    disaster_types = self._collect_disaster_types()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\historical_disasters_collector.py", line 95, in _collect_disaster_types
+    'aggregate_types': aggregate_types.get('results', []) if aggregate_types else [],
+AttributeError: 'list' object has no attribute 'get'
+2025-08-06 19:22:01,850 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:22:01,850 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 19:22:01,850 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 19:22:01,850 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:02,098 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 19:22:02,098 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:02,164 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:22:02,165 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_types.json
+2025-08-06 19:22:02,165 - HistoricalDisastersCollector - INFO - 收集到 24 种基础灾害类型
+2025-08-06 19:22:02,165 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 19:22:02,165 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 19:22:02,482 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:02,482 - HistoricalDisastersCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:22:03,334 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:03,334 - HistoricalDisastersCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:22:04,165 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:04,165 - HistoricalDisastersCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:22:05,020 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:05,020 - HistoricalDisastersCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:22:05,775 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:05,775 - HistoricalDisastersCollector - INFO - 已获取 465 条记录...
+2025-08-06 19:22:06,351 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:06,351 - HistoricalDisastersCollector - INFO - 没有更多数据
+2025-08-06 19:22:06,351 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 465 条记录
+2025-08-06 19:22:06,351 - HistoricalDisastersCollector - INFO - 按国家过滤: 465 → 0 条记录
+2025-08-06 19:22:06,352 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 19:22:06,352 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 19:22:06,352 - HistoricalDisastersCollector - INFO - 紧急行动数据收集...
+2025-08-06 19:22:06,352 - HistoricalDisastersCollector - INFO - emergency-operation API暂不可用，返回空数据
+2025-08-06 19:22:06,352 - HistoricalDisastersCollector - INFO - 预留位置：待API可用时，将在此处收集紧急行动数据
+2025-08-06 19:22:06,352 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\emergency_operations_placeholder.json
+2025-08-06 19:22:06,353 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 19:22:06,353 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 19:22:06,354 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:06,785 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:06,785 - HistoricalDisastersCollector - INFO - Turkey: 找到 100 个灾害事件
+2025-08-06 19:22:06,785 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 19:22:06,786 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:07,098 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:07,098 - HistoricalDisastersCollector - INFO - Pakistan: 找到 100 个灾害事件
+2025-08-06 19:22:07,098 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 19:22:07,100 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:07,452 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:07,452 - HistoricalDisastersCollector - INFO - Philippines: 找到 100 个灾害事件
+2025-08-06 19:22:07,452 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 19:22:07,453 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:07,796 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:07,796 - HistoricalDisastersCollector - INFO - Indonesia: 找到 100 个灾害事件
+2025-08-06 19:22:07,796 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 19:22:07,797 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:08,169 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:08,169 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 100 个灾害事件
+2025-08-06 19:22:08,169 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 19:22:08,171 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:08,474 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:08,474 - HistoricalDisastersCollector - INFO - India: 找到 100 个灾害事件
+2025-08-06 19:22:08,474 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 19:22:08,475 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:08,826 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:08,826 - HistoricalDisastersCollector - INFO - Nepal: 找到 100 个灾害事件
+2025-08-06 19:22:08,826 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 19:22:08,828 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:09,182 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:09,182 - HistoricalDisastersCollector - INFO - Myanmar: 找到 100 个灾害事件
+2025-08-06 19:22:09,182 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 19:22:09,184 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:09,555 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:09,556 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 100 个灾害事件
+2025-08-06 19:22:09,556 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 19:22:09,557 - HistoricalDisastersCollector - WARNING - 加载缓存失败: type object 'datetime.datetime' has no attribute 'fromisoformat'
+2025-08-06 19:22:09,917 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:22:09,917 - HistoricalDisastersCollector - INFO - Syria: 找到 100 个灾害事件
+2025-08-06 19:22:09,971 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disasters_by_country.json
+2025-08-06 19:22:09,971 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 19:22:09,972 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 19:22:09,972 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 19:22:09,972 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 19:22:09,972 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 19:22:09,973 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 19:22:09,973 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\collected_data.json
+2025-08-06 19:22:09,973 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 19:25:31,875 - HistoricalDisastersCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:25:31,875 - HistoricalDisastersCollector - INFO - 开始收集历史灾害数据...
+2025-08-06 19:25:31,875 - HistoricalDisastersCollector - INFO - 收集灾害类型数据...
+2025-08-06 19:25:32,161 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/disaster_type/
+2025-08-06 19:25:32,232 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v1/aggregate_dtype/
+2025-08-06 19:25:32,232 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_types.json
+2025-08-06 19:25:32,232 - HistoricalDisastersCollector - INFO - 收集到 24 种基础灾害类型
+2025-08-06 19:25:32,232 - HistoricalDisastersCollector - INFO - 收集灾害申请数据...
+2025-08-06 19:25:32,232 - HistoricalDisastersCollector - INFO - 开始分页请求: appeals, 最大记录数: 500
+2025-08-06 19:25:32,614 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:32,614 - HistoricalDisastersCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:25:33,437 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:33,437 - HistoricalDisastersCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:25:34,285 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:34,285 - HistoricalDisastersCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:25:35,107 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:35,107 - HistoricalDisastersCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:25:35,881 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:35,881 - HistoricalDisastersCollector - INFO - 已获取 465 条记录...
+2025-08-06 19:25:36,456 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:36,456 - HistoricalDisastersCollector - INFO - 没有更多数据
+2025-08-06 19:25:36,456 - HistoricalDisastersCollector - INFO - 分页请求完成，共获取 465 条记录
+2025-08-06 19:25:36,456 - HistoricalDisastersCollector - INFO - 按国家过滤: 465 → 0 条记录
+2025-08-06 19:25:36,456 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disaster_appeals_raw.json
+2025-08-06 19:25:36,457 - HistoricalDisastersCollector - INFO - 收集到 0 条灾害申请记录
+2025-08-06 19:25:36,457 - HistoricalDisastersCollector - INFO - 紧急行动数据收集...
+2025-08-06 19:25:36,457 - HistoricalDisastersCollector - INFO - emergency-operation API暂不可用，返回空数据
+2025-08-06 19:25:36,458 - HistoricalDisastersCollector - INFO - 预留位置：待API可用时，将在此处收集紧急行动数据
+2025-08-06 19:25:36,458 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\emergency_operations_placeholder.json
+2025-08-06 19:25:36,458 - HistoricalDisastersCollector - INFO - 按国家收集历史灾害数据...
+2025-08-06 19:25:36,458 - HistoricalDisastersCollector - INFO - 收集 Turkey 的历史灾害...
+2025-08-06 19:25:36,837 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:36,837 - HistoricalDisastersCollector - INFO - Turkey: 找到 100 个灾害事件
+2025-08-06 19:25:36,837 - HistoricalDisastersCollector - INFO - 收集 Pakistan 的历史灾害...
+2025-08-06 19:25:37,196 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:37,196 - HistoricalDisastersCollector - INFO - Pakistan: 找到 100 个灾害事件
+2025-08-06 19:25:37,196 - HistoricalDisastersCollector - INFO - 收集 Philippines 的历史灾害...
+2025-08-06 19:25:37,537 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:37,537 - HistoricalDisastersCollector - INFO - Philippines: 找到 100 个灾害事件
+2025-08-06 19:25:37,537 - HistoricalDisastersCollector - INFO - 收集 Indonesia 的历史灾害...
+2025-08-06 19:25:37,853 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:37,853 - HistoricalDisastersCollector - INFO - Indonesia: 找到 100 个灾害事件
+2025-08-06 19:25:37,853 - HistoricalDisastersCollector - INFO - 收集 Bangladesh 的历史灾害...
+2025-08-06 19:25:38,200 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:38,200 - HistoricalDisastersCollector - INFO - Bangladesh: 找到 100 个灾害事件
+2025-08-06 19:25:38,200 - HistoricalDisastersCollector - INFO - 收集 India 的历史灾害...
+2025-08-06 19:25:38,513 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:38,513 - HistoricalDisastersCollector - INFO - India: 找到 100 个灾害事件
+2025-08-06 19:25:38,513 - HistoricalDisastersCollector - INFO - 收集 Nepal 的历史灾害...
+2025-08-06 19:25:38,872 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:38,872 - HistoricalDisastersCollector - INFO - Nepal: 找到 100 个灾害事件
+2025-08-06 19:25:38,872 - HistoricalDisastersCollector - INFO - 收集 Myanmar 的历史灾害...
+2025-08-06 19:25:39,227 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:39,227 - HistoricalDisastersCollector - INFO - Myanmar: 找到 100 个灾害事件
+2025-08-06 19:25:39,227 - HistoricalDisastersCollector - INFO - 收集 Afghanistan 的历史灾害...
+2025-08-06 19:25:39,614 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:39,614 - HistoricalDisastersCollector - INFO - Afghanistan: 找到 100 个灾害事件
+2025-08-06 19:25:39,614 - HistoricalDisastersCollector - INFO - 收集 Syria 的历史灾害...
+2025-08-06 19:25:39,912 - HistoricalDisastersCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/appeal/
+2025-08-06 19:25:39,913 - HistoricalDisastersCollector - INFO - Syria: 找到 100 个灾害事件
+2025-08-06 19:25:39,965 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\disasters_by_country.json
+2025-08-06 19:25:39,965 - HistoricalDisastersCollector - INFO - 提取医疗相关灾害信息...
+2025-08-06 19:25:39,966 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\medical_relevant_disasters.json
+2025-08-06 19:25:39,966 - HistoricalDisastersCollector - INFO - 找到 0 个医疗相关灾害
+2025-08-06 19:25:39,966 - HistoricalDisastersCollector - INFO - 整合灾害数据...
+2025-08-06 19:25:39,966 - HistoricalDisastersCollector - INFO - 整合了 0 个灾害记录
+2025-08-06 19:25:39,967 - HistoricalDisastersCollector - INFO - 数据收集成功
+2025-08-06 19:25:39,967 - HistoricalDisastersCollector - INFO - 数据已保存: data\raw\historical_disasters\collected_data.json
+2025-08-06 19:25:39,967 - HistoricalDisastersCollector - INFO - 开始验证数据质量...
+2025-08-06 19:32:56,305 - MedicalFacilitiesCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:32:56,305 - MedicalFacilitiesCollector - INFO - 开始收集医疗设施数据...
+2025-08-06 19:32:56,305 - MedicalFacilitiesCollector - INFO - 收集所有本地单位数据...
+2025-08-06 19:32:56,305 - MedicalFacilitiesCollector - INFO - 开始分页请求: local_units_list, 最大记录数: 2000
+2025-08-06 19:32:57,285 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:32:57,285 - MedicalFacilitiesCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:32:58,176 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:32:58,176 - MedicalFacilitiesCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:32:59,047 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:32:59,047 - MedicalFacilitiesCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:32:59,938 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:32:59,938 - MedicalFacilitiesCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:33:00,805 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:00,806 - MedicalFacilitiesCollector - INFO - 已获取 500 条记录...
+2025-08-06 19:33:01,671 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:01,671 - MedicalFacilitiesCollector - INFO - 已获取 600 条记录...
+2025-08-06 19:33:02,560 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:02,560 - MedicalFacilitiesCollector - INFO - 已获取 700 条记录...
+2025-08-06 19:33:03,443 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:03,443 - MedicalFacilitiesCollector - INFO - 已获取 800 条记录...
+2025-08-06 19:33:04,308 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:04,308 - MedicalFacilitiesCollector - INFO - 已获取 900 条记录...
+2025-08-06 19:33:05,197 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:05,197 - MedicalFacilitiesCollector - INFO - 已获取 1000 条记录...
+2025-08-06 19:33:06,053 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:06,054 - MedicalFacilitiesCollector - INFO - 已获取 1100 条记录...
+2025-08-06 19:33:06,793 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:06,795 - MedicalFacilitiesCollector - INFO - 已获取 1200 条记录...
+2025-08-06 19:33:07,499 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:07,499 - MedicalFacilitiesCollector - INFO - 已获取 1300 条记录...
+2025-08-06 19:33:08,222 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:08,222 - MedicalFacilitiesCollector - INFO - 已获取 1400 条记录...
+2025-08-06 19:33:08,925 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:08,926 - MedicalFacilitiesCollector - INFO - 已获取 1500 条记录...
+2025-08-06 19:33:09,657 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:09,657 - MedicalFacilitiesCollector - INFO - 已获取 1600 条记录...
+2025-08-06 19:33:10,370 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:10,370 - MedicalFacilitiesCollector - INFO - 已获取 1700 条记录...
+2025-08-06 19:33:11,085 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:11,085 - MedicalFacilitiesCollector - INFO - 已获取 1800 条记录...
+2025-08-06 19:33:11,789 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:11,789 - MedicalFacilitiesCollector - INFO - 已获取 1900 条记录...
+2025-08-06 19:33:12,502 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:33:12,502 - MedicalFacilitiesCollector - INFO - 已获取 2000 条记录...
+2025-08-06 19:33:13,002 - MedicalFacilitiesCollector - INFO - 分页请求完成，共获取 2000 条记录
+2025-08-06 19:33:13,002 - MedicalFacilitiesCollector - INFO - 筛选医疗设施...
+2025-08-06 19:33:13,002 - MedicalFacilitiesCollector - ERROR - 收集过程中发生错误: 'int' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\base_collector.py", line 389, in run_collection
+    collected_data = self.collect_data()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 34, in collect_data
+    medical_facilities = self._filter_medical_facilities(all_units)
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 76, in _filter_medical_facilities
+    if self._is_medical_facility(unit, config):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 98, in _is_medical_facility
+    for field in required_fields
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 98, in <genexpr>
+    for field in required_fields
+AttributeError: 'int' object has no attribute 'get'
+2025-08-06 19:33:13,004 - MedicalFacilitiesCollector - INFO - 开始验证数据质量...
+2025-08-06 19:36:38,290 - MedicalFacilitiesCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:36:38,290 - MedicalFacilitiesCollector - INFO - 开始收集医疗设施数据...
+2025-08-06 19:36:38,290 - MedicalFacilitiesCollector - INFO - 收集所有本地单位数据...
+2025-08-06 19:36:38,290 - MedicalFacilitiesCollector - INFO - 开始分页请求: local_units_list, 最大记录数: 2000
+2025-08-06 19:36:38,892 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:38,892 - MedicalFacilitiesCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:36:39,802 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:39,802 - MedicalFacilitiesCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:36:40,719 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:40,719 - MedicalFacilitiesCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:36:41,597 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:41,598 - MedicalFacilitiesCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:36:42,519 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:42,520 - MedicalFacilitiesCollector - INFO - 已获取 500 条记录...
+2025-08-06 19:36:43,400 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:43,400 - MedicalFacilitiesCollector - INFO - 已获取 600 条记录...
+2025-08-06 19:36:44,301 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:44,301 - MedicalFacilitiesCollector - INFO - 已获取 700 条记录...
+2025-08-06 19:36:45,199 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:45,199 - MedicalFacilitiesCollector - INFO - 已获取 800 条记录...
+2025-08-06 19:36:46,070 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:46,070 - MedicalFacilitiesCollector - INFO - 已获取 900 条记录...
+2025-08-06 19:36:46,981 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:46,981 - MedicalFacilitiesCollector - INFO - 已获取 1000 条记录...
+2025-08-06 19:36:47,838 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:47,838 - MedicalFacilitiesCollector - INFO - 已获取 1100 条记录...
+2025-08-06 19:36:48,579 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:48,579 - MedicalFacilitiesCollector - INFO - 已获取 1200 条记录...
+2025-08-06 19:36:49,266 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:49,266 - MedicalFacilitiesCollector - INFO - 已获取 1300 条记录...
+2025-08-06 19:36:49,988 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:49,988 - MedicalFacilitiesCollector - INFO - 已获取 1400 条记录...
+2025-08-06 19:36:50,697 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:50,698 - MedicalFacilitiesCollector - INFO - 已获取 1500 条记录...
+2025-08-06 19:36:51,414 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:51,414 - MedicalFacilitiesCollector - INFO - 已获取 1600 条记录...
+2025-08-06 19:36:52,133 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:52,133 - MedicalFacilitiesCollector - INFO - 已获取 1700 条记录...
+2025-08-06 19:36:52,845 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:52,845 - MedicalFacilitiesCollector - INFO - 已获取 1800 条记录...
+2025-08-06 19:36:53,549 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:53,549 - MedicalFacilitiesCollector - INFO - 已获取 1900 条记录...
+2025-08-06 19:36:54,272 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:36:54,272 - MedicalFacilitiesCollector - INFO - 已获取 2000 条记录...
+2025-08-06 19:36:54,772 - MedicalFacilitiesCollector - INFO - 分页请求完成，共获取 2000 条记录
+2025-08-06 19:36:54,772 - MedicalFacilitiesCollector - INFO - 筛选医疗设施...
+2025-08-06 19:36:54,772 - MedicalFacilitiesCollector - ERROR - 收集过程中发生错误: 'int' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\base_collector.py", line 389, in run_collection
+    collected_data = self.collect_data()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 34, in collect_data
+    medical_facilities = self._filter_medical_facilities(all_units)
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 76, in _filter_medical_facilities
+    if self._is_medical_facility(unit, config):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 120, in _is_medical_facility
+    for field in field_mappings.values()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 121, in <genexpr>
+    if isinstance(field, str)  # 确保field是字符串
+AttributeError: 'int' object has no attribute 'get'
+2025-08-06 19:36:54,774 - MedicalFacilitiesCollector - INFO - 开始验证数据质量...
+2025-08-06 19:39:58,469 - MedicalFacilitiesCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:39:58,469 - MedicalFacilitiesCollector - INFO - 开始收集医疗设施数据...
+2025-08-06 19:39:58,469 - MedicalFacilitiesCollector - INFO - 收集所有本地单位数据...
+2025-08-06 19:39:58,469 - MedicalFacilitiesCollector - INFO - 开始分页请求: local_units_list, 最大记录数: 2000
+2025-08-06 19:39:59,055 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:39:59,055 - MedicalFacilitiesCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:39:59,946 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:39:59,946 - MedicalFacilitiesCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:40:00,801 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:00,801 - MedicalFacilitiesCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:40:01,716 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:01,716 - MedicalFacilitiesCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:40:02,581 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:02,581 - MedicalFacilitiesCollector - INFO - 已获取 500 条记录...
+2025-08-06 19:40:03,469 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:03,469 - MedicalFacilitiesCollector - INFO - 已获取 600 条记录...
+2025-08-06 19:40:04,344 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:04,344 - MedicalFacilitiesCollector - INFO - 已获取 700 条记录...
+2025-08-06 19:40:05,237 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:05,237 - MedicalFacilitiesCollector - INFO - 已获取 800 条记录...
+2025-08-06 19:40:06,102 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:06,102 - MedicalFacilitiesCollector - INFO - 已获取 900 条记录...
+2025-08-06 19:40:07,021 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:07,021 - MedicalFacilitiesCollector - INFO - 已获取 1000 条记录...
+2025-08-06 19:40:07,892 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:07,892 - MedicalFacilitiesCollector - INFO - 已获取 1100 条记录...
+2025-08-06 19:40:08,697 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:08,698 - MedicalFacilitiesCollector - INFO - 已获取 1200 条记录...
+2025-08-06 19:40:09,375 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:09,375 - MedicalFacilitiesCollector - INFO - 已获取 1300 条记录...
+2025-08-06 19:40:10,100 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:10,101 - MedicalFacilitiesCollector - INFO - 已获取 1400 条记录...
+2025-08-06 19:40:10,806 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:10,806 - MedicalFacilitiesCollector - INFO - 已获取 1500 条记录...
+2025-08-06 19:40:11,522 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:11,522 - MedicalFacilitiesCollector - INFO - 已获取 1600 条记录...
+2025-08-06 19:40:12,220 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:12,221 - MedicalFacilitiesCollector - INFO - 已获取 1700 条记录...
+2025-08-06 19:40:12,947 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:12,947 - MedicalFacilitiesCollector - INFO - 已获取 1800 条记录...
+2025-08-06 19:40:13,648 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:13,648 - MedicalFacilitiesCollector - INFO - 已获取 1900 条记录...
+2025-08-06 19:40:14,365 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:40:14,365 - MedicalFacilitiesCollector - INFO - 已获取 2000 条记录...
+2025-08-06 19:40:14,865 - MedicalFacilitiesCollector - INFO - 分页请求完成，共获取 2000 条记录
+2025-08-06 19:40:14,865 - MedicalFacilitiesCollector - INFO - 筛选医疗设施...
+2025-08-06 19:40:14,865 - MedicalFacilitiesCollector - ERROR - 收集过程中发生错误: 'int' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\base_collector.py", line 389, in run_collection
+    collected_data = self.collect_data()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 34, in collect_data
+    medical_facilities = self._filter_medical_facilities(all_units)
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 76, in _filter_medical_facilities
+    if self._is_medical_facility(unit, config):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_facilities_collector.py", line 131, in _is_medical_facility
+    self.safe_int_convert(health_data.get('maximum_capacity', 0)) >=
+AttributeError: 'int' object has no attribute 'get'
+2025-08-06 19:40:14,867 - MedicalFacilitiesCollector - INFO - 开始验证数据质量...
+2025-08-06 19:42:25,974 - MedicalFacilitiesCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:42:25,974 - MedicalFacilitiesCollector - INFO - 开始收集医疗设施数据...
+2025-08-06 19:42:25,974 - MedicalFacilitiesCollector - INFO - 收集所有本地单位数据...
+2025-08-06 19:42:25,975 - MedicalFacilitiesCollector - INFO - 开始分页请求: local_units_list, 最大记录数: 500
+2025-08-06 19:42:26,413 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:26,413 - MedicalFacilitiesCollector - INFO - 已获取 50 条记录...
+2025-08-06 19:42:27,151 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:27,151 - MedicalFacilitiesCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:42:27,917 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:27,917 - MedicalFacilitiesCollector - INFO - 已获取 150 条记录...
+2025-08-06 19:42:28,659 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:28,659 - MedicalFacilitiesCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:42:29,408 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:29,409 - MedicalFacilitiesCollector - INFO - 已获取 250 条记录...
+2025-08-06 19:42:30,152 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:30,153 - MedicalFacilitiesCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:42:30,904 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:30,904 - MedicalFacilitiesCollector - INFO - 已获取 350 条记录...
+2025-08-06 19:42:31,629 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:31,629 - MedicalFacilitiesCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:42:32,383 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:32,383 - MedicalFacilitiesCollector - INFO - 已获取 450 条记录...
+2025-08-06 19:42:33,113 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:42:33,113 - MedicalFacilitiesCollector - INFO - 已获取 500 条记录...
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - INFO - 分页请求完成，共获取 500 条记录
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - INFO - 筛选医疗设施...
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - ERROR - 处理第 0 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29554
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - ERROR - 处理第 1 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29569
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - ERROR - 处理第 2 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29560
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - ERROR - 处理第 3 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29567
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - ERROR - 处理第 4 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29565
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - ERROR - 处理第 5 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29555
+2025-08-06 19:42:33,613 - MedicalFacilitiesCollector - ERROR - 处理第 6 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29557
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 7 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29561
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 8 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29563
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 9 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29564
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 10 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29558
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 11 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29566
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 12 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29559
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 13 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29553
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 14 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29570
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 15 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29556
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 16 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29552
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 17 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29562
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 18 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29568
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 19 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29544
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 20 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29543
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 21 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29549
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 22 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29538
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 23 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29545
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 24 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29539
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 25 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29546
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 26 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29541
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 27 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29542
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 28 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29547
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 29 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29540
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 30 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29548
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 31 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29537
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 32 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28133
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 33 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28132
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 34 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28134
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 35 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28254
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 36 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28253
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 37 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28060
+2025-08-06 19:42:33,614 - MedicalFacilitiesCollector - ERROR - 处理第 38 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28255
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 39 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28124
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 40 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28098
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 41 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28099
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 42 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28057
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 43 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28080
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 44 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28100
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 45 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28101
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 46 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28102
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 47 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28103
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 48 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28104
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 49 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28105
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 50 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28106
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 51 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28107
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 52 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28059
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 53 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28118
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 54 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28075
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 55 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28090
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 56 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28097
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 57 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28082
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 58 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28127
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 59 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28110
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 60 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28111
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 61 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28112
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 62 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28113
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 63 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28114
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 64 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28115
+2025-08-06 19:42:33,615 - MedicalFacilitiesCollector - ERROR - 处理第 65 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28128
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 66 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28068
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 67 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28072
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 68 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28074
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 69 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28076
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 70 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28125
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 71 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28117
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 72 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28063
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 73 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29483
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 74 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29482
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 75 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28131
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 76 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28065
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 77 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29415
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 78 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28130
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 79 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28083
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 80 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28123
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 81 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28137
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 82 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28136
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 83 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28135
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 84 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31812
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 85 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31811
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 86 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29530
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 87 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29405
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 88 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29406
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 89 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29407
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 90 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32252
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 91 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32251
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 92 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29408
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 93 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29409
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 94 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29410
+2025-08-06 19:42:33,616 - MedicalFacilitiesCollector - ERROR - 处理第 95 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29411
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 96 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29412
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 97 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29413
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 98 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29414
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 99 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32250
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 100 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32249
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 101 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32248
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 102 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29490
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 103 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29492
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 104 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29491
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 105 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31741
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 106 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31748
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 107 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31746
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 108 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31745
+2025-08-06 19:42:33,617 - MedicalFacilitiesCollector - ERROR - 处理第 109 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31744
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 110 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31743
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 111 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31747
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 112 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31742
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 113 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31052
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 114 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31051
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 115 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31053
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 116 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31050
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 117 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32457
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 118 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27609
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 119 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27605
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 120 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27603
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 121 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27611
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 122 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27607
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 123 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27606
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 124 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27604
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 125 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27602
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 126 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27601
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 127 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27612
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 128 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27613
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 129 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27647
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 130 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27645
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 131 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27646
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 132 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27614
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 133 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27627
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 134 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27626
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 135 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27598
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 136 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27624
+2025-08-06 19:42:33,618 - MedicalFacilitiesCollector - ERROR - 处理第 137 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27625
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 138 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27623
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 139 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27622
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 140 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27616
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 141 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27621
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 142 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27615
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 143 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27619
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 144 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27618
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 145 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27628
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 146 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27629
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 147 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27630
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 148 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27631
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 149 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27633
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 150 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27634
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 151 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27635
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 152 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27599
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 153 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27620
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 154 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27636
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 155 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27637
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 156 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27638
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 157 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27639
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 158 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27640
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 159 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27641
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 160 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27632
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 161 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27642
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 162 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27600
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 163 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27617
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 164 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27643
+2025-08-06 19:42:33,619 - MedicalFacilitiesCollector - ERROR - 处理第 165 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27644
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 166 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32642
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 167 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32643
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 168 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27649
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 169 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27648
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 170 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27610
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 171 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27608
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 172 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31822
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 173 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31824
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 174 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31825
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 175 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31826
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 176 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31830
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 177 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31831
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 178 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31819
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 179 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31827
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 180 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31832
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 181 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31823
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 182 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31815
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 183 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31829
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 184 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31828
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 185 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31821
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 186 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31817
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 187 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31834
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 188 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27534
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 189 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27753
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 190 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27525
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 191 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27454
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 192 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27520
+2025-08-06 19:42:33,620 - MedicalFacilitiesCollector - ERROR - 处理第 193 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27453
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 194 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31833
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 195 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32441
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 196 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32432
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 197 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32439
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 198 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32420
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 199 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32429
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 200 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32444
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 201 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32434
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 202 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32433
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 203 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32428
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 204 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32415
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 205 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32413
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 206 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32449
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 207 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32427
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 208 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32442
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 209 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32618
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 210 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32621
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 211 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32625
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 212 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32629
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 213 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32626
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 214 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32619
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 215 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32620
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 216 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32623
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 217 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32452
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 218 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32451
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 219 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29536
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 220 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29535
+2025-08-06 19:42:33,621 - MedicalFacilitiesCollector - ERROR - 处理第 221 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29534
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 222 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28138
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 223 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30885
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 224 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30886
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 225 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32408
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 226 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30887
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 227 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30888
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 228 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29573
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 229 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29531
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 230 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29532
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 231 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29533
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 232 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29572
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 233 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30913
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 234 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30915
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 235 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30897
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 236 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30906
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 237 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30920
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 238 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30899
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 239 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30919
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 240 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30910
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 241 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30908
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 242 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30907
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 243 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30918
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 244 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30903
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 245 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30921
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 246 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28062
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 247 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28088
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 248 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28126
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 249 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28096
+2025-08-06 19:42:33,622 - MedicalFacilitiesCollector - ERROR - 处理第 250 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28129
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 251 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28087
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 252 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28066
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 253 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28064
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 254 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28070
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 255 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28071
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 256 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28069
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 257 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28079
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 258 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28094
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 259 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28095
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 260 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32627
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 261 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32633
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 262 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32634
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 263 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32635
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 264 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32636
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 265 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32637
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 266 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32638
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 267 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32639
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 268 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32640
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 269 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32617
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 270 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32631
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 271 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32630
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 272 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32624
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 273 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32632
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 274 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28093
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 275 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28092
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 276 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28091
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 277 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32628
+2025-08-06 19:42:33,623 - MedicalFacilitiesCollector - ERROR - 处理第 278 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32622
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 279 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28120
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 280 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28061
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 281 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28108
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 282 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28121
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 283 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27798
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 284 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27814
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 285 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27832
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 286 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28077
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 287 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28116
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 288 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28084
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 289 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28081
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 290 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28085
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 291 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28086
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 292 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28109
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 293 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28089
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 294 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30796
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 295 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30744
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 296 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30747
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 297 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30786
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 298 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30777
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 299 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30785
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 300 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30845
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 301 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30781
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 302 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30815
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 303 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30755
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 304 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29551
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 305 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29550
+2025-08-06 19:42:33,624 - MedicalFacilitiesCollector - ERROR - 处理第 306 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29571
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 307 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28067
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 308 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27986
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 309 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27978
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 310 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27985
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 311 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27991
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 312 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27979
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 313 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27983
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 314 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27989
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 315 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27988
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 316 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28002
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 317 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27999
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 318 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28000
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 319 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27997
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 320 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27980
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 321 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27981
+2025-08-06 19:42:33,625 - MedicalFacilitiesCollector - ERROR - 处理第 322 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27998
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 323 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27993
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 324 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27994
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 325 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27995
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 326 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27976
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 327 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27984
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 328 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27992
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 329 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27996
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 330 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27990
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 331 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27987
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 332 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28001
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 333 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27977
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 334 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27982
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 335 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27651
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 336 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27708
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 337 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27704
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 338 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27697
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 339 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27691
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 340 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27686
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 341 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27673
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 342 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27663
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 343 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27683
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 344 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27728
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 345 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27727
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 346 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27714
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 347 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27696
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 348 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27725
+2025-08-06 19:42:33,626 - MedicalFacilitiesCollector - ERROR - 处理第 349 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27678
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 350 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27657
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 351 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27656
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 352 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27729
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 353 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27710
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 354 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27662
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 355 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27700
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 356 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27694
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 357 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27684
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 358 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27676
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 359 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27668
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 360 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27659
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 361 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27652
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 362 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27660
+2025-08-06 19:42:33,627 - MedicalFacilitiesCollector - ERROR - 处理第 363 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27653
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 364 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27713
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 365 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27707
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 366 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27699
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 367 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27695
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 368 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27677
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 369 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27675
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 370 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27667
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 371 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27724
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 372 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27723
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 373 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27715
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 374 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27712
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 375 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27711
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 376 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27701
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 377 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27689
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 378 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27685
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 379 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27682
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 380 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27679
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 381 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27692
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 382 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27664
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 383 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27661
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 384 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27716
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 385 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27717
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 386 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27658
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 387 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27670
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 388 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27672
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 389 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27687
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 390 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27726
+2025-08-06 19:42:33,628 - MedicalFacilitiesCollector - ERROR - 处理第 391 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27721
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 392 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27720
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 393 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27730
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 394 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27709
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 395 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27705
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 396 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27703
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 397 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27690
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 398 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27681
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 399 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27680
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 400 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27674
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 401 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27671
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 402 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27655
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 403 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27654
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 404 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27718
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 405 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27722
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 406 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27706
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 407 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27702
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 408 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27698
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 409 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27693
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 410 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27688
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 411 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27719
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 412 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27669
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 413 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27665
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 414 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27666
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 415 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32985
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 416 个单位时出错: 'int' object has no attribute 'get', 单位ID: 33003
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 417 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32992
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 418 个单位时出错: 'int' object has no attribute 'get', 单位ID: 33005
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 419 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32998
+2025-08-06 19:42:33,629 - MedicalFacilitiesCollector - ERROR - 处理第 420 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32995
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 421 个单位时出错: 'int' object has no attribute 'get', 单位ID: 33001
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 422 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32999
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 423 个单位时出错: 'int' object has no attribute 'get', 单位ID: 33000
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 424 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32987
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 425 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32988
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 426 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32990
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 427 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32986
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 428 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32991
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 429 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32983
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 430 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32997
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 431 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32989
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 432 个单位时出错: 'int' object has no attribute 'get', 单位ID: 33004
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 433 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32993
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 434 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32984
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 435 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32994
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 436 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32996
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 437 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29606
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 438 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29608
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 439 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29607
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 440 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29600
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 441 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29601
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 442 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29610
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 443 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29609
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 444 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29590
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 445 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29591
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 446 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29578
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 447 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29579
+2025-08-06 19:42:33,630 - MedicalFacilitiesCollector - ERROR - 处理第 448 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29598
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 449 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29581
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 450 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29582
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 451 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27754
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 452 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27752
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 453 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31731
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 454 个单位时出错: 'int' object has no attribute 'get', 单位ID: 31734
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 455 个单位时出错: 'int' object has no attribute 'get', 单位ID: 32454
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 456 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29495
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 457 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29496
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 458 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29497
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 459 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29494
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 460 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29493
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 461 个单位时出错: 'int' object has no attribute 'get', 单位ID: 28005
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 462 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30536
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 463 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30543
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 464 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30542
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 465 个单位时出错: 'int' object has no attribute 'get', 单位ID: 30537
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 466 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27799
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 467 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27800
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 468 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27801
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 469 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27802
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 470 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27803
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 471 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27804
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 472 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27805
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 473 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27806
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 474 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27807
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 475 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27808
+2025-08-06 19:42:33,631 - MedicalFacilitiesCollector - ERROR - 处理第 476 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27809
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 477 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27810
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 478 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27811
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 479 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27880
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 480 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27766
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 481 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27767
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 482 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27974
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 483 个单位时出错: 'int' object has no attribute 'get', 单位ID: 27975
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 484 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29603
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 485 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29605
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 486 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29604
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 487 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29587
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 488 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29612
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 489 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29613
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 490 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29575
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 491 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29576
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 492 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29599
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 493 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29602
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 494 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29580
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 495 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29589
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 496 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29588
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 497 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29596
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 498 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29597
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - ERROR - 处理第 499 个单位时出错: 'int' object has no attribute 'get', 单位ID: 29586
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - INFO - 按国家过滤: 0 → 0 条记录
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - INFO - 找到 0 个医疗设施
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - INFO - 按国家组织医疗设施数据...
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - INFO - 验证和清理医疗设施数据...
+2025-08-06 19:42:33,632 - MedicalFacilitiesCollector - INFO - 数据验证完成：0/0 通过验证
+2025-08-06 19:42:33,633 - MedicalFacilitiesCollector - INFO - 数据收集成功
+2025-08-06 19:42:33,633 - MedicalFacilitiesCollector - INFO - 数据已保存: data\raw\medical_facilities\collected_data.json
+2025-08-06 19:42:33,633 - MedicalFacilitiesCollector - INFO - 开始验证数据质量...
+2025-08-06 19:44:40,428 - MedicalFacilitiesCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:44:40,428 - MedicalFacilitiesCollector - INFO - 开始收集医疗设施数据...
+2025-08-06 19:44:40,428 - MedicalFacilitiesCollector - INFO - 收集所有本地单位数据...
+2025-08-06 19:44:40,428 - MedicalFacilitiesCollector - INFO - 开始分页请求: local_units_list, 最大记录数: 500
+2025-08-06 19:44:40,916 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:40,916 - MedicalFacilitiesCollector - INFO - 已获取 50 条记录...
+2025-08-06 19:44:41,658 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:41,658 - MedicalFacilitiesCollector - INFO - 已获取 100 条记录...
+2025-08-06 19:44:42,406 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:42,406 - MedicalFacilitiesCollector - INFO - 已获取 150 条记录...
+2025-08-06 19:44:43,126 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:43,126 - MedicalFacilitiesCollector - INFO - 已获取 200 条记录...
+2025-08-06 19:44:43,877 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:43,877 - MedicalFacilitiesCollector - INFO - 已获取 250 条记录...
+2025-08-06 19:44:44,606 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:44,606 - MedicalFacilitiesCollector - INFO - 已获取 300 条记录...
+2025-08-06 19:44:45,349 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:45,350 - MedicalFacilitiesCollector - INFO - 已获取 350 条记录...
+2025-08-06 19:44:46,076 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:46,076 - MedicalFacilitiesCollector - INFO - 已获取 400 条记录...
+2025-08-06 19:44:46,816 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:46,816 - MedicalFacilitiesCollector - INFO - 已获取 450 条记录...
+2025-08-06 19:44:47,546 - MedicalFacilitiesCollector - INFO - API请求成功: https://goadmin.ifrc.org/api/v2/public-local-units/
+2025-08-06 19:44:47,546 - MedicalFacilitiesCollector - INFO - 已获取 500 条记录...
+2025-08-06 19:44:48,046 - MedicalFacilitiesCollector - INFO - 分页请求完成，共获取 500 条记录
+2025-08-06 19:44:48,046 - MedicalFacilitiesCollector - INFO - 筛选医疗设施...
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 已处理 100/500 个单位，找到 0 个医疗设施
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 已处理 200/500 个单位，找到 0 个医疗设施
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 已处理 300/500 个单位，找到 0 个医疗设施
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 已处理 400/500 个单位，找到 0 个医疗设施
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 已处理 500/500 个单位，找到 0 个医疗设施
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 按国家过滤: 0 → 0 条记录
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 找到 0 个医疗设施
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 按国家组织医疗设施数据...
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 验证和清理医疗设施数据...
+2025-08-06 19:44:48,047 - MedicalFacilitiesCollector - INFO - 数据验证完成：0/0 通过验证
+2025-08-06 19:44:48,048 - MedicalFacilitiesCollector - INFO - 数据收集成功
+2025-08-06 19:44:48,048 - MedicalFacilitiesCollector - INFO - 数据已保存: data\raw\medical_facilities\collected_data.json
+2025-08-06 19:44:48,048 - MedicalFacilitiesCollector - INFO - 开始验证数据质量...
+2025-08-06 19:45:08,591 - MedicalServicesCollector - INFO - 开始运行数据收集器...
+2025-08-06 19:45:08,592 - MedicalServicesCollector - INFO - 开始收集医疗服务数据...
+2025-08-06 19:45:08,592 - MedicalServicesCollector - INFO - 加载医疗设施数据...
+2025-08-06 19:45:08,592 - MedicalServicesCollector - ERROR - 无法找到医疗设施数据文件
+2025-08-06 19:45:08,592 - MedicalServicesCollector - ERROR - 收集过程中发生错误: 无法加载医疗设施数据，请先运行医疗设施收集器
+Traceback (most recent call last):
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\base_collector.py", line 389, in run_collection
+    collected_data = self.collect_data()
+  File "C:\Users\Guts-Steve\PycharmProjects\IXN\IXN-Project\src\data_collection\medical_services_collector.py", line 36, in collect_data
+    raise ValueError("无法加载医疗设施数据，请先运行医疗设施收集器")
+ValueError: 无法加载医疗设施数据，请先运行医疗设施收集器
