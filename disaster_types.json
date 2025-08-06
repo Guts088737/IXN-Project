@@ -1,0 +1,151 @@
+{
+  "count": 24,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 66,
+      "name": "Biological Emergency",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 57,
+      "name": "Chemical Emergency",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 7,
+      "name": "Civil Unrest",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 14,
+      "name": "Cold Wave",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 6,
+      "name": "Complex Emergency",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 4,
+      "name": "Cyclone",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 20,
+      "name": "Drought",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 2,
+      "name": "Earthquake",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 1,
+      "name": "Epidemic",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 15,
+      "name": "Fire",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 12,
+      "name": "Flood",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 21,
+      "name": "Food Insecurity",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 19,
+      "name": "Heat Wave",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 62,
+      "name": "Insect Infestation",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 24,
+      "name": "Landslide",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 13,
+      "name": "Other",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 27,
+      "name": "Pluvial/Flash Flood",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 5,
+      "name": "Population Movement",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 67,
+      "name": "Radiological Emergency",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 23,
+      "name": "Storm Surge",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 54,
+      "name": "Transport Accident",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 68,
+      "name": "Transport Emergency",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 11,
+      "name": "Tsunami",
+      "summary": "",
+      "translation_module_original_language": "en"
+    },
+    {
+      "id": 8,
+      "name": "Volcanic Eruption",
+      "summary": "",
+      "translation_module_original_language": "en"
+    }
+  ]
+}
