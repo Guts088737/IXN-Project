@@ -1,0 +1,60 @@
+{
+  "cache_time": "2025-08-13T18:01:57.959559",
+  "cache_key": "historical_disasters/country_26_events",
+  "data": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": {
+          "id": 1,
+          "summary": "",
+          "name": "Epidemic",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "BH",
+            "iso3": "BHR",
+            "id": 26,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 4,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DBH001",
+            "average_household_size": null,
+            "society_name": "Bahrain Red Crescent Society",
+            "name": "Bahrain",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2020-12-15T00:00:00Z",
+        "created_at": "2021-08-14T19:46:01.195069Z",
+        "auto_generated": true,
+        "appeals": [],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [],
+        "updated_at": "2021-08-14T19:46:01.195083Z",
+        "id": 5500,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "summary": "",
+        "name": "Bahrain-RC-Covide-19 Supporting Efforts Dec-Aug21",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

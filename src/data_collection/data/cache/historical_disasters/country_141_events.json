@@ -1,0 +1,188 @@
+{
+  "cache_time": "2025-08-13T18:02:32.762998",
+  "cache_key": "historical_disasters/country_141_events",
+  "data": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": {
+          "id": 12,
+          "summary": "",
+          "name": "Flood",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "RO",
+            "iso3": "ROU",
+            "id": 141,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 3,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DRO001",
+            "average_household_size": null,
+            "society_name": "Romanian Red Cross",
+            "name": "Romania",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2024-09-14T00:00:00Z",
+        "created_at": "2024-09-22T23:24:30.360823Z",
+        "auto_generated": true,
+        "appeals": [
+          {
+            "aid": "18536",
+            "num_beneficiaries": 5000,
+            "amount_requested": 465192.0,
+            "code": "MDRRO006",
+            "amount_funded": 465192.0,
+            "status": 0,
+            "status_display": "Active",
+            "start_date": "2024-09-30T00:00:00Z",
+            "end_date": "2025-03-31T00:00:00Z",
+            "sector": "Country Cluster Delegation for Poland, Lithuania, Estonia, Latvia, Czech Republic, Romania, Moldova ",
+            "atype": 0,
+            "atype_display": "DREF",
+            "id": 3965,
+            "translation_module_original_language": "en"
+          }
+        ],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [
+          {
+            "status": 9,
+            "contacts": [
+              {
+                "ctype": "Originator",
+                "name": "Razvan Paraian",
+                "title": "Chief Information Officer",
+                "email": "razvan.paraian@crucearosie.ro",
+                "phone": "+40729683419",
+                "id": 53231
+              },
+              {
+                "ctype": "NationalSociety",
+                "name": "Daniel Modoaca",
+                "title": "Disaster Manager",
+                "email": "daniel.modoaca@crucearosie.ro",
+                "phone": "+40748238018",
+                "id": 53232
+              },
+              {
+                "ctype": "Federation",
+                "name": "Stefan Agerhem",
+                "title": "NSD Coordinator and acting Head of Office",
+                "email": "stefan.agerhem@ifrc.org",
+                "phone": "+40743217088",
+                "id": 53233
+              },
+              {
+                "ctype": "Media",
+                "name": "Dan Brumar",
+                "title": "Communications Manager",
+                "email": "dan.brumar@crucearosie.ro",
+                "phone": "+40720574232",
+                "id": 53234
+              }
+            ],
+            "countries": [
+              {
+                "iso": "RO",
+                "iso3": "ROU",
+                "id": 141,
+                "record_type": 1,
+                "record_type_display": "Country",
+                "region": 3,
+                "independent": true,
+                "is_deprecated": false,
+                "fdrs": "DRO001",
+                "average_household_size": null,
+                "society_name": "Romanian Red Cross",
+                "name": "Romania",
+                "translation_module_original_language": "en"
+              }
+            ],
+            "created_at": "2024-09-22T23:24:30.131947Z",
+            "updated_at": "2024-09-23T09:05:07.257827Z",
+            "report_date": "2024-09-22T23:24:30.130681Z",
+            "id": 17262,
+            "is_covid_report": false,
+            "num_injured": 0,
+            "num_dead": 0,
+            "num_missing": 0,
+            "num_affected": 0,
+            "num_displaced": 0,
+            "epi_num_dead": null,
+            "num_assisted": 1600,
+            "num_localstaff": 20,
+            "num_volunteers": 150,
+            "num_expats_delegates": 5,
+            "gov_num_injured": 3,
+            "gov_num_dead": 0,
+            "gov_num_missing": 0,
+            "gov_num_affected": 0,
+            "gov_num_displaced": 0,
+            "gov_num_assisted": 5500,
+            "other_num_injured": 200,
+            "other_num_dead": 7,
+            "other_num_missing": 1,
+            "other_num_affected": 15000,
+            "other_num_displaced": 400,
+            "other_num_assisted": null,
+            "num_potentially_affected": null,
+            "gov_num_potentially_affected": null,
+            "other_num_potentially_affected": null,
+            "num_highest_risk": null,
+            "gov_num_highest_risk": null,
+            "other_num_highest_risk": null,
+            "affected_pop_centres": null,
+            "gov_affected_pop_centres": null,
+            "other_affected_pop_centres": null,
+            "epi_cases": null,
+            "epi_suspected_cases": null,
+            "epi_probable_cases": null,
+            "epi_confirmed_cases": null,
+            "epi_figures_source": null,
+            "epi_figures_source_display": null,
+            "epi_cases_since_last_fr": null,
+            "epi_deaths_since_last_fr": null,
+            "epi_notes_since_last_fr": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "request_assistance": false,
+            "ns_request_assistance": false,
+            "notes_health": null,
+            "notes_ns": null,
+            "notes_socioeco": null,
+            "recent_affected": 1,
+            "summary": "ROU: Flood - 09-2024 - Storm Boris",
+            "description": "<p><span lang=\"EN-GB\" style=\"font-size: 11.0pt; line-height: 107%; font-family: 'Aptos',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Aptos; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">On September 14, 2024, the counties of Galați and Vaslui were hit by flash floods, with over 150 liters of rainfall per square meter recorded in less than 24 hours across several localities. The most affected area is Galați, specifically the localities of Cudalbi, Cuza-Vodă, Pechea, Slobozia-Conachi, Tudor Vladimirescu and Costache Negri, where floodwaters reached depths of 1.5 to 2 meters in some places. Over 6,000 houses have been either destroyed or partially damaged, 7 people died and thousands of residents have been evacuated from high-risk zones. Severe weather conditions are expected to persist, heightening the risk of further escalation.</span></p>",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "updated_at": "2024-09-22T23:24:30.360834Z",
+        "id": 7157,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "summary": "<p><span lang=\"EN-GB\" style=\"font-size: 11.0pt; line-height: 107%; font-family: 'Aptos',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Aptos; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">On September 14, 2024, the counties of Galați and Vaslui were hit by flash floods, with over 150 liters of rainfall per square meter recorded in less than 24 hours across several localities. The most affected area is Galați, specifically the localities of Cudalbi, Cuza-Vodă, Pechea, Slobozia-Conachi, Tudor Vladimirescu and Costache Negri, where floodwaters reached depths of 1.5 to 2 meters in some places. Over 6,000 houses have been either destroyed or partially damaged, 7 people died and thousands of residents have been evacuated from high-risk zones. Severe weather conditions are expected to persist, heightening the risk of further escalation.</span></p>",
+        "name": "ROU: Flood - 09-2024 - Cyclone Boris",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

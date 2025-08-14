@@ -1,0 +1,458 @@
+{
+  "assessment_metadata": {
+    "assessment_date": "2025-08-14T00:08:17.711133",
+    "assessor_version": "2.0",
+    "quality_standards": {
+      "completeness_threshold": 0.7,
+      "accuracy_threshold": 0.8,
+      "consistency_threshold": 0.85,
+      "timeliness_months": 60,
+      "outlier_std_threshold": 3.0,
+      "field_reports_match_threshold": 0.6
+    }
+  },
+  "disasters_quality": {
+    "total_records": 1838,
+    "completeness": {
+      "field_completeness": {
+        "disaster_id": 1.0,
+        "name": 1.0,
+        "disaster_type": 1.0,
+        "start_date": 1.0,
+        "country_name": 1.0,
+        "people_affected": 0.05930359085963003,
+        "medical_people_injured": 0.0,
+        "medical_people_dead": 0.0,
+        "medical_field_reports_count": 0.8443960826985855,
+        "medical_medical_needs": 1.0
+      },
+      "overall_score": 0.6903699673558215,
+      "meets_threshold": false
+    },
+    "accuracy": {
+      "accuracy_issues": {
+        "value_range_violations": 0,
+        "negative_values": 0,
+        "suspicious_zeros": 86,
+        "date_format_errors": 0,
+        "outliers": 23
+      },
+      "overall_score": 0.988139281828074,
+      "meets_threshold": true
+    },
+    "consistency": {
+      "consistency_issues": {
+        "duplicate_ids": 81,
+        "inconsistent_names": 0,
+        "country_mismatch": 0,
+        "date_inconsistencies": 0
+      },
+      "overall_score": 0.955930359085963,
+      "meets_threshold": true
+    },
+    "timeliness": {
+      "total_records": 1838,
+      "parseable_dates": 1838,
+      "recent_records": 1792,
+      "timeliness_score": 0.9749727965179543,
+      "threshold_months": 60,
+      "meets_threshold": true
+    },
+    "medical_needs_quality": {
+      "total_disasters": 1838,
+      "medical_data_coverage": 0.5212187159956474,
+      "field_reports_coverage": 0.8443960826985855,
+      "field_reports_match_rate": 0.7921517895644674,
+      "field_reports_matched": 1837,
+      "field_reports_total": 2319,
+      "overall_score": 0.7192555294195667,
+      "meets_threshold": true
+    },
+    "overall_score": 0.6707390275378851,
+    "quality_level": "Poor"
+  },
+  "facilities_quality": {
+    "total_records": 270,
+    "completeness": {
+      "field_completeness": {
+        "facility_id": 1.0,
+        "facility_name": 1.0,
+        "country_name": 1.0,
+        "facility_type_name": 1.0
+      },
+      "overall_score": 1.0
+    },
+    "accuracy": {
+      "accuracy_issues": 0,
+      "total_checks": 540,
+      "overall_score": 1.0
+    },
+    "overall_score": 1.0,
+    "quality_level": "Excellent"
+  },
+  "integration_quality": {
+    "disaster_countries_count": 167,
+    "facility_countries_count": 270,
+    "common_countries_count": 7,
+    "integration_metrics": {
+      "country_coverage": 0.041916167664670656,
+      "data_correspondence": 0.041916167664670656,
+      "geographic_consistency": 1.0
+    },
+    "overall_score": 0.36127744510978044,
+    "quality_level": "Very Poor"
+  },
+  "features_quality": {
+    "total_records": 1757,
+    "total_features": 65,
+    "numeric_features_count": 54,
+    "feature_quality_details": {
+      "people_affected": {
+        "non_zero_ratio": 0.056915196357427436,
+        "variance": 1220355777886.1807,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "people_injured": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "people_dead": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "people_displaced": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "total_casualties": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "casualty_rate": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "displacement_rate": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "severity_score": {
+        "non_zero_ratio": 0.056915196357427436,
+        "variance": 2.853020509868006,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "field_reports_count": {
+        "non_zero_ratio": 0.8747865680136596,
+        "variance": 4.501492525709828,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "has_field_assessment": {
+        "non_zero_ratio": 0.8747865680136596,
+        "variance": 0.10953502843654248,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "total_injured_reported": {
+        "non_zero_ratio": 0.28628343767785996,
+        "variance": 294843365.3569354,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "total_dead_reported": {
+        "non_zero_ratio": 0.2578258394991463,
+        "variance": 8768367.37413886,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "total_affected_reported": {
+        "non_zero_ratio": 0.30961866818440525,
+        "variance": 502500384316.844,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "total_assisted": {
+        "non_zero_ratio": 0.1861126920887877,
+        "variance": 140325237432.1574,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "has_medical_response": {
+        "non_zero_ratio": 0.0022766078542970974,
+        "variance": 0.0022714249109748513,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "medical_facilities_mentioned": {
+        "non_zero_ratio": 0.0011383039271485487,
+        "variance": 0.0011370081913179865,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "evacuation_mentioned": {
+        "non_zero_ratio": 0.0011383039271485487,
+        "variance": 0.0011370081913179865,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "medical_need_intensity": {
+        "non_zero_ratio": 0.16277746158224246,
+        "variance": 0.019680028980313978,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "assistance_coverage": {
+        "non_zero_ratio": 0.07512805919180421,
+        "variance": 0.019748141003323203,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "field_reports_completeness": {
+        "non_zero_ratio": 0.7222538417757541,
+        "variance": 0.1998019354666483,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "year": {
+        "non_zero_ratio": 1.0,
+        "variance": 2.2427347282145504,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "month": {
+        "non_zero_ratio": 1.0,
+        "variance": 11.539865418397957,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "is_weekend": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "is_holiday_season": {
+        "non_zero_ratio": 0.35401252134319866,
+        "variance": 0.22868765607542996,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "days_since_year_start": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "season_encoded": {
+        "non_zero_ratio": 1.0,
+        "variance": 1.241052539172524,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "month_sin": {
+        "non_zero_ratio": 1.0,
+        "variance": 0.5012882135521372,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "month_cos": {
+        "non_zero_ratio": 1.0,
+        "variance": 0.4952981993562775,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "country_id": {
+        "non_zero_ratio": 1.0,
+        "variance": 3989.727427067079,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "region_id": {
+        "non_zero_ratio": 0.6697038724373576,
+        "variance": 1.4924982228195163,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "is_landlocked": {
+        "non_zero_ratio": 0.11041548093340922,
+        "variance": 0.09822390250365318,
+        "has_outliers": false,
+        "quality_score": 1.0
+      },
+      "facilities_count_in_country": {
+        "non_zero_ratio": 0.055776892430278883,
+        "variance": 144.32189058223562,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "total_bed_capacity": {
+        "non_zero_ratio": 0.020489470688673878,
+        "variance": 57.88751134173768,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "total_staff": {
+        "non_zero_ratio": 0.0421172453044963,
+        "variance": 43235.18741425873,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "hospital_count": {
+        "non_zero_ratio": 0.01195219123505976,
+        "variance": 0.013502863090284608,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "clinic_count": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "beds_per_affected": {
+        "non_zero_ratio": 0.020489470688673878,
+        "variance": 48324849.4178534,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "staff_per_affected": {
+        "non_zero_ratio": 0.0421172453044963,
+        "variance": 41102032754.50959,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "resource_adequacy_score": {
+        "non_zero_ratio": 0.0421172453044963,
+        "variance": 0.021454708398336218,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "amount_requested": {
+        "non_zero_ratio": 0.305065452475811,
+        "variance": 714157818715098.5,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "amount_funded": {
+        "non_zero_ratio": 0.305065452475811,
+        "variance": 179742297651875.4,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "funding_coverage": {
+        "non_zero_ratio": 0.305065452475811,
+        "variance": 0.1923055919757165,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "appeals_count": {
+        "non_zero_ratio": 0.3079112122936824,
+        "variance": 0.2345217066525345,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "has_active_appeal": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "emergency_response": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "funding_per_affected": {
+        "non_zero_ratio": 0.305065452475811,
+        "variance": 4186605826403.64,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "appeal_effectiveness": {
+        "non_zero_ratio": 0.305065452475811,
+        "variance": 0.18917919794727836,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "response_speed_score": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "funding_gap": {
+        "non_zero_ratio": 0.04780876494023904,
+        "variance": 190498044198282.6,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "severity_medical_ratio": {
+        "non_zero_ratio": 0.009675583380762664,
+        "variance": 46599761.957192,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "casualties_per_report": {
+        "non_zero_ratio": 0.0,
+        "variance": 0.0,
+        "has_outliers": false,
+        "quality_score": 0.0
+      },
+      "seasonal_severity_impact": {
+        "non_zero_ratio": 0.056915196357427436,
+        "variance": 21.59883044585586,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "monthly_pattern_severity": {
+        "non_zero_ratio": 0.056915196357427436,
+        "variance": 1.572829674916098,
+        "has_outliers": true,
+        "quality_score": 1.0
+      },
+      "seasonal_medical_demand": {
+        "non_zero_ratio": 0.16277746158224246,
+        "variance": 0.14959027324755814,
+        "has_outliers": true,
+        "quality_score": 1.0
+      }
+    },
+    "overall_score": 0.7592592592592593,
+    "quality_level": "Fair"
+  },
+  "overall_quality": {
+    "overall_score": 0.6924029518889621,
+    "quality_level": "Poor",
+    "component_scores": {
+      "disasters": 0.6707390275378851,
+      "facilities": 1.0,
+      "integration": 0.36127744510978044,
+      "features": 0.7592592592592593
+    },
+    "readiness_for_ml": {
+      "readiness_level": "Needs Improvement",
+      "recommendation": "数据质量需要改进，建议解决主要质量问题后再训练",
+      "minimum_score_for_ml": 0.7
+    }
+  },
+  "recommendations": [
+    "提高历史灾害数据的完整性，特别是基本字段的填写",
+    "增加医疗设施数据覆盖的国家，提高与灾害数据的匹配度",
+    "优化特征工程过程，提高特征的质量和多样性"
+  ]
+}

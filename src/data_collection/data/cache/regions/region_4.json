@@ -1,0 +1,137 @@
+{
+  "cache_time": "2025-08-10T19:24:13.005247",
+  "cache_key": "regions/region_4",
+  "data": {
+    "links": [
+      {
+        "title": "Field Reports, Offline Template in Arabic",
+        "url": "https://drive.google.com/file/d/1K0S8n_gS3NAkT3CkJSOfxFFt_iNkuZ2l/view?usp=sharing",
+        "id": 41,
+        "show_in_go": false
+      },
+      {
+        "title": "GO Flyer in Arabic",
+        "url": "https://drive.google.com/file/d/1Tzu0D67UFu-EfRLDAL0R_EIWNq2nUzzi/view?usp=sharing",
+        "id": 42,
+        "show_in_go": false
+      },
+      {
+        "title": "GO 3W, Guidance Document in Arabic",
+        "url": "https://drive.google.com/file/d/1GPlIBIk4GPbLOA9xHDCzgyfamkM1DZk0/view?usp=sharing",
+        "id": 43,
+        "show_in_go": false
+      },
+      {
+        "title": "GO User Guide in Arabic",
+        "url": "https://drive.google.com/file/d/1t5x2AxvPaQz8Dm80xn3uyHqCA582h0T8/view?usp=sharing",
+        "id": 44,
+        "show_in_go": false
+      },
+      {
+        "title": "GO Admin Guide in Arabic",
+        "url": "https://drive.google.com/file/d/1Fq-ntlIjKe7vDuInRots5nV84sJX-wOj/view?usp=sharing",
+        "id": 45,
+        "show_in_go": false
+      }
+    ],
+    "contacts": [
+      {
+        "ctype": "",
+        "name": "Hosam Faysal",
+        "title": "Head of DCPRR Unit",
+        "email": "hosam.faysal@ifrc.org",
+        "id": 46
+      },
+      {
+        "ctype": "",
+        "name": "Raja Assaf",
+        "title": "Senior Response Officer",
+        "email": "raja.assaf@ifrc.org",
+        "id": 48
+      },
+      {
+        "ctype": "",
+        "name": "Bouchra Saba",
+        "title": "Information Management & Visualization Officer",
+        "email": "Bouchra.saba@ifrc.org",
+        "id": 47
+      }
+    ],
+    "snippets": [
+      {
+        "region": 4,
+        "image": null,
+        "visibility": 3,
+        "visibility_display": "Public",
+        "id": 19,
+        "snippet": "<p><a href=\"https://prddsgofilestorage.blob.core.windows.net/api/documents/MENA_-_Climate_Fact_Sheet/MENA_CC_NARRATIVE_DRAFT_-_EN.pdf\" data-jzz-gui-player=\"true\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://prddsgofilestorage.blob.core.windows.net/api/tinymce/region4snippet.png\" alt=\"\" /></a></p>",
+        "translation_module_original_language": "en"
+      },
+      {
+        "region": 4,
+        "image": null,
+        "visibility": 3,
+        "visibility_display": "Public",
+        "id": 14,
+        "snippet": "<br /><iframe src=\"https://app.powerbi.com/view?r=eyJrIjoiZWQ4MWY5ZDItOTNjOC00NTAyLWEzMDMtZjRjNTA4MjFlNTdmIiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9&amp;pageName=ReportSection\" width=\"1200\" height=\"800\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>",
+        "translation_module_original_language": "en"
+      },
+      {
+        "region": 4,
+        "image": null,
+        "visibility": 3,
+        "visibility_display": "Public",
+        "id": 20,
+        "snippet": "",
+        "translation_module_original_language": "en"
+      },
+      {
+        "region": 4,
+        "image": null,
+        "visibility": 3,
+        "visibility_display": "Public",
+        "id": 24,
+        "snippet": "",
+        "translation_module_original_language": "en"
+      }
+    ],
+    "emergency_snippets": [],
+    "profile_snippets": [],
+    "preparedness_snippets": [],
+    "name": 4,
+    "region_name": "Middle East & North Africa",
+    "id": 4,
+    "country_plan_count": 11,
+    "national_society_count": 17,
+    "country_cluster_count": 0,
+    "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -29.826416015646156,
+            10.082644243860525
+          ],
+          [
+            -29.826416015646156,
+            52.446089149543006
+          ],
+          [
+            72.20141321303814,
+            52.446089149543006
+          ],
+          [
+            72.20141321303814,
+            10.082644243860525
+          ],
+          [
+            -29.826416015646156,
+            10.082644243860525
+          ]
+        ]
+      ]
+    },
+    "additional_tab_name": "",
+    "translation_module_original_language": "en"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "cache_time": "2025-08-13T18:02:35.280513",
+  "cache_key": "historical_disasters/country_154_events",
+  "data": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": {
+          "id": 12,
+          "summary": "",
+          "name": "Flood",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "SK",
+            "iso3": "SVK",
+            "id": 154,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 3,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DSK001",
+            "average_household_size": null,
+            "society_name": "Slovak Red Cross",
+            "name": "Slovakia",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2024-09-14T00:00:00Z",
+        "created_at": "2024-09-19T08:29:57.353143Z",
+        "auto_generated": true,
+        "appeals": [],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [
+          {
+            "status": 9,
+            "contacts": [
+              {
+                "ctype": "Federation",
+                "name": "Spela Juntunen",
+                "title": "IFRC Slovakia Operations Manager",
+                "email": "spela.juntunen@ifrc.org",
+                "phone": "00421904241984",
+                "id": 53199
+              },
+              {
+                "ctype": "Originator",
+                "name": "Katarina Rakicka",
+                "title": "SRC Operations Manager",
+                "email": "katarina.rakicka@redcross.sk",
+                "phone": "00393337497133",
+                "id": 53200
+              },
+              {
+                "ctype": "NationalSociety",
+                "name": "Zuzana Rosiarova",
+                "title": "SRC Secretary General",
+                "email": "zuzana.rosiarova@redcross.sk",
+                "phone": "00421903558906",
+                "id": 53201
+              }
+            ],
+            "countries": [
+              {
+                "iso": "SK",
+                "iso3": "SVK",
+                "id": 154,
+                "record_type": 1,
+                "record_type_display": "Country",
+                "region": 3,
+                "independent": true,
+                "is_deprecated": false,
+                "fdrs": "DSK001",
+                "average_household_size": null,
+                "society_name": "Slovak Red Cross",
+                "name": "Slovakia",
+                "translation_module_original_language": "en"
+              }
+            ],
+            "created_at": "2024-09-19T08:29:56.726877Z",
+            "updated_at": "2024-09-19T15:22:14.061233Z",
+            "report_date": "2024-09-19T08:29:56.725620Z",
+            "id": 17259,
+            "is_covid_report": false,
+            "num_injured": null,
+            "num_dead": 0,
+            "num_missing": 0,
+            "num_affected": 0,
+            "num_displaced": 0,
+            "epi_num_dead": null,
+            "num_assisted": null,
+            "num_localstaff": null,
+            "num_volunteers": null,
+            "num_expats_delegates": null,
+            "gov_num_injured": 0,
+            "gov_num_dead": 0,
+            "gov_num_missing": 0,
+            "gov_num_affected": 500,
+            "gov_num_displaced": 250,
+            "gov_num_assisted": null,
+            "other_num_injured": 0,
+            "other_num_dead": 0,
+            "other_num_missing": 0,
+            "other_num_affected": null,
+            "other_num_displaced": null,
+            "other_num_assisted": null,
+            "num_potentially_affected": null,
+            "gov_num_potentially_affected": null,
+            "other_num_potentially_affected": null,
+            "num_highest_risk": null,
+            "gov_num_highest_risk": null,
+            "other_num_highest_risk": null,
+            "affected_pop_centres": null,
+            "gov_affected_pop_centres": null,
+            "other_affected_pop_centres": null,
+            "epi_cases": null,
+            "epi_suspected_cases": null,
+            "epi_probable_cases": null,
+            "epi_confirmed_cases": null,
+            "epi_figures_source": null,
+            "epi_figures_source_display": null,
+            "epi_cases_since_last_fr": null,
+            "epi_deaths_since_last_fr": null,
+            "epi_notes_since_last_fr": "",
+            "visibility": 3,
+            "visibility_display": "Public",
+            "request_assistance": false,
+            "ns_request_assistance": false,
+            "notes_health": "",
+            "notes_ns": "",
+            "notes_socioeco": "",
+            "recent_affected": 1,
+            "summary": "SVK: Flood - 09-2024 - Storm Boris",
+            "description": "<p class=\"MsoNormal\"><strong><span lang=\"EN-US\">16th  September 2024 update</span></strong></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The weather forecast for the week of September 9th provided information on potential heavy rains in Slovakia as storm Boris was proceeding through European countries. Rainfalls were expected from Thursday, September 12th, with the culmination of perturbation on Saturday, September 14th, or Sunday, September 15th. The expected heavy areas were in west and northwest Slovakia, close to the Czech and Polish border and on the lower Danube. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Since Thursday, the Slovak Hydrometeorological Institute has collocated different districts in Slovakia into yellow, orange, or red zones (3rd level of flood alert) during the weekend in the districts of Skalica, Senica, Malacky, Bratislava, Senec, Dunajska Streda, Komarno, and Nove Zamky. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><img src=\"https://prddsgofilestorage.blob.core.windows.net/api/images/7154a.gif\" alt=\"A map of a country\r\n\r\nDescription automatically generated\" width=\"452\" height=\"228\"></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The map from Monday 16<sup>th</sup> of September. <a href=\"https://www.shmu.sk/sk/?page=1680\">https://www.shmu.sk/sk/?page=1680</a></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The level of the Kysuca River has risen dangerously due to persistent rainfall (Cadca and Kysucke Nove mesto) The Slovak Hydrometeorological Institute has issued a warning for the Cadca District- 3rd level of flood activity, which is valid from Sunday 15 September from 2:00 to Monday 16 September at 10:00. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">From Friday onwards, the most affected areas are Zahorie (Skalica, Senica, and Malacky) and Myjava, as heavy precipitation was also complicated by the strong wind. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The regional branches in the affected areas are actively participating in the local crisis management boards led by the district offices. So far, </span><span lang=\"EN-US\">besides the Bratislava branch, which received the order from the district office, no</span><span lang=\"EN-US\">assistance has been requested, as the primary focus is on the heavy machinery and equipment for the firefighters who need to enter the affected areas. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">As the rainfall in Austria was heavier than expected the situation on the Danube River became more alarming. The Danube in Bratislava has exceeded the third flood level and is expected to reach 950 centimetres on Tuesday (September 17th). Anti-flood barricades were built on the lower sections of the Danube and in the city centre to prevent the river from entering the city as it was flooding out of the riverbed. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The city of Devin is the most affected area of Bratislava, which is impossible to reach if not by heavy machinery. Approximately 200 households were evacuated from Devinska, Nova Ves, and Kuchyna, villages in the northwestern part of Bratislava, which was heavily affected by the floods. Due to the floods, this area is hard to reach, and people have left their homes individually. This area is at a high risk of landslides.</span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The Bratislava city branch provides the base camp for the first responders (firefighters, police, and army) who are supporting in this affected area. SRC’s volunteers work on rotations, also during the night. They prepare meals for approximately 60 responders. Blankets were also provided. The branch was also requested to assess the situation of the inhabitants, monitor whether they have the medicines they need, and, if necessary, provide the medication so people will not risk leaving their homes. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">In some other affected areas, the population was also requested to evacuate. Still, most people left their houses and moved to friends and family, and the established evacuation centres are mostly empty.</span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The highest third level (red) of alert persists in the western part of Slovakia, in the city of Bratislava, the Bratislava counties, and the towns on the lower course of the Danube River (Nove Zamky and Komarno). </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Since Friday (13 September), more than 100,000 electricity outages have affected more than 100,000 sites in west Slovakia.</span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The worst situation is in Bratislava, Trencin, and Záhorie, where an emergency operating state has been declared. The main cause of the faults is fallen trees and branches on the lines, which are being continuously eliminated to recover.</span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">So far, the overall number of affected people is unknown and is not being communicated, even in the daily situation report shared by the Ministry of Interior. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><img src=\"https://prddsgofilestorage.blob.core.windows.net/api/images/7154b.gif\" width=\"452\" height=\"239\" border=\"0\"></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\r\n<p class=\"MsoNormal\"><strong><span lang=\"EN-US\">Update 18<sup>th</sup> September 2024</span></strong></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">As of September 18, 2024, the situation is improving in most of the affected areas but remains critical in Devinska Nova ves (Bratislava County). </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">As per information reported by the regional branches in the most affected areas:</span></p>\r\n<p class=\"MsoListParagraphCxSpFirst\"><!-- [if !supportLists]--><span lang=\"EN-US\">1.        </span><!--[endif]--><span lang=\"EN-US\">Cadca—The river Kysuce and other small rivers are returning to the riverbeds, and the count of the damages is about to start. Several bridges need to be assessed, and approximately 100 households have been affected, mostly in the surrounding villages. The branch is still working on removing the damage and sanitation of the premises.</span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">2.        </span><!--[endif]--><span lang=\"EN-US\">Senica and Skalica district—The Senica branch has participated in the crisis management board in the Senica region. Water is entering the riverbed. The branch director is in touch with the three villages most affected and will deliver the packed water and cleaning items for the affected families. She is also in touch with the local branches to assess their needs. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">3.        </span><!--[endif]--><span lang=\"EN-US\">The Dunajska Streda branch has participated in the crisis management board; so far, no engagement has been requested, mostly from firefighters and volunteer firefighters. The third level of alert was called off. Local branches provided hot drinks to the affected people and the first responders. The count of the damages is starting, as is the cleaning of the basements of the flooded houses. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">4.        </span><!--[endif]--><span lang=\"EN-US\">Senec (Bratislava okolie)—The branch is delivering packed drinking water and cleaning products. The overall situation is improving, and the branch will engage with the mayors of the most affected villages to learn the needs of the population. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">5.        </span><!--[endif]--><span lang=\"EN-US\">Komarno—so far, it has not been heavily affected, as no river has flooded out of the riverbed. However, the situation is expected to worsen in a few days as the levels of the underground water rise and damage people's properties. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">6.        </span><!--[endif]--><span lang=\"EN-US\">Bratislava – branch is engaged in participating in the regional crisis management board and the municipality-driven response. Since Monday, the 16th of September, the branch has been providing support services for the first responders engaged in alleviating the situation in Devinska Nova Ves. More than 100 households were isolated in this part of Bratislava County. Food, drinks, and a base camp for the first responders were established at the cultural centre house, and the branch staff and volunteers assessed the health needs of the isolated population in terms of the availability of medication. No financial support is needed as the branch is operational under the order from District, and all the expenses are covered. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">7.        </span><!--[endif]--><span lang=\"EN-US\">Coordination with the NGO sector—The NGO sector is engaged in coordination groups that have regular online meetings. Ipcko (MHPSS crisis intervention organization), Adra, Charita, People in Need, and others are participating and informing about their response.</span></p>\r\n<p class=\"MsoListParagraphCxSpLast\"><!-- [if !supportLists]--><span lang=\"EN-US\">8.        </span><!--[endif]--><span lang=\"EN-US\">SRC has engaged with several donors for packed drinking water, disinfection items, and some other NFIs that can be distributed to the people. No public appeal was opened. The engagement with the donor continues according to the requests from the field. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "updated_at": "2024-09-19T15:18:31.009905Z",
+        "id": 7154,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "summary": "<p class=\"MsoNormal\"><strong><span lang=\"EN-US\">16th  September 2024 update</span></strong></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The weather forecast for the week of September 9th provided information on potential heavy rains in Slovakia as storm Boris was proceeding through European countries. Rainfalls were expected from Thursday, September 12th, with the culmination of perturbation on Saturday, September 14th, or Sunday, September 15th. The expected heavy areas were in west and northwest Slovakia, close to the Czech and Polish border and on the lower Danube. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Since Thursday, the Slovak Hydrometeorological Institute has collocated different districts in Slovakia into yellow, orange, or red zones (3rd level of flood alert) during the weekend in the districts of Skalica, Senica, Malacky, Bratislava, Senec, Dunajska Streda, Komarno, and Nove Zamky. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><img src=\"https://prddsgofilestorage.blob.core.windows.net/api/images/7154a.gif\" alt=\"A map of a country\r\n\r\nDescription automatically generated\" width=\"452\" height=\"228\"></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The map from Monday 16<sup>th</sup> of September. <a href=\"https://www.shmu.sk/sk/?page=1680\">https://www.shmu.sk/sk/?page=1680</a></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The level of the Kysuca River has risen dangerously due to persistent rainfall (Cadca and Kysucke Nove mesto) The Slovak Hydrometeorological Institute has issued a warning for the District of <a href=\"https://www.zilinak.sk/lokality/cadca\"><strong>Čadca</strong></a> - 3rd level of flood activity, which is valid from Sunday 15 September from 2:00 to Monday 16 September at 10:00. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">From Friday onwards, the most affected areas are Zahorie (Skalica, Senica, and Malacky) and Myjava, as heavy precipitation was also complicated by the strong wind. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The regional branches in the affected areas are actively participating in the local crisis management boards led by the district offices. So far, </span><span lang=\"EN-US\">besides the Bratislava branch, which received the order from the district office, no</span><span lang=\"EN-US\">assistance has been requested, as the primary focus is on the heavy machinery and equipment for the firefighters who need to enter the affected areas. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">As the rainfall in Austria was heavier than expected the situation on the Danube River became more alarming. The Danube in Bratislava has exceeded the third flood level and is expected to reach 950 centimetres on Tuesday (September 17th). Anti-flood barricades were built on the lower sections of the Danube and in the city centre to prevent the river from entering the city as it was flooding out of the riverbed. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The city of Devin is the most affected area of Bratislava, which is impossible to reach if not by heavy machinery. Approximately 200 households were evacuated from Devinska, Nova Ves, and Kuchyna, villages in the northwestern part of Bratislava, which was heavily affected by the floods. Due to the floods, this area is hard to reach, and people have left their homes individually. This area is at a high risk of landslides.</span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The Bratislava city branch provides the base camp for the first responders (firefighters, police, and army) who are supporting in this affected area. SRC’s volunteers work on rotations, also during the night. They prepare meals for approximately 60 responders. Blankets were also provided. The branch was also requested to assess the situation of the inhabitants, monitor whether they have the medicines they need, and, if necessary, provide the medication so people will not risk leaving their homes. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">In some other affected areas, the population was also requested to evacuate. Still, most people left their houses and moved to friends and family, and the established evacuation centres are mostly empty.</span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The highest third level (red) of alert persists in the western part of Slovakia, in the city of Bratislava, the Bratislava counties, and the towns on the lower course of the Danube River (Nove Zamky and Komarno). </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Since Friday (13 September), more than 100,000 electricity outages have affected more than 100,000 sites in west Slovakia.</span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The worst situation is in Bratislava, Trencin, and Záhorie, where an emergency operating state has been declared. The main cause of the faults is fallen trees and branches on the lines, which are being continuously eliminated to recover.</span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">So far, the overall number of affected people is unknown and is not being communicated, even in the daily situation report shared by the Ministry of Interior. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><img src=\"https://prddsgofilestorage.blob.core.windows.net/api/images/7154b.gif\" width=\"452\" height=\"239\" border=\"0\"></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\r\n<p class=\"MsoNormal\"><strong><span lang=\"EN-US\">Update 18<sup>th</sup> September 2024</span></strong></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">As of September 18, 2024, the situation is improving in most of the affected areas but remains critical in Devinska Nova ves (Bratislava County). </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\">As per information reported by the regional branches in the most affected areas:</span></p>\r\n<p class=\"MsoListParagraphCxSpFirst\"><!-- [if !supportLists]--><span lang=\"EN-US\">1.        </span><!--[endif]--><span lang=\"EN-US\">Cadca—The river Kysuce and other small rivers are returning to the riverbeds, and the count of the damages is about to start. Several bridges need to be assessed, and approximately 100 households have been affected, mostly in the surrounding villages. The branch is still working on removing the damage and sanitation of the premises.</span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">2.        </span><!--[endif]--><span lang=\"EN-US\">Senica and Skalica district—The Senica branch has participated in the crisis management board in the Senica region. Water is entering the riverbed. The branch director is in touch with the three villages most affected and will deliver the packed water and cleaning items for the affected families. She is also in touch with the local branches to assess their needs. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">3.        </span><!--[endif]--><span lang=\"EN-US\">The Dunajska Streda branch has participated in the crisis management board; so far, no engagement has been requested, mostly from firefighters and volunteer firefighters. The third level of alert was called off. Local branches provided hot drinks to the affected people and the first responders. The count of the damages is starting, as is the cleaning of the basements of the flooded houses. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">4.        </span><!--[endif]--><span lang=\"EN-US\">Senec (Bratislava okolie)—The branch is delivering packed drinking water and cleaning products. The overall situation is improving, and the branch will engage with the mayors of the most affected villages to learn the needs of the population. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">5.        </span><!--[endif]--><span lang=\"EN-US\">Komarno—so far, it has not been heavily affected, as no river has flooded out of the riverbed. However, the situation is expected to worsen in a few days as the levels of the underground water rise and damage people's properties. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">6.        </span><!--[endif]--><span lang=\"EN-US\">Bratislava – branch is engaged in participating in the regional crisis management board and the municipality-driven response. Since Monday, the 16th of September, the branch has been providing support services for the first responders engaged in alleviating the situation in Devinska Nova Ves. More than 100 households were isolated in this part of Bratislava County. Food, drinks, and a base camp for the first responders were established at the cultural centre house, and the branch staff and volunteers assessed the health needs of the isolated population in terms of the availability of medication. No financial support is needed as the branch is operational under the order from District, and all the expenses are covered. </span></p>\r\n<p class=\"MsoListParagraphCxSpMiddle\"><!-- [if !supportLists]--><span lang=\"EN-US\">7.        </span><!--[endif]--><span lang=\"EN-US\">Coordination with the NGO sector—The NGO sector is engaged in coordination groups that have regular online meetings. Ipcko (MHPSS crisis intervention organization), Adra, Charita, People in Need, and others are participating and informing about their response.</span></p>\r\n<p class=\"MsoListParagraphCxSpLast\"><!-- [if !supportLists]--><span lang=\"EN-US\">8.        </span><!--[endif]--><span lang=\"EN-US\">SRC has engaged with several donors for packed drinking water, disinfection items, and some other NFIs that can be distributed to the people. No public appeal was opened. The engagement with the donor continues according to the requests from the field. </span></p>\r\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>",
+        "name": "SVK: Flood - 09-2024 - Storm Boris",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

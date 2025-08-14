@@ -1,0 +1,88 @@
+{
+  "cache_time": "2025-08-10T19:24:12.833446",
+  "cache_key": "regions/region_2",
+  "data": {
+    "links": [],
+    "contacts": [
+      {
+        "ctype": "",
+        "name": "Felipe Delcid",
+        "title": "Manager, Emergency Operation Coordination and Information Management",
+        "email": "felipe.delcid@ifrc.org",
+        "id": 58
+      },
+      {
+        "ctype": "",
+        "name": "Dedi Junadi",
+        "title": "Information Management Coordinator",
+        "email": "dedi.junadi@ifrc.org",
+        "id": 59
+      }
+    ],
+    "snippets": [
+      {
+        "region": 2,
+        "image": null,
+        "visibility": 3,
+        "visibility_display": "Public",
+        "id": 44,
+        "snippet": "",
+        "translation_module_original_language": "en"
+      }
+    ],
+    "emergency_snippets": [
+      {
+        "region": 2,
+        "id": 2,
+        "snippet": "<p><iframe title=\"Landing Page GO\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMjExY2I0MDgtYjVhZC00MGFkLTlmOTAtMzdjODU0MzM3NzA2IiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9\" width=\"1500\" height=\"900\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+        "title": "",
+        "translation_module_original_language": "en"
+      }
+    ],
+    "profile_snippets": [
+      {
+        "region": 2,
+        "id": 2,
+        "snippet": "<p><iframe src=\"https://app.powerbi.com/view?r=eyJrIjoiMjExY2I0MDgtYjVhZC00MGFkLTlmOTAtMzdjODU0MzM3NzA2IiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9\" width=\"1500\" height=\"1542\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+        "title": "Asia Pacific Analytical Dashboards",
+        "translation_module_original_language": "en"
+      }
+    ],
+    "preparedness_snippets": [],
+    "name": 2,
+    "region_name": "Asia Pacific",
+    "id": 2,
+    "country_plan_count": 32,
+    "national_society_count": 38,
+    "country_cluster_count": 0,
+    "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            179.2968749750338,
+            54.876606648830084
+          ],
+          [
+            179.9999999749438,
+            -60.84491056841566
+          ],
+          [
+            54.49218749241115,
+            -61.01572480874713
+          ],
+          [
+            57.656249991970135,
+            55.47885345802725
+          ],
+          [
+            179.2968749750338,
+            54.876606648830084
+          ]
+        ]
+      ]
+    },
+    "additional_tab_name": "",
+    "translation_module_original_language": "en"
+  }
+}

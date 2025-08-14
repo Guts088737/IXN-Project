@@ -1,0 +1,209 @@
+{
+  "cache_time": "2025-08-13T18:02:04.487136",
+  "cache_key": "historical_disasters/country_186_events",
+  "data": {
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": {
+          "id": 1,
+          "name": "Epidemic",
+          "summary": "",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "KM",
+            "iso3": "COM",
+            "id": 186,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 0,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DKM001",
+            "average_household_size": null,
+            "society_name": "The Comoros Red Crescent",
+            "name": "Comoros",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2024-02-19T00:00:00Z",
+        "created_at": "2024-02-28T08:56:41.135932Z",
+        "auto_generated": false,
+        "appeals": [
+          {
+            "aid": "18196",
+            "num_beneficiaries": 330000,
+            "amount_requested": 685250.0,
+            "code": "MDRKM011",
+            "amount_funded": 685250.0,
+            "status": 0,
+            "status_display": "Active",
+            "start_date": "2024-02-19T00:00:00Z",
+            "end_date": "2025-01-31T00:00:00Z",
+            "sector": "Country cluster for Madagascar, Comoro Islands, Mauritius and Seychelles",
+            "atype": 0,
+            "atype_display": "DREF",
+            "id": 3849,
+            "translation_module_original_language": "en"
+          }
+        ],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [],
+        "updated_at": "2024-02-28T08:56:41.135944Z",
+        "id": 6885,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "name": "COM: 2024 Cholera Outbreak",
+        "summary": "<p>Following confirmed tests, the Comoros Ministry of Health declared a cholera epidemic on Friday, February 2, 2024, at 8 p.m. local time. A Cholera Treatment Center (CTC) has been activated in Samba to treat cholera cases (hospital on the outskirts of Moroni). This has been confirmed by the Dar Es Alam Laboratory and reaffirmed by the Comoros Ministry of Health. The spread of cholera is progressing steadily. The first locally transmitted cases appeared on Monday, February 5, 2024. As of February 11, a total of 33 cases were confirmed (13 being treated in the CTC, and 2 deaths registered from Grande Comores).</p>\r\n<p>The Comoros Red Crescent is playing a central role in this epidemic. It is recognized as the entity with the most experience and is therefore very much in demand/expected to take part in many activities. The authorities have requested support from the Comoros Red Crescent for various activities:</p>\r\n<p>● Disinfection of homes of patients and contacts.</p>\r\n<p>● Raising public awareness.</p>\r\n<p>● Training health staff.</p>\r\n<p>● Supporting the management and cleaning of cholera treatment centres (CTCs).</p>\r\n<p>● Cholera burials.</p>",
+        "translation_module_original_language": "en"
+      },
+      {
+        "dtype": {
+          "id": 7,
+          "name": "Civil Unrest",
+          "summary": "",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "KM",
+            "iso3": "COM",
+            "id": 186,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 0,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DKM001",
+            "average_household_size": null,
+            "society_name": "The Comoros Red Crescent",
+            "name": "Comoros",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2024-01-25T00:00:00Z",
+        "created_at": "2024-01-29T09:54:14.307443Z",
+        "auto_generated": false,
+        "appeals": [
+          {
+            "aid": "18160",
+            "num_beneficiaries": 1000,
+            "amount_requested": 66310.0,
+            "code": "MDRKM010",
+            "amount_funded": 66310.0,
+            "status": 1,
+            "status_display": "Closed",
+            "start_date": "2024-01-25T00:00:00Z",
+            "end_date": "2024-02-29T00:00:00Z",
+            "sector": "Country cluster for Madagascar, Comoro Islands, Mauritius and Seychelles",
+            "atype": 0,
+            "atype_display": "DREF",
+            "id": 3835,
+            "translation_module_original_language": "en"
+          }
+        ],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [],
+        "updated_at": "2024-01-29T09:55:28.773268Z",
+        "id": 6843,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "name": "COM: 01-2024 Post-Election Civil Unrest",
+        "summary": "<p>After the elections organized on 14th January 2024 in the Union of Comoros, the provisional results of the elections for the President of the Union of the Comoros and the 3 Governors were announced at 7 p.m. on Tuesday 16th January 2024. The outgoing President and his 3 Governors of the 3 islands won the elections from the first round with a percentage of more than 50% for the Governors and 62,97% for the President, but there was only 16.30% turnout, according to the official figures announced by the Electoral Commission (Céni). This victory should enable him the President to run for a third consecutive term and remain in power until 2029. The opposition, which is calling for the election to be annulled, has denounced gross fraud\" and \"ballot box stuffing, calling the population to protest. Due to that situation, the population began demonstrating, blocking the roads with stones and burning the vehicles and some administrative buildings. The national police and army reacted by spreading the population, using tear gas. On Wednesday 17 January, around 30 people were admitted to El-Maarouf national hospital. Road blockages and clashes between the population and the police/army continued on Thursday 18 January, affecting more injured people who have been assisted by Comoros Red Crescent volunteers. Some of them have been transferred to the hospitals. Most businesses kept their curtains down, schools and markets stayed closed, internet was cut and has been very unstable since then. Buildings were vandalized and set on fire, a rice warehouse was looted, and roads blocked by piles of stones and sticks. A night-time curfew has been in place since Wednesday until an unspecified date. A number of arrests have been made, but no figures have been released. However, there have been protests every day. On 24 January, the supreme court announced of final results of the election confirming the re-election of the previous president and 3 governors. A 5-day curfew has been put in place in the country and a big number of army is deployed in many areas to control and ensure security as more demonstrations are expected to happen since the opposition is contesting the results and all their appeals have been rejected. </p>",
+        "translation_module_original_language": "en"
+      },
+      {
+        "dtype": {
+          "id": 8,
+          "name": "Volcanic Eruption",
+          "summary": "",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "KM",
+            "iso3": "COM",
+            "id": 186,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 0,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DKM001",
+            "average_household_size": null,
+            "society_name": "The Comoros Red Crescent",
+            "name": "Comoros",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2022-09-26T00:00:00Z",
+        "created_at": "2024-04-24T11:36:59.253135Z",
+        "auto_generated": false,
+        "appeals": [
+          {
+            "aid": "16790",
+            "num_beneficiaries": 293610,
+            "amount_requested": 172379.0,
+            "code": "MDRKM009",
+            "amount_funded": 172379.0,
+            "status": 1,
+            "status_display": "Closed",
+            "start_date": "2022-09-21T00:00:00Z",
+            "end_date": "2023-03-31T00:00:00Z",
+            "sector": "Country cluster for Madagascar, Comoro Islands, Mauritius and Seychelles",
+            "atype": 0,
+            "atype_display": "DREF",
+            "id": 3613,
+            "translation_module_original_language": "en"
+          }
+        ],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [],
+        "updated_at": "2024-04-24T11:36:59.253145Z",
+        "id": 6958,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "name": "Comoros - Karthala Volcano Eruption Alert",
+        "summary": "",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

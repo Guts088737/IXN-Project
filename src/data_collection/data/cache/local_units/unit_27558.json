@@ -1,0 +1,219 @@
+{
+  "cache_time": "2025-08-10T19:55:08.762206",
+  "cache_key": "local_units/unit_27558",
+  "data": {
+    "local_branch_name": "Tahia Maskan Hospital",
+    "english_branch_name": "",
+    "type": 2,
+    "country": 14,
+    "created_at": "2024-10-02T08:54:21.206065Z",
+    "modified_at": "2024-10-02T08:54:21.206073Z",
+    "draft": false,
+    "validated": true,
+    "postcode": "",
+    "address_loc": "Afghanistan, PD 17, Kabul city",
+    "address_en": "",
+    "city_loc": "",
+    "city_en": "",
+    "link": "",
+    "location": "SRID=4326;POINT (69.11947600000001 34.553851)",
+    "source_loc": "",
+    "source_en": "",
+    "subtype": "",
+    "date_of_data": "2024-10-02",
+    "level": 3,
+    "health": {
+      "id": 1899390,
+      "health_facility_type_details": {
+        "id": 3,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/hospital.png",
+        "code": 3,
+        "name": "Hospital"
+      },
+      "affiliation_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Red Cross / Red Crescent Facility"
+      },
+      "functionality_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Fully Functional"
+      },
+      "primary_health_care_center_details": null,
+      "hospital_type_details": {
+        "id": 9,
+        "code": 9,
+        "name": "General Hospital"
+      },
+      "general_medical_services_details": [
+        {
+          "id": 1,
+          "code": 1,
+          "name": "Minor Trauma"
+        },
+        {
+          "id": 2,
+          "code": 2,
+          "name": "Outpatient Services"
+        },
+        {
+          "id": 3,
+          "code": 3,
+          "name": "Basic Lab Services"
+        },
+        {
+          "id": 4,
+          "code": 4,
+          "name": "Basic Life Support"
+        },
+        {
+          "id": 5,
+          "code": 5,
+          "name": "Referral Capacity"
+        }
+      ],
+      "specialized_medical_beyond_primary_level_details": [
+        {
+          "id": 1,
+          "code": 1,
+          "name": "Anaesthesiology"
+        },
+        {
+          "id": 4,
+          "code": 4,
+          "name": "Emergency pre hospital care"
+        },
+        {
+          "id": 6,
+          "code": 6,
+          "name": "Intensive Care Medicine"
+        },
+        {
+          "id": 7,
+          "code": 7,
+          "name": "Internal Medicine"
+        },
+        {
+          "id": 8,
+          "code": 8,
+          "name": "Laboratory services advanced"
+        },
+        {
+          "id": 9,
+          "code": 9,
+          "name": "Malnutrition Services"
+        },
+        {
+          "id": 17,
+          "code": 17,
+          "name": "Radiology"
+        },
+        {
+          "id": 20,
+          "code": 20,
+          "name": "Surgical Specialities"
+        }
+      ],
+      "blood_services_details": [
+        {
+          "id": 2,
+          "code": 2,
+          "name": "Blood Testing"
+        },
+        {
+          "id": 5,
+          "code": 5,
+          "name": "Blood Transfusion"
+        }
+      ],
+      "professional_training_facilities_details": [],
+      "modified_by_details": null,
+      "created_by_details": null,
+      "created_at": "2024-10-02T08:53:54.813217Z",
+      "modified_at": "2024-10-02T08:53:54.813224Z",
+      "other_affiliation": null,
+      "focal_point_email": "rohullah.nikmal@arcs.af",
+      "focal_point_phone_number": "93706750269",
+      "focal_point_position": "HMIS manager",
+      "other_facility_type": null,
+      "speciality": null,
+      "is_teaching_hospital": false,
+      "is_in_patient_capacity": true,
+      "is_isolation_rooms_wards": true,
+      "maximum_capacity": 50,
+      "number_of_isolation_rooms": 10,
+      "is_warehousing": true,
+      "is_cold_chain": true,
+      "ambulance_type_a": null,
+      "ambulance_type_b": null,
+      "ambulance_type_c": null,
+      "other_services": null,
+      "total_number_of_human_resource": 90,
+      "general_practitioner": null,
+      "specialist": null,
+      "residents_doctor": null,
+      "nurse": null,
+      "dentist": null,
+      "nursing_aid": null,
+      "midwife": null,
+      "other_medical_heal": false,
+      "other_profiles": null,
+      "feedback": null,
+      "created_by": null,
+      "modified_by": null,
+      "affiliation": 1,
+      "functionality": 1,
+      "health_facility_type": 3,
+      "primary_health_care_center": null,
+      "hospital_type": 9,
+      "general_medical_services": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "specialized_medical_beyond_primary_level": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        17,
+        20
+      ],
+      "blood_services": [
+        2,
+        5
+      ],
+      "professional_training_facilities": []
+    },
+    "visibility_display": "Public",
+    "location_geojson": {
+      "type": "Point",
+      "coordinates": [
+        69.119476,
+        34.553851
+      ]
+    },
+    "type_details": {
+      "name": "Health Care",
+      "code": 2,
+      "id": 2,
+      "colour": "#011e41",
+      "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Healthcare.png"
+    },
+    "level_details": {
+      "name": "District/Regional",
+      "level": 2,
+      "id": 3
+    },
+    "country_details": {
+      "name": "Afghanistan",
+      "iso3": "AFG",
+      "id": 14
+    }
+  }
+}

@@ -93,8 +93,8 @@ def run_data_collection():
 
     try:
         # 导入医疗设施和服务收集器
-        from src.data_collection.medical_facilities_collector import MedicalFacilitiesCollector
-        from src.data_collection.medical_services_collector import MedicalServicesCollector
+        from data_collection.medical_facilities_collector import MedicalFacilitiesCollector
+        from data_collection.medical_services_collector import MedicalServicesCollector
 
         print("🔄 Starting medical data collection...")
 

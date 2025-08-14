@@ -1,0 +1,93 @@
+{
+  "cache_time": "2025-08-10T19:24:12.921353",
+  "cache_key": "regions/region_3",
+  "data": {
+    "links": [],
+    "contacts": [
+      {
+        "ctype": "",
+        "name": "Andreas WEISSENBERG",
+        "title": "Regional Head of HDCC",
+        "email": "andreas.weissenberg@ifrc.org",
+        "id": 66
+      },
+      {
+        "ctype": "",
+        "name": "Jennifer VIBERT",
+        "title": "Manager, Operations Coordination",
+        "email": "jennifer.vibert@ifrc.org",
+        "id": 88
+      },
+      {
+        "ctype": "",
+        "name": "Panu SAARISTO",
+        "title": "Manager, Health and Care",
+        "email": "panu.saaristo@ifrc.org",
+        "id": 87
+      },
+      {
+        "ctype": "",
+        "name": "Raquel FERNANDEZ GIBAJA",
+        "title": "Thematic Lead, Regional Migration Protection and Accountability",
+        "email": "raquel.gibaja@ifrc.org",
+        "id": 106
+      },
+      {
+        "ctype": "",
+        "name": "Krystell SANTAMARIA",
+        "title": "Thematic Lead, Climate and Institutional Preparedness",
+        "email": "krystell.santamaria@ifrc.org",
+        "id": 107
+      }
+    ],
+    "snippets": [
+      {
+        "region": 3,
+        "image": null,
+        "visibility": 3,
+        "visibility_display": "Public",
+        "id": 37,
+        "snippet": "<iframe title=\"Portal_of_DBs\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZjhmZjRiZDctZjBmNy00YzEzLTg2ZDYtMGVlODZlMTA2YjQxIiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9\" width=\"1240\" height=\"720\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>",
+        "translation_module_original_language": "en"
+      }
+    ],
+    "emergency_snippets": [],
+    "profile_snippets": [],
+    "preparedness_snippets": [],
+    "name": 3,
+    "region_name": "Europe",
+    "id": 3,
+    "country_plan_count": 27,
+    "national_society_count": 54,
+    "country_cluster_count": 0,
+    "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -31.82623883791136,
+            20.485532194751677
+          ],
+          [
+            -27.95905133844957,
+            70.67700773369563
+          ],
+          [
+            89.8143861451559,
+            71.47500691896069
+          ],
+          [
+            91.92376114486609,
+            20.485532194751677
+          ],
+          [
+            -31.82623883791136,
+            20.485532194751677
+          ]
+        ]
+      ]
+    },
+    "additional_tab_name": "Regional Information",
+    "translation_module_original_language": "en"
+  }
+}

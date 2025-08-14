@@ -1,0 +1,839 @@
+{
+  "metadata": {
+    "collection_date": "2025-08-10T19:26:27.692049",
+    "collector": "RegionCollector",
+    "config_version": "1.0"
+  },
+  "data": {
+    "regions_list": {
+      "count": 5,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "name": 0,
+          "id": 0,
+          "region_name": "Africa",
+          "bbox": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -32.990478515633654,
+                  -47.08120743260387
+                ],
+                [
+                  -32.990478515633654,
+                  41.72638107989894
+                ],
+                [
+                  67.90795898435853,
+                  41.72638107989894
+                ],
+                [
+                  67.90795898435853,
+                  -47.08120743260387
+                ],
+                [
+                  -32.990478515633654,
+                  -47.08120743260387
+                ]
+              ]
+            ]
+          },
+          "label": "Africa",
+          "translation_module_original_language": "en"
+        },
+        {
+          "name": 1,
+          "id": 1,
+          "region_name": "Americas",
+          "bbox": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -129.72656248194585,
+                  -62.3784884321475
+                ],
+                [
+                  -131.72607420041348,
+                  57.132760819678985
+                ],
+                [
+                  -32.23388671426279,
+                  56.74920841033273
+                ],
+                [
+                  -29.42138671465429,
+                  -61.941965603128835
+                ],
+                [
+                  -129.72656248194585,
+                  -62.3784884321475
+                ]
+              ]
+            ]
+          },
+          "label": "Americas",
+          "translation_module_original_language": "en"
+        },
+        {
+          "name": 2,
+          "id": 2,
+          "region_name": "Asia Pacific",
+          "bbox": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  179.2968749750338,
+                  54.876606648830084
+                ],
+                [
+                  179.9999999749438,
+                  -60.84491056841566
+                ],
+                [
+                  54.49218749241115,
+                  -61.01572480874713
+                ],
+                [
+                  57.656249991970135,
+                  55.47885345802725
+                ],
+                [
+                  179.2968749750338,
+                  54.876606648830084
+                ]
+              ]
+            ]
+          },
+          "label": "Asia Pacific",
+          "translation_module_original_language": "en"
+        },
+        {
+          "name": 3,
+          "id": 3,
+          "region_name": "Europe",
+          "bbox": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -31.82623883791136,
+                  20.485532194751677
+                ],
+                [
+                  -27.95905133844957,
+                  70.67700773369563
+                ],
+                [
+                  89.8143861451559,
+                  71.47500691896069
+                ],
+                [
+                  91.92376114486609,
+                  20.485532194751677
+                ],
+                [
+                  -31.82623883791136,
+                  20.485532194751677
+                ]
+              ]
+            ]
+          },
+          "label": "Europe",
+          "translation_module_original_language": "en"
+        },
+        {
+          "name": 4,
+          "id": 4,
+          "region_name": "Middle East & North Africa",
+          "bbox": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -29.826416015646156,
+                  10.082644243860525
+                ],
+                [
+                  -29.826416015646156,
+                  52.446089149543006
+                ],
+                [
+                  72.20141321303814,
+                  52.446089149543006
+                ],
+                [
+                  72.20141321303814,
+                  10.082644243860525
+                ],
+                [
+                  -29.826416015646156,
+                  10.082644243860525
+                ]
+              ]
+            ]
+          },
+          "label": "Middle East & North Africa",
+          "translation_module_original_language": "en"
+        }
+      ]
+    },
+    "regions_details": {
+      "0": {
+        "links": [
+          {
+            "title": "PROTECTION, GENDER & INCLUSION",
+            "url": "https://ifrcgo.org/africa/PGI.html",
+            "id": 50,
+            "show_in_go": true
+          },
+          {
+            "title": "DISASTER & LAW",
+            "url": "https://ifrcgo.org/africa/disaster_law.html",
+            "id": 51,
+            "show_in_go": true
+          },
+          {
+            "title": "FOOD SECURITY IN AFRICA",
+            "url": "https://ifrcgo.org/africa/foodsecurity.html",
+            "id": 54,
+            "show_in_go": true
+          },
+          {
+            "title": "AFRICA SURGE DESK",
+            "url": "https://app.smartsheet.com/b/publish?EQBCT=e1aba3e3d95a425093d6e5145d0404d9",
+            "id": 53,
+            "show_in_go": true
+          },
+          {
+            "title": "COMMUNITY ENGAGEMENT AND ACCOUNTABILITY",
+            "url": "https://app.powerbi.com/view?r=eyJrIjoiMmM5OWNlYzYtODUzMy00YzE0LTlmOWEtY2Y5ZmIzNzRjMzBmIiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9",
+            "id": 62,
+            "show_in_go": true
+          },
+          {
+            "title": "SAHEL DIGITAL PLATFORM",
+            "url": "https://ifrcgo.org/africa/sahel.html",
+            "id": 78,
+            "show_in_go": false
+          },
+          {
+            "title": "A RCRC MHPSS ROAD MAP FOR AFRICA 2030 - EN",
+            "url": "https://prddsgofilestorage.blob.core.windows.net/api/documents/A_Red_Cross_Red_Crescent_MHPSS_roadmap_for_Africa_2030/A_Red_Cross_Red_Crescen_9b3QB14.pdf",
+            "id": 85,
+            "show_in_go": false
+          },
+          {
+            "title": "A RCRC MHPSS ROAD MAP FOR AFRICA 2030 - FR",
+            "url": "https://prddsgofilestorage.blob.core.windows.net/api/documents/A_Red_Cross_Red_Crescent_MHPSS_roadmap_for_Africa_2030_-_FR/A_Red_Cross_Red_Cr_puSBp6h.pdf",
+            "id": 86,
+            "show_in_go": false
+          }
+        ],
+        "contacts": [
+          {
+            "ctype": "",
+            "name": "Elijah Karanja Kingori",
+            "title": "Regional IM Delegate",
+            "email": "elijah.kingori@ifrc.org",
+            "id": 93
+          },
+          {
+            "ctype": "",
+            "name": "Rui Alberto OLIVEIRA",
+            "title": "Lead, Preparedness and Response",
+            "email": "rui.oliveira@ifrc.org",
+            "id": 110
+          }
+        ],
+        "snippets": [],
+        "emergency_snippets": [],
+        "profile_snippets": [],
+        "preparedness_snippets": [
+          {
+            "region": 0,
+            "id": 8,
+            "snippet": "<p><iframe src=\"https://ifrcgo.org/africa/preparedness.html\" width=\"1440\" height=\"780\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+            "title": "PREPAREDNESS",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "name": 0,
+        "region_name": "Africa",
+        "id": 0,
+        "country_plan_count": 47,
+        "national_society_count": 49,
+        "country_cluster_count": 4,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -32.990478515633654,
+                -47.08120743260387
+              ],
+              [
+                -32.990478515633654,
+                41.72638107989894
+              ],
+              [
+                67.90795898435853,
+                41.72638107989894
+              ],
+              [
+                67.90795898435853,
+                -47.08120743260387
+              ],
+              [
+                -32.990478515633654,
+                -47.08120743260387
+              ]
+            ]
+          ]
+        },
+        "additional_tab_name": "",
+        "translation_module_original_language": "en"
+      },
+      "1": {
+        "links": [
+          {
+            "title": "ACTUALIZACIÓN DE  NECESIDADES Y CAPACIDADES  EN SMAPS EN LAS AMÉRICAS - Vesión Extendida - ES",
+            "url": "https://drive.google.com/file/d/1_O6I6A13gBlxTBl7BX-hqqvxYJrIboei/view?usp=sharing",
+            "id": 57,
+            "show_in_go": false
+          },
+          {
+            "title": "ACTUALIZACIÓN DE  NECESIDADES Y CAPACIDADES  EN SMAPS EN LAS AMÉRICAS - Vesión Resumida - ES",
+            "url": "https://drive.google.com/file/d/11AZbLqUGeh9mq7YdF3mq5ziuOZj3CGse/view?usp=sharing",
+            "id": 58,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC MHPSS Report Americas NSs Needs and Capacities 2021. Summary version EN",
+            "url": "https://drive.google.com/file/d/1efLW_lv2MNg8JY33gXpAvSJCCUFTmSW8/view?usp=sharing",
+            "id": 60,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC MHPSS Report Americas NSs needs and capacities 2021. Extended version EN",
+            "url": "https://drive.google.com/file/d/1zBc04hDyUPWx6MD-RA1PHXTjLCWI9dkR/view?usp=sharing",
+            "id": 59,
+            "show_in_go": false
+          },
+          {
+            "title": "Febrero 2022 Actualización de necesidades y capacidades en SMAPS SNs de Las Américas",
+            "url": "https://drive.google.com/file/d/1ljllcVmVYlGgryvp1C7N_5Rwdghqgky_/view?usp=sharing",
+            "id": 63,
+            "show_in_go": false
+          },
+          {
+            "title": "February 2022 Update Needs, capacities ,and actions in MHPSS NS in the Américas",
+            "url": "https://drive.google.com/file/d/1SqpElB7Nctod88P-79jVCdXN-1rVXcn3/view?usp=sharing",
+            "id": 64,
+            "show_in_go": false
+          },
+          {
+            "title": "MHPSS COVID19 STRATEGY Americas Region 2020",
+            "url": "https://drive.google.com/file/d/1DgE35byQ_NNfDUye1d6ZZcwHn8MlCFfu/view?usp=sharing",
+            "id": 65,
+            "show_in_go": false
+          },
+          {
+            "title": "FICR OR Panamá ESTRATEGIA SMAP COVID-19",
+            "url": "https://drive.google.com/file/d/1UiyQSZfSn6G3ed4Pd5wkwRmSwgBQCyx2/view?usp=sharing",
+            "id": 66,
+            "show_in_go": false
+          },
+          {
+            "title": "Guía de Atención Diferenciada en Salud y Apoyo Psicosocial a poblaciones migrantes",
+            "url": "https://drive.google.com/file/d/119gJ1-UmlLdKpX9Cv1O4MZdn9nH8GnTY/view?usp=sharing",
+            "id": 67,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC_AMRO_US_PA resultados encuesta 2021_SP",
+            "url": "https://drive.google.com/file/d/1avzc0BXU7xtjuWG-2GWyyygtk1leeMix/view?usp=sharing",
+            "id": 68,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC_AMRO_H&CU_FA survey results 2021_EN",
+            "url": "https://drive.google.com/file/d/1r_LVUqDnMZ2ivxgNpy1c5CXaraJ_HN32/view?usp=sharing",
+            "id": 69,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC AMRO SMAPS Reporte lecciones aprendidas 2021",
+            "url": "https://drive.google.com/file/d/1NOpGbx9h-L95Oa1G-c9sNb4OljWhSDru/view?usp=sharing",
+            "id": 70,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC AMRO MHPSS Lesson Learned 2021",
+            "url": "https://drive.google.com/file/d/1HEHl9GVe3ISbBtMOPlR4FBt8JVV3MJgY/view?usp=sharing",
+            "id": 71,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC Summary MHPSS actions from March 2020-March 2022 EN",
+            "url": "https://drive.google.com/file/d/1nzVS0IzOvQm0SlCuxkbj0Lq4fB6iFzqG/view?usp=sharing",
+            "id": 72,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC Resumen acciones de SMAPS de marzo 2020 a marzo 2022 ES",
+            "url": "https://drive.google.com/file/d/1nMepLoCkD9znqjGPnuKcchoNzvObYaRz/view?usp=sharing",
+            "id": 73,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC Report MHPSS in migration Training T&T March 2022 EN",
+            "url": "https://drive.google.com/file/d/1hA7G1Mligs-B1SyjgFFqAi-giY_welbl/view?usp=sharing",
+            "id": 74,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC Reporte curso SMAPS en migración T&T marzo 2022 ES",
+            "url": "https://drive.google.com/file/d/1RXkeZ_kJ2bn1IfhlCYaQRcl5TULWXbhy/view?usp=sharing",
+            "id": 75,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC MHPSS Safety referrals EN",
+            "url": "https://drive.google.com/file/d/1Sv2oq3QO8gW-rWTMta92zhcyW-5hKQX0/view?usp=sharing",
+            "id": 76,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC SMAPS Derivaciones seguras ES",
+            "url": "https://drive.google.com/file/d/195CnMzSMgx_zbPLopzh0F1bCm6Tzovzp/view?usp=sharing",
+            "id": 77,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC MHPSS update of needs, capacities & actions (Feb. 2023)",
+            "url": "https://drive.google.com/file/d/1Lgvh-Gwck3HgWr2Au28zsU51u-UjQSTq/view?usp=share_link",
+            "id": 79,
+            "show_in_go": false
+          },
+          {
+            "title": "IFRC MHPSS Actualización de necesidades, capacidades y acciones (Feb. 2023)",
+            "url": "https://drive.google.com/file/d/1rfNjEH8okcgUAnWzNQ2liyU2WJFXHQ5J/view?usp=sharing",
+            "id": 80,
+            "show_in_go": false
+          }
+        ],
+        "contacts": [
+          {
+            "ctype": "",
+            "name": "Marianna Kuttothara",
+            "title": "Regional Head of Health, Disasters, Climate and Crisis",
+            "email": "Marianna.kuttothara@ifrc.org",
+            "id": 68
+          },
+          {
+            "ctype": "",
+            "name": "Golda Ibarra",
+            "title": "Regional Head of PMER and Quality Assurance",
+            "email": "golda.ibarra@ifrc.org",
+            "id": 69
+          },
+          {
+            "ctype": "",
+            "name": "Maria Martha Tuna",
+            "title": "Manager of Operations, Evolving Crisis and Disasters",
+            "email": "maria.tuna@ifrc.org",
+            "id": 70
+          },
+          {
+            "ctype": "",
+            "name": "Victoria Abolsky",
+            "title": "Strategic Lead of Health and Wellbeing",
+            "email": "victoria.abolsky@ifrc.org",
+            "id": 72
+          },
+          {
+            "ctype": "",
+            "name": "Jose Felix Rodriguez",
+            "title": "Coordinator of Migration and Social Inclusion",
+            "email": "josefelix.rodriguez@ifrc.org",
+            "id": 74
+          },
+          {
+            "ctype": "",
+            "name": "Nadia Ortega",
+            "title": "Coordinator of Climate, Environmental Action, Sustainability and Resilience",
+            "email": "nadia.ortega@ifrc.org",
+            "id": 100
+          },
+          {
+            "ctype": "",
+            "name": "Virginia Laino",
+            "title": "Strategic Lead of Community, Engagement and Accountability",
+            "email": "virginia.laino@ifrc.org",
+            "id": 73
+          }
+        ],
+        "snippets": [
+          {
+            "region": 1,
+            "image": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "id": 47,
+            "snippet": "<iframe title=\"Americas Regional Information Products\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODUyNjcwNmItYzRlNi00MDE5LWE1NTItOTlkNzZjOWYyZDFkIiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9\" width=\"1024\" height=\"720\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "emergency_snippets": [],
+        "profile_snippets": [],
+        "preparedness_snippets": [],
+        "name": 1,
+        "region_name": "Americas",
+        "id": 1,
+        "country_plan_count": 31,
+        "national_society_count": 35,
+        "country_cluster_count": 5,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -129.72656248194585,
+                -62.3784884321475
+              ],
+              [
+                -131.72607420041348,
+                57.132760819678985
+              ],
+              [
+                -32.23388671426279,
+                56.74920841033273
+              ],
+              [
+                -29.42138671465429,
+                -61.941965603128835
+              ],
+              [
+                -129.72656248194585,
+                -62.3784884321475
+              ]
+            ]
+          ]
+        },
+        "additional_tab_name": "Regional Information",
+        "translation_module_original_language": "en"
+      },
+      "2": {
+        "links": [],
+        "contacts": [
+          {
+            "ctype": "",
+            "name": "Felipe Delcid",
+            "title": "Manager, Emergency Operation Coordination and Information Management",
+            "email": "felipe.delcid@ifrc.org",
+            "id": 58
+          },
+          {
+            "ctype": "",
+            "name": "Dedi Junadi",
+            "title": "Information Management Coordinator",
+            "email": "dedi.junadi@ifrc.org",
+            "id": 59
+          }
+        ],
+        "snippets": [
+          {
+            "region": 2,
+            "image": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "id": 44,
+            "snippet": "",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "emergency_snippets": [
+          {
+            "region": 2,
+            "id": 2,
+            "snippet": "<p><iframe title=\"Landing Page GO\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMjExY2I0MDgtYjVhZC00MGFkLTlmOTAtMzdjODU0MzM3NzA2IiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9\" width=\"1500\" height=\"900\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+            "title": "",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "profile_snippets": [
+          {
+            "region": 2,
+            "id": 2,
+            "snippet": "<p><iframe src=\"https://app.powerbi.com/view?r=eyJrIjoiMjExY2I0MDgtYjVhZC00MGFkLTlmOTAtMzdjODU0MzM3NzA2IiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9\" width=\"1500\" height=\"1542\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+            "title": "Asia Pacific Analytical Dashboards",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "preparedness_snippets": [],
+        "name": 2,
+        "region_name": "Asia Pacific",
+        "id": 2,
+        "country_plan_count": 32,
+        "national_society_count": 38,
+        "country_cluster_count": 0,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                179.2968749750338,
+                54.876606648830084
+              ],
+              [
+                179.9999999749438,
+                -60.84491056841566
+              ],
+              [
+                54.49218749241115,
+                -61.01572480874713
+              ],
+              [
+                57.656249991970135,
+                55.47885345802725
+              ],
+              [
+                179.2968749750338,
+                54.876606648830084
+              ]
+            ]
+          ]
+        },
+        "additional_tab_name": "",
+        "translation_module_original_language": "en"
+      },
+      "3": {
+        "links": [],
+        "contacts": [
+          {
+            "ctype": "",
+            "name": "Andreas WEISSENBERG",
+            "title": "Regional Head of HDCC",
+            "email": "andreas.weissenberg@ifrc.org",
+            "id": 66
+          },
+          {
+            "ctype": "",
+            "name": "Jennifer VIBERT",
+            "title": "Manager, Operations Coordination",
+            "email": "jennifer.vibert@ifrc.org",
+            "id": 88
+          },
+          {
+            "ctype": "",
+            "name": "Panu SAARISTO",
+            "title": "Manager, Health and Care",
+            "email": "panu.saaristo@ifrc.org",
+            "id": 87
+          },
+          {
+            "ctype": "",
+            "name": "Raquel FERNANDEZ GIBAJA",
+            "title": "Thematic Lead, Regional Migration Protection and Accountability",
+            "email": "raquel.gibaja@ifrc.org",
+            "id": 106
+          },
+          {
+            "ctype": "",
+            "name": "Krystell SANTAMARIA",
+            "title": "Thematic Lead, Climate and Institutional Preparedness",
+            "email": "krystell.santamaria@ifrc.org",
+            "id": 107
+          }
+        ],
+        "snippets": [
+          {
+            "region": 3,
+            "image": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "id": 37,
+            "snippet": "<iframe title=\"Portal_of_DBs\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZjhmZjRiZDctZjBmNy00YzEzLTg2ZDYtMGVlODZlMTA2YjQxIiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9\" width=\"1240\" height=\"720\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "emergency_snippets": [],
+        "profile_snippets": [],
+        "preparedness_snippets": [],
+        "name": 3,
+        "region_name": "Europe",
+        "id": 3,
+        "country_plan_count": 27,
+        "national_society_count": 54,
+        "country_cluster_count": 0,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -31.82623883791136,
+                20.485532194751677
+              ],
+              [
+                -27.95905133844957,
+                70.67700773369563
+              ],
+              [
+                89.8143861451559,
+                71.47500691896069
+              ],
+              [
+                91.92376114486609,
+                20.485532194751677
+              ],
+              [
+                -31.82623883791136,
+                20.485532194751677
+              ]
+            ]
+          ]
+        },
+        "additional_tab_name": "Regional Information",
+        "translation_module_original_language": "en"
+      },
+      "4": {
+        "links": [
+          {
+            "title": "Field Reports, Offline Template in Arabic",
+            "url": "https://drive.google.com/file/d/1K0S8n_gS3NAkT3CkJSOfxFFt_iNkuZ2l/view?usp=sharing",
+            "id": 41,
+            "show_in_go": false
+          },
+          {
+            "title": "GO Flyer in Arabic",
+            "url": "https://drive.google.com/file/d/1Tzu0D67UFu-EfRLDAL0R_EIWNq2nUzzi/view?usp=sharing",
+            "id": 42,
+            "show_in_go": false
+          },
+          {
+            "title": "GO 3W, Guidance Document in Arabic",
+            "url": "https://drive.google.com/file/d/1GPlIBIk4GPbLOA9xHDCzgyfamkM1DZk0/view?usp=sharing",
+            "id": 43,
+            "show_in_go": false
+          },
+          {
+            "title": "GO User Guide in Arabic",
+            "url": "https://drive.google.com/file/d/1t5x2AxvPaQz8Dm80xn3uyHqCA582h0T8/view?usp=sharing",
+            "id": 44,
+            "show_in_go": false
+          },
+          {
+            "title": "GO Admin Guide in Arabic",
+            "url": "https://drive.google.com/file/d/1Fq-ntlIjKe7vDuInRots5nV84sJX-wOj/view?usp=sharing",
+            "id": 45,
+            "show_in_go": false
+          }
+        ],
+        "contacts": [
+          {
+            "ctype": "",
+            "name": "Hosam Faysal",
+            "title": "Head of DCPRR Unit",
+            "email": "hosam.faysal@ifrc.org",
+            "id": 46
+          },
+          {
+            "ctype": "",
+            "name": "Raja Assaf",
+            "title": "Senior Response Officer",
+            "email": "raja.assaf@ifrc.org",
+            "id": 48
+          },
+          {
+            "ctype": "",
+            "name": "Bouchra Saba",
+            "title": "Information Management & Visualization Officer",
+            "email": "Bouchra.saba@ifrc.org",
+            "id": 47
+          }
+        ],
+        "snippets": [
+          {
+            "region": 4,
+            "image": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "id": 19,
+            "snippet": "<p><a href=\"https://prddsgofilestorage.blob.core.windows.net/api/documents/MENA_-_Climate_Fact_Sheet/MENA_CC_NARRATIVE_DRAFT_-_EN.pdf\" data-jzz-gui-player=\"true\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://prddsgofilestorage.blob.core.windows.net/api/tinymce/region4snippet.png\" alt=\"\" /></a></p>",
+            "translation_module_original_language": "en"
+          },
+          {
+            "region": 4,
+            "image": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "id": 14,
+            "snippet": "<br /><iframe src=\"https://app.powerbi.com/view?r=eyJrIjoiZWQ4MWY5ZDItOTNjOC00NTAyLWEzMDMtZjRjNTA4MjFlNTdmIiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9&amp;pageName=ReportSection\" width=\"1200\" height=\"800\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>",
+            "translation_module_original_language": "en"
+          },
+          {
+            "region": 4,
+            "image": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "id": 20,
+            "snippet": "",
+            "translation_module_original_language": "en"
+          },
+          {
+            "region": 4,
+            "image": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "id": 24,
+            "snippet": "",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "emergency_snippets": [],
+        "profile_snippets": [],
+        "preparedness_snippets": [],
+        "name": 4,
+        "region_name": "Middle East & North Africa",
+        "id": 4,
+        "country_plan_count": 11,
+        "national_society_count": 17,
+        "country_cluster_count": 0,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -29.826416015646156,
+                10.082644243860525
+              ],
+              [
+                -29.826416015646156,
+                52.446089149543006
+              ],
+              [
+                72.20141321303814,
+                52.446089149543006
+              ],
+              [
+                72.20141321303814,
+                10.082644243860525
+              ],
+              [
+                -29.826416015646156,
+                10.082644243860525
+              ]
+            ]
+          ]
+        },
+        "additional_tab_name": "",
+        "translation_module_original_language": "en"
+      }
+    }
+  }
+}

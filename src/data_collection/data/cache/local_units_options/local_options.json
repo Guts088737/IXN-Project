@@ -1,0 +1,429 @@
+{
+  "cache_time": "2025-08-10T18:59:39.287153",
+  "cache_key": "local_units_options/local_options",
+  "data": {
+    "type": [
+      {
+        "name": "Administrative",
+        "code": 1,
+        "id": 1,
+        "colour": "#f5333f",
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Admin.png"
+      },
+      {
+        "name": "Health Care",
+        "code": 2,
+        "id": 2,
+        "colour": "#011e41",
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Healthcare.png"
+      },
+      {
+        "name": "Emergency Response",
+        "code": 3,
+        "id": 3,
+        "colour": "#ff8000",
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Emergency%20response.png"
+      },
+      {
+        "name": "Humanitarian Assistance Centres",
+        "code": 4,
+        "id": 4,
+        "colour": "#b68fba",
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Hum%20Assistance%20Centres.png"
+      },
+      {
+        "name": "Training and Education",
+        "code": 5,
+        "id": 5,
+        "colour": "#97b8c2",
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Training%20%26%20Education.png"
+      },
+      {
+        "name": "Other",
+        "code": 6,
+        "id": 6,
+        "colour": "#a5a5a5",
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Other.png"
+      }
+    ],
+    "level": [
+      {
+        "name": "National",
+        "level": 0,
+        "id": 1
+      },
+      {
+        "name": "Subnational",
+        "level": 1,
+        "id": 2
+      },
+      {
+        "name": "District/Regional",
+        "level": 2,
+        "id": 3
+      },
+      {
+        "name": "Local",
+        "level": 3,
+        "id": 4
+      }
+    ],
+    "affiliation": [
+      {
+        "id": 1,
+        "code": 1,
+        "name": "Red Cross / Red Crescent Facility"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "Public Government Facility"
+      },
+      {
+        "id": 3,
+        "code": 3,
+        "name": "Governmental Facility"
+      },
+      {
+        "id": 4,
+        "code": 4,
+        "name": "Private Facility"
+      },
+      {
+        "id": 5,
+        "code": 5,
+        "name": "Organizational Facility"
+      },
+      {
+        "id": 9,
+        "code": 9,
+        "name": "Other"
+      }
+    ],
+    "functionality": [
+      {
+        "id": 1,
+        "code": 1,
+        "name": "Fully Functional"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "Partially Functional"
+      },
+      {
+        "id": 3,
+        "code": 3,
+        "name": "Not Functional"
+      },
+      {
+        "id": 4,
+        "code": 4,
+        "name": "No information"
+      }
+    ],
+    "health_facility_type": [
+      {
+        "id": 1,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/ambulance.png",
+        "code": 1,
+        "name": "Ambulance Station"
+      },
+      {
+        "id": 2,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/blood-center.png",
+        "code": 2,
+        "name": "Blood Center"
+      },
+      {
+        "id": 3,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/hospital.png",
+        "code": 3,
+        "name": "Hospital"
+      },
+      {
+        "id": 4,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/pharmacy.png",
+        "code": 4,
+        "name": "Pharmacy"
+      },
+      {
+        "id": 5,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/primary-health-care.png",
+        "code": 5,
+        "name": "Primary Health Care Center"
+      },
+      {
+        "id": 6,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/residential-facility.png",
+        "code": 6,
+        "name": "Residential Facility"
+      },
+      {
+        "id": 7,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/training-facility.png",
+        "code": 7,
+        "name": "Training Facility"
+      },
+      {
+        "id": 8,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/specialized-services.png",
+        "code": 8,
+        "name": "Specialized Services"
+      },
+      {
+        "id": 9,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/other.png",
+        "code": 9,
+        "name": "Other"
+      }
+    ],
+    "primary_health_care_center": [
+      {
+        "id": 1,
+        "code": 1,
+        "name": "Medical Practices"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "Dental Practices"
+      },
+      {
+        "id": 3,
+        "code": 3,
+        "name": "Other Health Care Practitioner"
+      }
+    ],
+    "hospital_type": [
+      {
+        "id": 1,
+        "code": 1,
+        "name": "Specialised Hospital Non Mh"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "Mental Health Hospital"
+      },
+      {
+        "id": 9,
+        "code": 9,
+        "name": "General Hospital"
+      }
+    ],
+    "blood_services": [
+      {
+        "id": 6,
+        "code": 6,
+        "name": "Hemopurification Hemofiltration"
+      },
+      {
+        "id": 1,
+        "code": 1,
+        "name": "Blood Collection"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "Blood Testing"
+      },
+      {
+        "id": 3,
+        "code": 3,
+        "name": "Blood Component Preparation"
+      },
+      {
+        "id": 4,
+        "code": 4,
+        "name": "Blood Product Distribution"
+      },
+      {
+        "id": 5,
+        "code": 5,
+        "name": "Blood Transfusion"
+      },
+      {
+        "id": 7,
+        "code": 7,
+        "name": "None"
+      }
+    ],
+    "professional_training_facilities": [
+      {
+        "id": 1,
+        "code": 1,
+        "name": "Nurses"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "Paramedics / EMT"
+      },
+      {
+        "id": 9,
+        "code": 9,
+        "name": "Other"
+      }
+    ],
+    "general_medical_services": [
+      {
+        "id": 1,
+        "code": 1,
+        "name": "Minor Trauma"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "Outpatient Services"
+      },
+      {
+        "id": 3,
+        "code": 3,
+        "name": "Basic Lab Services"
+      },
+      {
+        "id": 4,
+        "code": 4,
+        "name": "Basic Life Support"
+      },
+      {
+        "id": 5,
+        "code": 5,
+        "name": "Referral Capacity"
+      },
+      {
+        "id": 6,
+        "code": 6,
+        "name": "None"
+      }
+    ],
+    "specialized_medical_beyond_primary_level": [
+      {
+        "id": 1,
+        "code": 1,
+        "name": "Anaesthesiology"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "Blood Transfusion"
+      },
+      {
+        "id": 3,
+        "code": 3,
+        "name": "Dentistry and Oral Surgery"
+      },
+      {
+        "id": 4,
+        "code": 4,
+        "name": "Emergency pre hospital care"
+      },
+      {
+        "id": 5,
+        "code": 5,
+        "name": "Gynaecology Obstetrics"
+      },
+      {
+        "id": 6,
+        "code": 6,
+        "name": "Intensive Care Medicine"
+      },
+      {
+        "id": 7,
+        "code": 7,
+        "name": "Internal Medicine"
+      },
+      {
+        "id": 8,
+        "code": 8,
+        "name": "Laboratory services advanced"
+      },
+      {
+        "id": 9,
+        "code": 9,
+        "name": "Malnutrition Services"
+      },
+      {
+        "id": 10,
+        "code": 10,
+        "name": "Mental Health"
+      },
+      {
+        "id": 11,
+        "code": 11,
+        "name": "Neonatalogy"
+      },
+      {
+        "id": 12,
+        "code": 12,
+        "name": "Oncology"
+      },
+      {
+        "id": 13,
+        "code": 13,
+        "name": "Ophthalmology"
+      },
+      {
+        "id": 14,
+        "code": 14,
+        "name": "Orthopaedics"
+      },
+      {
+        "id": 15,
+        "code": 15,
+        "name": "Otorhinolaryngology"
+      },
+      {
+        "id": 16,
+        "code": 16,
+        "name": "Paediatrics"
+      },
+      {
+        "id": 17,
+        "code": 17,
+        "name": "Radiology"
+      },
+      {
+        "id": 18,
+        "code": 18,
+        "name": "Rehabilitation"
+      },
+      {
+        "id": 19,
+        "code": 19,
+        "name": "Research"
+      },
+      {
+        "id": 20,
+        "code": 20,
+        "name": "Surgical Specialities"
+      },
+      {
+        "id": 21,
+        "code": 21,
+        "name": "Forensics Services"
+      },
+      {
+        "id": 22,
+        "code": 22,
+        "name": "SRH"
+      },
+      {
+        "id": 23,
+        "code": 23,
+        "name": "Transplantation Services"
+      },
+      {
+        "id": 99,
+        "code": 99,
+        "name": "Other"
+      },
+      {
+        "id": 100,
+        "code": 100,
+        "name": "None"
+      }
+    ]
+  }
+}

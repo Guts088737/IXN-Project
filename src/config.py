@@ -27,49 +27,66 @@ class APIConfig:
     })
 
 
-@dataclass
 class DataPathConfig:
-    """数据路径配置"""
-    root_dir: Path = field(default_factory=lambda: Path("data"))
-    raw_data_dir: Path = field(default_factory=lambda: Path("data/raw"))
-    processed_data_dir: Path = field(default_factory=lambda: Path("data/processed"))
-    models_dir: Path = field(default_factory=lambda: Path("data/models"))
-    results_dir: Path = field(default_factory=lambda: Path("data/results"))
-    cache_dir: Path = field(default_factory=lambda: Path("data/cache"))
-
-    # 细分的原始数据路径
-    medical_facilities_dir: Path = field(default_factory=lambda: Path("data/raw/medical_facilities"))
-    historical_disasters_dir: Path = field(default_factory=lambda: Path("data/raw/historical_disasters"))
-    predicted_disasters_dir: Path = field(default_factory=lambda: Path("data/raw/predicted_disasters"))
-    medical_services_dir: Path = field(default_factory=lambda: Path("data/raw/medical_services"))
+    """数据路径配置 - 使用绝对路径避免创建多余目录"""
+    
+    def __init__(self):
+        # 获取项目根目录（config.py的上级目录）
+        self.project_root = Path(__file__).parent.parent
+        
+        # 基础路径
+        self.root_dir = self.project_root / "data"
+        
+        # 主要数据目录（基于项目根目录的绝对路径）
+        self.src_dir = self.project_root / "src"
+        self.data_collection_dir = self.src_dir / "data_collection"
+        self.preprocessing_dir = self.src_dir / "preprocessing" 
+        self.models_dir = self.src_dir / "models"
+        self.output_dir = self.src_dir / "output"
+        
+        # data_collection模块的数据路径
+        self.collection_data_dir = self.data_collection_dir / "data"
+        self.collection_cache_dir = self.collection_data_dir / "cache"
+        self.collection_raw_dir = self.collection_data_dir / "raw"
+        
+        # 保持向后兼容的原始路径
+        self.raw_data_dir = self.collection_raw_dir
+        self.cache_dir = self.collection_cache_dir
+        
+        # preprocessing模块的数据路径
+        self.processed_data_dir = self.preprocessing_dir / "data"
+        
+        # 其他模块的数据路径  
+        self.models_data_dir = self.models_dir / "data"
+        self.results_dir = self.output_dir / "data"
+        
+        # 细分的原始数据收集路径
+        self.historical_disasters_dir = self.collection_raw_dir / "historical_disasters" 
+        self.predicted_disasters_dir = self.collection_raw_dir / "predicted_disasters"
+        self.countries_dir = self.collection_raw_dir / "countries"
+        self.disaster_types_dir = self.collection_raw_dir / "disaster_types"
+        
+        # 细分的缓存路径（按数据类别分类）
+        self.countries_cache_dir = self.collection_cache_dir / "countries"
+        self.disaster_types_cache_dir = self.collection_cache_dir / "disaster_types"
+        self.historical_disasters_cache_dir = self.collection_cache_dir / "historical_disasters"
+        self.predicted_disasters_cache_dir = self.collection_cache_dir / "predicted_disasters"
 
 
 @dataclass
 class CollectionConfig:
     """数据收集配置"""
-    max_records_per_collection: int = 500  # 减少到500条进行测试
-    batch_size: int = 50  # 减少批次大小
+    max_records_per_collection: int = 20000  # 减少到500条进行测试
+    batch_size: int = 200  # 减少批次大小
     countries_of_interest: List[str] = field(default_factory=lambda: [
         'Turkey', 'Pakistan', 'Philippines', 'Indonesia', 'Bangladesh',
         'India', 'Nepal', 'Myanmar', 'Afghanistan', 'Syria'
     ])
 
-    # 医疗设施收集配置
-    medical_facilities: Dict[str, Any] = field(default_factory=lambda: {
-        'include_unvalidated': True,
-        'minimum_staff_threshold': 1,
-        'minimum_capacity_threshold': 0,
-        'required_fields': [
-            'health_facility_type_details',
-            'primary_health_care_center_details',
-            'hospital_type_details',
-            'general_medical_services_details'
-        ]
-    })
 
     # 历史灾害收集配置
     historical_disasters: Dict[str, Any] = field(default_factory=lambda: {
-        'years_back': 5,
+        'years_back': 5,  # 修改为近5年
         'minimum_funding_threshold': 1000,  # 最小资金阈值
         'disaster_types_filter': [],  # 空列表表示包含所有类型
         'include_appeals': True,
@@ -193,7 +210,7 @@ class ProjectConfig:
         self.DATA_DIR = self.paths.root_dir
         self.RAW_DATA_DIR = self.paths.raw_data_dir
         self.PROCESSED_DATA_DIR = self.paths.processed_data_dir
-        self.MODELS_DIR = self.paths.models_dir
+        self.MODELS_DIR = self.paths.models_data_dir
         self.RESULTS_DIR = self.paths.results_dir
         self.CACHE_DIR = self.paths.cache_dir
         
@@ -227,10 +244,17 @@ class ProjectConfig:
             self.paths.models_dir,
             self.paths.results_dir,
             self.paths.cache_dir,
-            self.paths.medical_facilities_dir,
+            # 原始数据目录
             self.paths.historical_disasters_dir,
             self.paths.predicted_disasters_dir,
-            self.paths.medical_services_dir,
+            self.paths.countries_dir,
+            self.paths.disaster_types_dir,
+            # 分类缓存目录
+            self.paths.countries_cache_dir,
+            self.paths.disaster_types_cache_dir,
+            self.paths.historical_disasters_cache_dir,
+            self.paths.predicted_disasters_cache_dir,
+            # 日志目录
             self.logging.file_path.parent
         ]
 
@@ -276,6 +300,7 @@ class ProjectConfig:
         config_path = Path(config_file)
 
         if config_path.suffix.lower() in ['.yaml', '.yml']:
+
             with open(config_path, 'w', encoding='utf-8') as f:
                 yaml.dump(config_data, f, default_flow_style=False, allow_unicode=True)
         elif config_path.suffix.lower() == '.json':
@@ -299,15 +324,16 @@ class ProjectConfig:
             'disaster_types': f"{self.api.base_url_v2}/disaster_type/",
             'appeals': f"{self.api.base_url_v2}/appeal/",  # 添加appeals端点
             'countries': f"{self.api.base_url_v2}/country/",
+            'regions': f"{self.api.base_url_v2}/region/",
 
             # V1 API端点 (如果需要预测数据)
             'earthquake': f"{self.api.base_url_v1}/earthquake/",
             'global_exposure': f"{self.api.base_url_v1}/global-exposure-data/",
             'risk_score': f"{self.api.base_url_v1}/risk-score/",
-            'seasonal': f"{self.api.base_url_v1}/seasonal/",
-            'country_seasonal': f"{self.api.base_url_v1}/country-seasonal/",
+            'seasonal': "http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/seasonal/",
+            'country-seasonal': "http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/",
             'early_actions': f"{self.api.base_url_v1}/early-actions/",
-            'inform_score': f"{self.api.base_url_v1}/inform-score/"
+            'inform-score': "http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/inform-score/"
         }
 
     def get_field_mappings(self) -> Dict[str, str]:
@@ -342,8 +368,8 @@ class ProjectConfig:
         return issues
 
 
-# 全局配置实例
-config = ProjectConfig()
+# 全局配置实例（延迟初始化）
+config = None
 
 
 def load_config(config_file: str = None) -> ProjectConfig:
@@ -351,11 +377,16 @@ def load_config(config_file: str = None) -> ProjectConfig:
     global config
     if config_file:
         config = ProjectConfig(config_file)
+    elif config is None:
+        config = ProjectConfig()
     return config
 
 
 def get_config(env: str = None) -> ProjectConfig:
     """获取全局配置"""
+    global config
+    if config is None:
+        config = ProjectConfig()
     if env:
         load_config_from_env()
     return config

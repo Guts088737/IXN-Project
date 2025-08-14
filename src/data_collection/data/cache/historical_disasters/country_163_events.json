@@ -1,0 +1,180 @@
+{
+  "cache_time": "2025-08-13T18:02:08.517058",
+  "cache_key": "historical_disasters/country_163_events",
+  "data": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": {
+          "id": 21,
+          "summary": "",
+          "name": "Food Insecurity",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "SZ",
+            "iso3": "SWZ",
+            "id": 163,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 0,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DSZ001",
+            "average_household_size": null,
+            "society_name": "Baphalali Eswatini Red Cross Society",
+            "name": "Eswatini, Kingdom of",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2023-11-13T00:00:00Z",
+        "created_at": "2023-11-13T15:01:14.744235Z",
+        "auto_generated": true,
+        "appeals": [
+          {
+            "aid": "18129",
+            "num_beneficiaries": 30000,
+            "amount_requested": 599533.0,
+            "code": "MDRSZ004",
+            "amount_funded": 599533.0,
+            "status": 0,
+            "status_display": "Active",
+            "start_date": "2023-12-21T00:00:00Z",
+            "end_date": "2024-09-30T00:00:00Z",
+            "sector": "Country cluster for South Africa, Botswana, Lesotho, Namibia and Kingdom of Eswatini",
+            "atype": 0,
+            "atype_display": "DREF",
+            "id": 3826,
+            "translation_module_original_language": "en"
+          }
+        ],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [
+          {
+            "status": 9,
+            "contacts": [
+              {
+                "ctype": "Originator",
+                "name": "Siphelele Mkhonta",
+                "title": "Disaster Management Coordinator",
+                "email": "dmcoordinator@redcross.org.sz",
+                "phone": "+26876449151",
+                "id": 50187
+              },
+              {
+                "ctype": "NationalSociety",
+                "name": "Elliot Jele",
+                "title": "Programmes Manager",
+                "email": "jele@redcross.org.sz",
+                "phone": "+26876088546",
+                "id": 50188
+              },
+              {
+                "ctype": "Federation",
+                "name": "Bongeka Mpinke",
+                "title": "Senior Disaster Management Officer",
+                "email": "bongeka.mpinke@ifrc.org",
+                "phone": "+27 (0) 74 792 0279",
+                "id": 50189
+              }
+            ],
+            "countries": [
+              {
+                "iso": "SZ",
+                "iso3": "SWZ",
+                "id": 163,
+                "record_type": 1,
+                "record_type_display": "Country",
+                "region": 0,
+                "independent": true,
+                "is_deprecated": false,
+                "fdrs": "DSZ001",
+                "average_household_size": null,
+                "society_name": "Baphalali Eswatini Red Cross Society",
+                "name": "Eswatini, Kingdom of",
+                "translation_module_original_language": "en"
+              }
+            ],
+            "created_at": "2023-11-13T15:01:14.542601Z",
+            "updated_at": "2023-11-13T15:01:14.542612Z",
+            "report_date": "2023-11-13T15:01:14.541569Z",
+            "id": 16741,
+            "is_covid_report": false,
+            "num_injured": null,
+            "num_dead": null,
+            "num_missing": null,
+            "num_affected": 9330,
+            "num_displaced": null,
+            "epi_num_dead": null,
+            "num_assisted": null,
+            "num_localstaff": null,
+            "num_volunteers": null,
+            "num_expats_delegates": null,
+            "gov_num_injured": null,
+            "gov_num_dead": null,
+            "gov_num_missing": null,
+            "gov_num_affected": 282500,
+            "gov_num_displaced": null,
+            "gov_num_assisted": null,
+            "other_num_injured": null,
+            "other_num_dead": null,
+            "other_num_missing": null,
+            "other_num_affected": null,
+            "other_num_displaced": null,
+            "other_num_assisted": null,
+            "num_potentially_affected": null,
+            "gov_num_potentially_affected": null,
+            "other_num_potentially_affected": null,
+            "num_highest_risk": null,
+            "gov_num_highest_risk": null,
+            "other_num_highest_risk": null,
+            "affected_pop_centres": null,
+            "gov_affected_pop_centres": null,
+            "other_affected_pop_centres": null,
+            "epi_cases": null,
+            "epi_suspected_cases": null,
+            "epi_probable_cases": null,
+            "epi_confirmed_cases": null,
+            "epi_figures_source": null,
+            "epi_figures_source_display": null,
+            "epi_cases_since_last_fr": null,
+            "epi_deaths_since_last_fr": null,
+            "epi_notes_since_last_fr": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "request_assistance": false,
+            "ns_request_assistance": true,
+            "notes_health": null,
+            "notes_ns": null,
+            "notes_socioeco": null,
+            "recent_affected": 1,
+            "summary": "SWZ: Food Insecurity - 11-2023 - Eswatini Food Insecurity crisis",
+            "description": "<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-GB\">Livelihood and food insecurity vulnerabilities continue to be of great concern in the Southern African Development Community (SADC). </span><span lang=\"EN-GB\" style=\"mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; color: #333333;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>Similarly to Eswatini, The persistent drought is further exacerbating the country&rsquo;s existing challenges of food insecurity and ability to attain development goals. Consequences of severe, recent droughts for the country have resulted in 25% of the population is vulnerable and acknowledged as food and water insecure, with many households still reliant on welfare and social safety nets. The regions with the highest prevalence of food insecurity are Lubombo and Shiswelweni, the areas most affected by the drought</span><span lang=\"EN-GB\" style=\"font-size: 13.5pt; line-height: 107%; font-family: 'Open Sans',sans-serif; mso-fareast-font-family: 'Open Sans'; color: #333333;\">.</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-GB\">The Integrated- Food Security Phase Classification (IPC) report published in 2023, indicates that approximately 238,500 people (20%) of the population were estimated to be facing acute food insecurity and requiring urgent humanitarian assistance with Crisis food insecurity which is Phase 3 (crises) of the IPC) in June to September 2023. From October 2023 to March 2024, it is projected that approximately 268,000 people will be classified in IPC Phase 3 (Crisis), and nearly 15,000 will be in IPC Phase 4 (Emergency). The IPC report further indicates that Dry Middleveld (DMV) and the Lowveld Cattle and Maize (LCM) have the highest proportion of the population (30%) classified in IPC Phase 3 indicative of high food insecurity levels in the zones for the current period (Oct 2023-March 2024). During the projected period, these zones will see an increase of 5% of their population in IPC Phase 3 or above and have the highest number of people in IPC Phase 3 or above for both periods of the analysis. Additionally, the Lubombo Plateau will also see 10% of its population falling to worse phases increasing the population in IPC Phase 3 or above to 35% (16,000 from 11,000). </span><span lang=\"EN-GB\" style=\"font-size: 10.5pt; line-height: 107%; font-family: 'Titillium Web'; color: #333333;\">&nbsp;</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-GB\" style=\"font-size: 10.5pt; line-height: 107%; font-family: 'Titillium Web'; color: #333333; background: white;\">The main reasons for the rise in food insecurity are the prolonged impact of COVID-19, which is a key driver of food insecurity, and the increasing level of unemployment which has fluctuated from 23.5% in 2020 to 33.5% in November 2021. Social unrest has led to the destruction of businesses in urban and peri-urban areas which used to supply foodstuffs from the urban areas to the rural areas. This was worsened by dry spells in November and December 2020 which negatively affected the start of the farming season, crop production, and prolonged rains in February due to Cyclone Eloise, which resulted in flooding in most areas, causing crop damage and poor yields. The impacts of COVID-19 have continued to be a driver of food insecurity and are expected to worsen in peri-urban and urban populations due to the increase in unemployment. The predicted fourth wave of COVID-19 is expected to escalate the strain on fiscal prudence since the Government will be expected to increase support for the health sector and food security sectors. It is important to address this issue. </span><span lang=\"EN-GB\" style=\"mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;\">One of the effects of food insecurity is increased malnutrition at the household level. Other underlying factors i.e., government fiscal challenges, irregular rainfall patterns, and inflation.</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\">The Government of Eswatini through the National Disa<a style=\"mso-comment-reference: GP_1; mso-comment-date: 20231109T1223;\">ster Management Agency (NDMA) requested the Eswatini humanitarian actors and the Eswatini National Food Security Consort</a></span><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\">ium partners in September 2023 for intervention as currently the Government does not have sufficient funds to respond to the humanitarian/food insecurity needs. There has been no response to the food-insecure communities from June to date (except as planned by RC for October - Jan 2024).</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-US\" style=\"mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; mso-ansi-language: EN-US;\">The Red Cross is in parts of Lubombo and Shiselweni regions (the total number of people targeted by the Red Cross interventions is 30,380 people) with the ECHO PP funding. The total number of estimated food insecure in the Lubombo and Shiselweni regions is 126,074 persons (44,5% of total food insecure), where RC through the ECHO PPP covers only 24% leaving a gap of 76% presently. This summarizes the magnitude of the food security needs in the country which with the forecasted El &lsquo;Nino (January- March period) will be escalated.&nbsp;</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-GB\" style=\"mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;\">In this respect to the above, Baphalali Eswatini Red Cross Society is requesting CHF 500,000 of the DREF to provide 4 rounds of multi-purpose cash grants through Financial Service Providers (mobile money) for an additional 1,555 households in the existing constituencies to cover additional caseload of most food insecure persons who were left out from original targeting. This assistance will reach approximately 9330 persons where 90% of this funding will go directly to the beneficiaries while the rest covers the support costs of the community sensitization, beneficiary registration, verification, and monitoring for 4 months.</span></p>\n<div style=\"mso-element: comment-list;\"><!-- [if !supportAnnotations]--><hr class=\"msocomoff\" align=\"left\" size=\"1\" width=\"33%\"><!--[endif]-->\n<div style=\"mso-element: comment;\"><!-- [if !supportAnnotations]-->\n<div id=\"_com_1\" class=\"msocomtxt\"></div>\n<!--[endif]--></div>\n</div>",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "updated_at": "2024-01-11T08:36:40.085292Z",
+        "id": 6750,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "summary": "<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-GB\" style=\"mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; color: #333333;\">The persistent drought is further exacerbating the country’s existing challenges of food insecurity and ability to attain development goals. Consequences of severe, recent droughts for the country have resulted in 25% of the population is vulnerable and acknowledged as food and water insecure, with many households still reliant on welfare and social safety nets. The regions with the <strong>highest prevalence of food insecurity</strong> are <strong>Lubombo and Shiswelweni</strong>, the areas most affected by the drought</span><span lang=\"EN-GB\" style=\"font-size: 13.5pt; line-height: 107%; font-family: 'Open Sans',sans-serif; mso-fareast-font-family: 'Open Sans'; color: #333333;\">.</span></p>\r\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-GB\">The Integrated- Food Security Phase Classification (IPC) report published in 2023, indicates that approximately <strong>238,500 people (20%) of the population were estimated to be facing acute food insecurity</strong> and requiring urgent humanitarian assistance with Crisis food insecurity which is Phase 3 (crises) of the IPC) in June to September 2023. From October 2023 to March 2024, it is projected that approximately 268,000 people will be classified in IPC Phase 3 (Crisis), and nearly 15,000 will be in IPC Phase 4 (Emergency). The IPC report further indicates that Dry Middleveld (DMV) and the Lowveld Cattle and Maize (LCM) have the highest proportion of the population (30%) classified in IPC Phase 3 indicative of high food insecurity levels in the zones for the current period (Oct 2023-March 2024). During the projected period, these zones will see an increase of 5% of their population in IPC Phase 3 or above and have the highest number of people in IPC Phase 3 or above for both periods of the analysis. Additionally, the Lubombo Plateau will also see 10% of its population falling to worse phases increasing the population in IPC Phase 3 or above to 35% (16,000 from 11,000). </span><span lang=\"EN-GB\" style=\"font-size: 10.5pt; line-height: 107%; font-family: 'Titillium Web'; color: #333333;\"> </span></p>\r\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\">The Government of Eswatini through the National Disa<a style=\"mso-comment-reference: GP_1; mso-comment-date: 20231109T1223;\">ster Management Agency (NDMA) requested the Eswatini humanitarian actors and the Eswatini National Food Security Consort</a></span><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\">ium partners in September 2023 for intervention as currently the Government does not have sufficient funds to respond to the humanitarian/food insecurity needs. There has been no response to the food-insecure communities from June to date (except as planned by RC for October - Jan 2024).</span></p>\r\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span lang=\"EN-US\" style=\"mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; mso-ansi-language: EN-US;\">The Red Cross is in parts of Lubombo and Shiselweni regions (the total number of people targeted by the Red Cross interventions is 30,380 people). The total number of estimated food insecure in the Lubombo and Shiselweni regions is 126,074 persons (44,5% of total food insecure), where RC covers only 24% leaving a gap of 76% presently. Food insecurity in the country is likely to worsen with the forecasted El ‘Nino (January- March period). </span></p>\r\n<div style=\"mso-element: comment-list;\"><!-- [if !supportAnnotations]--><hr class=\"msocomoff\" align=\"left\" size=\"1\" width=\"33%\" /><!--[endif]-->\r\n<div style=\"mso-element: comment;\"><!-- [if !supportAnnotations]-->\r\n<div id=\"_com_1\" class=\"msocomtxt\"> </div>\r\n<!--[endif]--></div>\r\n</div>",
+        "name": "SWZ: 2023 Eswatini Drought",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

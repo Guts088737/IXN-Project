@@ -1,0 +1,188 @@
+{
+  "cache_time": "2025-08-13T18:02:39.945112",
+  "cache_key": "historical_disasters/country_213_events",
+  "data": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": {
+          "id": 20,
+          "summary": "",
+          "name": "Drought",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "TV",
+            "iso3": "TUV",
+            "id": 213,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 2,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DTV001",
+            "average_household_size": null,
+            "society_name": "Tuvalu Red Cross Society",
+            "name": "Tuvalu",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2021-07-30T00:00:00Z",
+        "created_at": "2021-07-15T04:27:57.652044Z",
+        "auto_generated": true,
+        "appeals": [
+          {
+            "aid": "16164",
+            "num_beneficiaries": 10204,
+            "amount_requested": 30155.0,
+            "code": "MDRTV002",
+            "amount_funded": 30155.0,
+            "status": 1,
+            "status_display": "Closed",
+            "start_date": "2021-08-23T00:00:00Z",
+            "end_date": "2021-12-31T00:00:00Z",
+            "sector": "Suva country cluster",
+            "atype": 0,
+            "atype_display": "DREF",
+            "id": 3455,
+            "translation_module_original_language": "en"
+          }
+        ],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [
+          {
+            "status": 8,
+            "contacts": [
+              {
+                "ctype": "Originator",
+                "name": "Esaroma Ledua",
+                "title": "Readiness and Response Manager",
+                "email": "esaroma.ledua@ifrc.org; ",
+                "phone": "(679) 9992470",
+                "id": 41458
+              },
+              {
+                "ctype": "NationalSociety",
+                "name": "Tusi Finikaso",
+                "title": "Acting Climate Change & Disaster Management Officer",
+                "email": "tusifinikaso@gmail.com; ",
+                "phone": "",
+                "id": 41459
+              },
+              {
+                "ctype": "Federation",
+                "name": "Carla Taylor",
+                "title": "DRM Coordinatror",
+                "email": "carla.taylor@ifrc.org; ",
+                "phone": "(679) 9987843",
+                "id": 41460
+              },
+              {
+                "ctype": "Media",
+                "name": "Soneel Ram",
+                "title": "Communications Manager",
+                "email": "soneel.ram@ifrc.org; ",
+                "phone": "(679) 9983688",
+                "id": 41461
+              }
+            ],
+            "countries": [
+              {
+                "iso": "TV",
+                "iso3": "TUV",
+                "id": 213,
+                "record_type": 1,
+                "record_type_display": "Country",
+                "region": 2,
+                "independent": true,
+                "is_deprecated": false,
+                "fdrs": "DTV001",
+                "average_household_size": null,
+                "society_name": "Tuvalu Red Cross Society",
+                "name": "Tuvalu",
+                "translation_module_original_language": "en"
+              }
+            ],
+            "created_at": "2021-07-15T04:27:57.503242Z",
+            "updated_at": "2021-07-15T04:27:57.657490Z",
+            "report_date": "2021-07-15T04:27:57.502425Z",
+            "id": 14525,
+            "is_covid_report": false,
+            "num_injured": null,
+            "num_dead": null,
+            "num_missing": null,
+            "num_affected": null,
+            "num_displaced": null,
+            "epi_num_dead": null,
+            "num_assisted": null,
+            "num_localstaff": null,
+            "num_volunteers": null,
+            "num_expats_delegates": null,
+            "gov_num_injured": null,
+            "gov_num_dead": null,
+            "gov_num_missing": null,
+            "gov_num_affected": null,
+            "gov_num_displaced": null,
+            "gov_num_assisted": null,
+            "other_num_injured": null,
+            "other_num_dead": null,
+            "other_num_missing": null,
+            "other_num_affected": null,
+            "other_num_displaced": null,
+            "other_num_assisted": null,
+            "num_potentially_affected": null,
+            "gov_num_potentially_affected": 4500,
+            "other_num_potentially_affected": null,
+            "num_highest_risk": null,
+            "gov_num_highest_risk": 300,
+            "other_num_highest_risk": null,
+            "affected_pop_centres": null,
+            "gov_affected_pop_centres": "Nanumea, Nui, Funafuti and Niulakita",
+            "other_affected_pop_centres": null,
+            "epi_cases": null,
+            "epi_suspected_cases": null,
+            "epi_probable_cases": null,
+            "epi_confirmed_cases": null,
+            "epi_figures_source": null,
+            "epi_figures_source_display": null,
+            "epi_cases_since_last_fr": null,
+            "epi_deaths_since_last_fr": null,
+            "epi_notes_since_last_fr": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "request_assistance": false,
+            "ns_request_assistance": false,
+            "notes_health": null,
+            "notes_ns": null,
+            "notes_socioeco": null,
+            "recent_affected": 5,
+            "summary": "Tuvalu- Drought",
+            "description": "The potential drought warning expected to affect the whole of Tuvalu in the next coming weeks. This is due to the decrease in low water levels experience in the areas stated to be affected. There is also potential low rainfall in the next week through to August. The Government with the support of the Tuvalu Red Cross are also doin water rationing to critical areas to avoid wastage of water usage in critical communities. In the main island of Funafuti, household water sounding has also been done which saw 69% households are above the 5000l level, 8% below 5000l, 17% below 2500l and 6% are currently now empty.",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "updated_at": "2024-12-11T02:35:20.528567Z",
+        "id": 5417,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Action",
+        "tab_two_title": "Assessments",
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "summary": "",
+        "name": "Tuvalu- Drought",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

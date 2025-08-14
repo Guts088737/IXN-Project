@@ -1,0 +1,163 @@
+{
+  "cache_time": "2025-08-13T18:02:27.410998",
+  "cache_key": "historical_disasters/country_124_events",
+  "data": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": {
+          "id": 4,
+          "summary": "",
+          "name": "Cyclone",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "NL",
+            "iso3": "NLD",
+            "id": 124,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 3,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DNL001",
+            "average_household_size": null,
+            "society_name": "The Netherlands Red Cross",
+            "name": "Netherlands",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 0,
+        "ifrc_severity_level_display": "Yellow",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2022-09-16T00:00:00Z",
+        "created_at": "2022-09-16T03:05:46.285413Z",
+        "auto_generated": true,
+        "appeals": [],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [
+          {
+            "status": 9,
+            "contacts": [
+              {
+                "ctype": "Originator",
+                "name": "Jeroen Van Keer",
+                "title": "Regional Coordinator Caribbean branches NLRC",
+                "email": "jvankeer@redcross.nl",
+                "phone": "+17215549811",
+                "id": 46433
+              },
+              {
+                "ctype": "NationalSociety",
+                "name": "Jeroen Van Keer",
+                "title": "Regional Coordinator Caribbean branches NLRC",
+                "email": "jvankeer@redcross.nl",
+                "phone": "+17215549811",
+                "id": 46434
+              },
+              {
+                "ctype": "Federation",
+                "name": "Horace Glaze",
+                "title": "Regional DM Coordinator IFRC",
+                "email": "horace.glaze@ifrc.org",
+                "phone": "+18768257761",
+                "id": 46435
+              }
+            ],
+            "countries": [
+              {
+                "iso": "NL",
+                "iso3": "NLD",
+                "id": 124,
+                "record_type": 1,
+                "record_type_display": "Country",
+                "region": 3,
+                "independent": true,
+                "is_deprecated": false,
+                "fdrs": "DNL001",
+                "average_household_size": null,
+                "society_name": "The Netherlands Red Cross",
+                "name": "Netherlands",
+                "translation_module_original_language": "en"
+              }
+            ],
+            "created_at": "2022-09-16T03:05:46.049352Z",
+            "updated_at": "2022-09-17T17:58:30.734404Z",
+            "report_date": "2022-09-16T03:05:46.048680Z",
+            "id": 16088,
+            "is_covid_report": false,
+            "num_injured": 0,
+            "num_dead": 0,
+            "num_missing": 0,
+            "num_affected": null,
+            "num_displaced": null,
+            "epi_num_dead": null,
+            "num_assisted": 13,
+            "num_localstaff": 5,
+            "num_volunteers": 20,
+            "num_expats_delegates": null,
+            "gov_num_injured": null,
+            "gov_num_dead": null,
+            "gov_num_missing": null,
+            "gov_num_affected": null,
+            "gov_num_displaced": null,
+            "gov_num_assisted": 0,
+            "other_num_injured": null,
+            "other_num_dead": null,
+            "other_num_missing": null,
+            "other_num_affected": null,
+            "other_num_displaced": null,
+            "other_num_assisted": null,
+            "num_potentially_affected": 64103,
+            "gov_num_potentially_affected": null,
+            "other_num_potentially_affected": null,
+            "num_highest_risk": 64103,
+            "gov_num_highest_risk": null,
+            "other_num_highest_risk": null,
+            "affected_pop_centres": "64103",
+            "gov_affected_pop_centres": null,
+            "other_affected_pop_centres": null,
+            "epi_cases": null,
+            "epi_suspected_cases": null,
+            "epi_probable_cases": null,
+            "epi_confirmed_cases": null,
+            "epi_figures_source": null,
+            "epi_figures_source_display": null,
+            "epi_cases_since_last_fr": null,
+            "epi_deaths_since_last_fr": null,
+            "epi_notes_since_last_fr": null,
+            "visibility": 3,
+            "visibility_display": "Public",
+            "request_assistance": false,
+            "ns_request_assistance": false,
+            "notes_health": null,
+            "notes_ns": null,
+            "notes_socioeco": null,
+            "recent_affected": 4,
+            "summary": "NLD: Cyclone - 2022-09 - Tropical Storm Fiona",
+            "description": "<p>A tropical storm warning for tropical storm Fiona remains in effect for Saba, Sint-Eustatius (Statia) and Sint-Maarten. Winds will gradually decrease Saturday evening. Sunday will be cloudy with some showers and risk of thunderstorms.</p>\n<p><strong>Sint-Maarten</strong>: quite some flooding ongoing, some areas are currently not accessible. The wind is manageable. One shelter was opened with approximately 13 people inside of which some were homeless before the storm. Second shift of Red Cross volunteers started this morning in the shelter. Everybody is requested to remain indoors. Essential shops can open on Saturday 2PM, other bussiness remain closed. Regular business hours resume Sunday from 6am. The airport remains closed until Sunday 7am. Good cooperation between Red Cross and ESF 6 and ESF 7 with regards to response coordination. The Red Cross office is not affected by the water.</p>\n<p><strong>Sint-Eustatius (Statia)</strong>: the airport remains closed (is linked to closure of the airport in SXM). No incidents reported so far. Businesses remain closed and people are urged to remain indoors. Some rocks and gravel on the road. Monitoring the erosion. Power network is still functioning as most of the lines are underground.</p>\n<p><strong>Saba</strong>: people are urged to remain indoors, no further information</p>",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "updated_at": "2024-06-03T18:14:53.663517Z",
+        "id": 6169,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "summary": "A tropical storm warning for tropical storm Fiona is in effect for Saba, Sint-Eustatius (Statia) and Sint-Maarten. Fiona is located about 526 miles (846 km) east of the Leeward Islands (Thu Sep 15, 17:00 AST). The center of Fiona is expected to pass 40 miles south of Saba and Statia early Saturday morning. There is a 55-60% risk of tropical storm wind (39 mph), and 15-20% chance of 58 mph, from later Friday evening through Saturday morning. Accumulated rainfall is 4-6 inch, isolated higher amount, risk of flash floods and mud slides from Friday afternoon through Saturday afternoon.",
+        "name": "NLD: Cyclone - 2022-09 - Tropical Storm Fiona",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

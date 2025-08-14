@@ -1,0 +1,127 @@
+{
+  "cache_time": "2025-08-10T19:56:03.740842",
+  "cache_key": "local_units/unit_27683",
+  "data": {
+    "local_branch_name": "Hobart Donor Centre",
+    "english_branch_name": "",
+    "type": 2,
+    "country": 22,
+    "created_at": "2024-10-02T08:54:21.222662Z",
+    "modified_at": "2024-10-02T08:54:21.222672Z",
+    "draft": false,
+    "validated": true,
+    "postcode": "",
+    "address_loc": "Hobart ",
+    "address_en": "",
+    "city_loc": "",
+    "city_en": "",
+    "link": "",
+    "location": "SRID=4326;POINT (147.3265876 -42.87984176)",
+    "source_loc": "",
+    "source_en": "",
+    "subtype": "",
+    "date_of_data": "2024-10-02",
+    "level": 3,
+    "health": {
+      "id": 1655785,
+      "health_facility_type_details": {
+        "id": 2,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/blood-center.png",
+        "code": 2,
+        "name": "Blood Center"
+      },
+      "affiliation_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Red Cross / Red Crescent Facility"
+      },
+      "functionality_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Fully Functional"
+      },
+      "primary_health_care_center_details": null,
+      "hospital_type_details": null,
+      "general_medical_services_details": [],
+      "specialized_medical_beyond_primary_level_details": [],
+      "blood_services_details": [
+        {
+          "id": 1,
+          "code": 1,
+          "name": "Blood Collection"
+        }
+      ],
+      "professional_training_facilities_details": [],
+      "modified_by_details": null,
+      "created_by_details": null,
+      "created_at": "2024-10-02T08:54:09.778654Z",
+      "modified_at": "2024-10-02T08:54:09.778660Z",
+      "other_affiliation": null,
+      "focal_point_email": "contactus@redcrossblood.org.au",
+      "focal_point_phone_number": null,
+      "focal_point_position": null,
+      "other_facility_type": null,
+      "speciality": null,
+      "is_teaching_hospital": false,
+      "is_in_patient_capacity": false,
+      "is_isolation_rooms_wards": false,
+      "maximum_capacity": null,
+      "number_of_isolation_rooms": null,
+      "is_warehousing": true,
+      "is_cold_chain": true,
+      "ambulance_type_a": null,
+      "ambulance_type_b": null,
+      "ambulance_type_c": null,
+      "other_services": null,
+      "total_number_of_human_resource": null,
+      "general_practitioner": null,
+      "specialist": null,
+      "residents_doctor": null,
+      "nurse": null,
+      "dentist": null,
+      "nursing_aid": null,
+      "midwife": null,
+      "other_medical_heal": false,
+      "other_profiles": null,
+      "feedback": null,
+      "created_by": null,
+      "modified_by": null,
+      "affiliation": 1,
+      "functionality": 1,
+      "health_facility_type": 2,
+      "primary_health_care_center": null,
+      "hospital_type": null,
+      "general_medical_services": [],
+      "specialized_medical_beyond_primary_level": [],
+      "blood_services": [
+        1
+      ],
+      "professional_training_facilities": []
+    },
+    "visibility_display": "Public",
+    "location_geojson": {
+      "type": "Point",
+      "coordinates": [
+        147.3265876,
+        -42.87984176
+      ]
+    },
+    "type_details": {
+      "name": "Health Care",
+      "code": 2,
+      "id": 2,
+      "colour": "#011e41",
+      "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Healthcare.png"
+    },
+    "level_details": {
+      "name": "District/Regional",
+      "level": 2,
+      "id": 3
+    },
+    "country_details": {
+      "name": "Australia",
+      "iso3": "AUS",
+      "id": 22
+    }
+  }
+}

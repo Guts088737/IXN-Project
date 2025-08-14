@@ -1,0 +1,119 @@
+{
+  "cache_time": "2025-08-10T19:24:12.650937",
+  "cache_key": "regions/region_0",
+  "data": {
+    "links": [
+      {
+        "title": "PROTECTION, GENDER & INCLUSION",
+        "url": "https://ifrcgo.org/africa/PGI.html",
+        "id": 50,
+        "show_in_go": true
+      },
+      {
+        "title": "DISASTER & LAW",
+        "url": "https://ifrcgo.org/africa/disaster_law.html",
+        "id": 51,
+        "show_in_go": true
+      },
+      {
+        "title": "FOOD SECURITY IN AFRICA",
+        "url": "https://ifrcgo.org/africa/foodsecurity.html",
+        "id": 54,
+        "show_in_go": true
+      },
+      {
+        "title": "AFRICA SURGE DESK",
+        "url": "https://app.smartsheet.com/b/publish?EQBCT=e1aba3e3d95a425093d6e5145d0404d9",
+        "id": 53,
+        "show_in_go": true
+      },
+      {
+        "title": "COMMUNITY ENGAGEMENT AND ACCOUNTABILITY",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiMmM5OWNlYzYtODUzMy00YzE0LTlmOWEtY2Y5ZmIzNzRjMzBmIiwidCI6ImEyYjUzYmU1LTczNGUtNGU2Yy1hYjBkLWQxODRmNjBmZDkxNyIsImMiOjh9",
+        "id": 62,
+        "show_in_go": true
+      },
+      {
+        "title": "SAHEL DIGITAL PLATFORM",
+        "url": "https://ifrcgo.org/africa/sahel.html",
+        "id": 78,
+        "show_in_go": false
+      },
+      {
+        "title": "A RCRC MHPSS ROAD MAP FOR AFRICA 2030 - EN",
+        "url": "https://prddsgofilestorage.blob.core.windows.net/api/documents/A_Red_Cross_Red_Crescent_MHPSS_roadmap_for_Africa_2030/A_Red_Cross_Red_Crescen_9b3QB14.pdf",
+        "id": 85,
+        "show_in_go": false
+      },
+      {
+        "title": "A RCRC MHPSS ROAD MAP FOR AFRICA 2030 - FR",
+        "url": "https://prddsgofilestorage.blob.core.windows.net/api/documents/A_Red_Cross_Red_Crescent_MHPSS_roadmap_for_Africa_2030_-_FR/A_Red_Cross_Red_Cr_puSBp6h.pdf",
+        "id": 86,
+        "show_in_go": false
+      }
+    ],
+    "contacts": [
+      {
+        "ctype": "",
+        "name": "Elijah Karanja Kingori",
+        "title": "Regional IM Delegate",
+        "email": "elijah.kingori@ifrc.org",
+        "id": 93
+      },
+      {
+        "ctype": "",
+        "name": "Rui Alberto OLIVEIRA",
+        "title": "Lead, Preparedness and Response",
+        "email": "rui.oliveira@ifrc.org",
+        "id": 110
+      }
+    ],
+    "snippets": [],
+    "emergency_snippets": [],
+    "profile_snippets": [],
+    "preparedness_snippets": [
+      {
+        "region": 0,
+        "id": 8,
+        "snippet": "<p><iframe src=\"https://ifrcgo.org/africa/preparedness.html\" width=\"1440\" height=\"780\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+        "title": "PREPAREDNESS",
+        "translation_module_original_language": "en"
+      }
+    ],
+    "name": 0,
+    "region_name": "Africa",
+    "id": 0,
+    "country_plan_count": 47,
+    "national_society_count": 49,
+    "country_cluster_count": 4,
+    "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -32.990478515633654,
+            -47.08120743260387
+          ],
+          [
+            -32.990478515633654,
+            41.72638107989894
+          ],
+          [
+            67.90795898435853,
+            41.72638107989894
+          ],
+          [
+            67.90795898435853,
+            -47.08120743260387
+          ],
+          [
+            -32.990478515633654,
+            -47.08120743260387
+          ]
+        ]
+      ]
+    },
+    "additional_tab_name": "",
+    "translation_module_original_language": "en"
+  }
+}

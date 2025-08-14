@@ -1,0 +1,77 @@
+{
+  "cache_time": "2025-08-13T18:02:30.310783",
+  "cache_key": "historical_disasters/country_133_events",
+  "data": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": {
+          "id": 24,
+          "name": "Landslide",
+          "summary": "",
+          "translation_module_original_language": "en"
+        },
+        "countries": [
+          {
+            "iso": "PG",
+            "iso3": "PNG",
+            "id": 133,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 2,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DPG001",
+            "average_household_size": null,
+            "society_name": "Papua New Guinea Red Cross Society",
+            "name": "Papua New Guinea",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 1,
+        "ifrc_severity_level_display": "Orange",
+        "ifrc_severity_level_update_date": null,
+        "glide": "LS-2024-000080-PNG",
+        "disaster_start_date": "2024-05-24T00:00:00Z",
+        "created_at": "2024-06-04T07:41:06.651377Z",
+        "auto_generated": false,
+        "appeals": [
+          {
+            "aid": "18336",
+            "num_beneficiaries": 2000,
+            "amount_requested": 200726.0,
+            "code": "MDRPG012",
+            "amount_funded": 200726.0,
+            "status": 2,
+            "status_display": "Frozen",
+            "start_date": "2024-06-01T00:00:00Z",
+            "end_date": "2024-12-31T00:00:00Z",
+            "sector": "Papua New Guinea country office",
+            "atype": 0,
+            "atype_display": "DREF",
+            "id": 3910,
+            "translation_module_original_language": "en"
+          }
+        ],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [],
+        "updated_at": "2024-06-04T07:52:02.928138Z",
+        "id": 7022,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "name": "Papua New Guinea Landslide 2024",
+        "summary": "<p>A landslide occurred on Friday 24th May 2024 at 03:00 a.m. in Yambali village, Maip Mulitaka LLG of Lagaip-Porgera District, Enga Province, Papua New Guinea. Preliminary reports from the provincial government’s office and IOM suggested a number of deaths but confirmed data has not yet been released. Further numbers of casualties and other details are yet to be verified. Estimation of a minimum 7,849 population have been affected by this disaster.</p>\r\n<p>The landslide has blocked off the main highway that also leads to one of the mine site (Porgera Mine). This will also affect communities on the other side as there is no other load to access for food and other supplies for affected people. This is one of the largest devasting disaster, that nearly wiped out a whole village. Enga province is also known for continuous tribal fighting and thus making the area a high security risk.</p>\r\n<p>The landslide had occurred in the early hours of morning leading to blocking of main highway road resulted in the whole village has been inaccessible. There is much needed support to be provided to this affected population including clean and safe water as their water sources are already contaminated. Potential high figure of children becoming orphaned by either losing a parent or both parents are expected. They are still in a traumatized state where psychosocial support is needed. The affected population have lost their livelihood and means of survival, as their food gardens and other means of livelihood are destroyed. So, there is need to provide significant humanitarian support.</p>\r\n<p>Due to extent of the damage and lack of official information in relation to total population in the affected area, there is still no further confirmation on the total number of deaths, as data and information are still being collated. Enga Provincial Administration office has been working closely with the Disaster Management Team (DMT) secretariat and other humanitarian partners who are present on the ground providing essential needed items, such as food and water.</p>",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

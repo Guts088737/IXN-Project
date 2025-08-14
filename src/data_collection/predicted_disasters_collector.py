@@ -6,15 +6,19 @@
 """
 
 from pathlib import Path
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Any
 from datetime import datetime, timedelta
 import time
 import sys
 
-sys.path.append(str(Path(__file__).parent.parent))
+# 添加项目根目录到路径
+sys.path.append(str(Path(__file__).parent.parent.parent))
 
-from base_collector import ConfigurableCollector
-from config import get_config, ProjectConfig
+try:
+    from .base_collector import ConfigurableCollector
+except ImportError:
+    # 如果相对导入失败，使用绝对导入
+    from src.data_collection.base_collector import ConfigurableCollector
 
 
 class PredictedDisastersCollector(ConfigurableCollector):

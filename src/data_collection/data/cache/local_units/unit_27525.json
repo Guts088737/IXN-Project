@@ -1,0 +1,137 @@
+{
+  "cache_time": "2025-08-10T19:54:59.646377",
+  "cache_key": "local_units/unit_27525",
+  "data": {
+    "local_branch_name": "Musahi BHC",
+    "english_branch_name": "",
+    "type": 2,
+    "country": 14,
+    "created_at": "2024-10-02T08:54:21.201408Z",
+    "modified_at": "2024-10-02T08:54:21.201415Z",
+    "draft": false,
+    "validated": true,
+    "postcode": "",
+    "address_loc": "Kabul, Musahi district",
+    "address_en": "",
+    "city_loc": "",
+    "city_en": "",
+    "link": "",
+    "location": "SRID=4326;POINT (69.16883 34.328665)",
+    "source_loc": "",
+    "source_en": "",
+    "subtype": "",
+    "date_of_data": "2024-10-02",
+    "level": 3,
+    "health": {
+      "id": 1431909,
+      "health_facility_type_details": {
+        "id": 5,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/primary-health-care.png",
+        "code": 5,
+        "name": "Primary Health Care Center"
+      },
+      "affiliation_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Red Cross / Red Crescent Facility"
+      },
+      "functionality_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Fully Functional"
+      },
+      "primary_health_care_center_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Medical Practices"
+      },
+      "hospital_type_details": null,
+      "general_medical_services_details": [
+        {
+          "id": 2,
+          "code": 2,
+          "name": "Outpatient Services"
+        },
+        {
+          "id": 5,
+          "code": 5,
+          "name": "Referral Capacity"
+        }
+      ],
+      "specialized_medical_beyond_primary_level_details": [],
+      "blood_services_details": [],
+      "professional_training_facilities_details": [],
+      "modified_by_details": null,
+      "created_by_details": null,
+      "created_at": "2024-10-02T08:53:54.808283Z",
+      "modified_at": "2024-10-02T08:53:54.808289Z",
+      "other_affiliation": null,
+      "focal_point_email": "roullah.nikmal@arcs.af",
+      "focal_point_phone_number": "93706750269",
+      "focal_point_position": "HMIS manager",
+      "other_facility_type": null,
+      "speciality": null,
+      "is_teaching_hospital": false,
+      "is_in_patient_capacity": false,
+      "is_isolation_rooms_wards": false,
+      "maximum_capacity": null,
+      "number_of_isolation_rooms": null,
+      "is_warehousing": false,
+      "is_cold_chain": true,
+      "ambulance_type_a": null,
+      "ambulance_type_b": null,
+      "ambulance_type_c": null,
+      "other_services": null,
+      "total_number_of_human_resource": 8,
+      "general_practitioner": null,
+      "specialist": null,
+      "residents_doctor": null,
+      "nurse": null,
+      "dentist": null,
+      "nursing_aid": null,
+      "midwife": null,
+      "other_medical_heal": false,
+      "other_profiles": null,
+      "feedback": null,
+      "created_by": null,
+      "modified_by": null,
+      "affiliation": 1,
+      "functionality": 1,
+      "health_facility_type": 5,
+      "primary_health_care_center": 1,
+      "hospital_type": null,
+      "general_medical_services": [
+        2,
+        5
+      ],
+      "specialized_medical_beyond_primary_level": [],
+      "blood_services": [],
+      "professional_training_facilities": []
+    },
+    "visibility_display": "Public",
+    "location_geojson": {
+      "type": "Point",
+      "coordinates": [
+        69.16883,
+        34.328665
+      ]
+    },
+    "type_details": {
+      "name": "Health Care",
+      "code": 2,
+      "id": 2,
+      "colour": "#011e41",
+      "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Healthcare.png"
+    },
+    "level_details": {
+      "name": "District/Regional",
+      "level": 2,
+      "id": 3
+    },
+    "country_details": {
+      "name": "Afghanistan",
+      "iso3": "AFG",
+      "id": 14
+    }
+  }
+}

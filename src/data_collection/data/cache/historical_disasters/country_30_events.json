@@ -1,0 +1,55 @@
+{
+  "cache_time": "2025-08-13T18:01:58.755033",
+  "cache_key": "historical_disasters/country_30_events",
+  "data": {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "dtype": null,
+        "countries": [
+          {
+            "iso": "BE",
+            "iso3": "BEL",
+            "id": 30,
+            "record_type": 1,
+            "record_type_display": "Country",
+            "region": 3,
+            "independent": true,
+            "is_deprecated": false,
+            "fdrs": "DBE001",
+            "average_household_size": null,
+            "society_name": "Belgian Red Cross",
+            "name": "Belgium",
+            "translation_module_original_language": "en"
+          }
+        ],
+        "num_affected": null,
+        "ifrc_severity_level": 1,
+        "ifrc_severity_level_display": "Orange",
+        "ifrc_severity_level_update_date": null,
+        "glide": "",
+        "disaster_start_date": "2021-07-16T01:00:00Z",
+        "created_at": "2021-07-19T08:20:05.238272Z",
+        "auto_generated": true,
+        "appeals": [],
+        "is_featured": false,
+        "is_featured_region": false,
+        "field_reports": [],
+        "updated_at": "2021-07-19T08:20:05.238289Z",
+        "id": 5424,
+        "slug": null,
+        "parent_event": null,
+        "tab_one_title": "Additional Information",
+        "tab_two_title": null,
+        "tab_three_title": null,
+        "emergency_response_contact_email": null,
+        "active_deployments": 0,
+        "name": "GDACS Orange: Belgium FL Magnitude 0",
+        "summary": "On 14/07/2021, a flood started in Belgium, lasting until 16/07/2021 (last update). The flood caused 14 deaths and 1200 displaced .",
+        "translation_module_original_language": "en"
+      }
+    ]
+  }
+}

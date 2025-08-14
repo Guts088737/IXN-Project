@@ -1,0 +1,171 @@
+{
+  "cache_time": "2025-08-10T19:56:47.348222",
+  "cache_key": "local_units/unit_27754",
+  "data": {
+    "local_branch_name": "Centre Médical de la Croix-Rouge Mwaro",
+    "english_branch_name": "",
+    "type": 2,
+    "country": 39,
+    "created_at": "2024-10-02T08:54:21.233804Z",
+    "modified_at": "2024-10-02T08:54:21.233829Z",
+    "draft": false,
+    "validated": true,
+    "postcode": "",
+    "address_loc": "Kibumbu, Commune Kayokwe, Province Mwaro",
+    "address_en": "",
+    "city_loc": "",
+    "city_en": "",
+    "link": "",
+    "location": "SRID=4326;POINT (29.11297445 -3.530912354)",
+    "source_loc": "",
+    "source_en": "",
+    "subtype": "",
+    "date_of_data": "2024-10-02",
+    "level": 3,
+    "health": {
+      "id": 1675818,
+      "health_facility_type_details": {
+        "id": 5,
+        "image_url": "https://goadmin.ifrc.org/static/images/local_units/health_facility_type/primary-health-care.png",
+        "code": 5,
+        "name": "Primary Health Care Center"
+      },
+      "affiliation_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Red Cross / Red Crescent Facility"
+      },
+      "functionality_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Fully Functional"
+      },
+      "primary_health_care_center_details": {
+        "id": 1,
+        "code": 1,
+        "name": "Medical Practices"
+      },
+      "hospital_type_details": null,
+      "general_medical_services_details": [
+        {
+          "id": 1,
+          "code": 1,
+          "name": "Minor Trauma"
+        },
+        {
+          "id": 2,
+          "code": 2,
+          "name": "Outpatient Services"
+        },
+        {
+          "id": 3,
+          "code": 3,
+          "name": "Basic Lab Services"
+        },
+        {
+          "id": 4,
+          "code": 4,
+          "name": "Basic Life Support"
+        },
+        {
+          "id": 5,
+          "code": 5,
+          "name": "Referral Capacity"
+        }
+      ],
+      "specialized_medical_beyond_primary_level_details": [
+        {
+          "id": 8,
+          "code": 8,
+          "name": "Laboratory services advanced"
+        }
+      ],
+      "blood_services_details": [
+        {
+          "id": 5,
+          "code": 5,
+          "name": "Blood Transfusion"
+        }
+      ],
+      "professional_training_facilities_details": [],
+      "modified_by_details": null,
+      "created_by_details": null,
+      "created_at": "2024-10-02T08:54:02.209453Z",
+      "modified_at": "2024-10-02T08:54:02.209459Z",
+      "other_affiliation": null,
+      "focal_point_email": "martine.nkurikiye@croixrouge.bi",
+      "focal_point_phone_number": "25779284628",
+      "focal_point_position": "Programmes Director",
+      "other_facility_type": null,
+      "speciality": null,
+      "is_teaching_hospital": false,
+      "is_in_patient_capacity": true,
+      "is_isolation_rooms_wards": false,
+      "maximum_capacity": 30,
+      "number_of_isolation_rooms": null,
+      "is_warehousing": true,
+      "is_cold_chain": true,
+      "ambulance_type_a": null,
+      "ambulance_type_b": null,
+      "ambulance_type_c": null,
+      "other_services": null,
+      "total_number_of_human_resource": 12,
+      "general_practitioner": 1,
+      "specialist": null,
+      "residents_doctor": null,
+      "nurse": 5,
+      "dentist": null,
+      "nursing_aid": 1,
+      "midwife": null,
+      "other_medical_heal": true,
+      "other_profiles": "[List]",
+      "feedback": "Filled in by Adrian Calvo-Valderrama, based on offline form provided by Burundi RCS",
+      "created_by": null,
+      "modified_by": null,
+      "affiliation": 1,
+      "functionality": 1,
+      "health_facility_type": 5,
+      "primary_health_care_center": 1,
+      "hospital_type": null,
+      "general_medical_services": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "specialized_medical_beyond_primary_level": [
+        8
+      ],
+      "blood_services": [
+        5
+      ],
+      "professional_training_facilities": []
+    },
+    "visibility_display": "Public",
+    "location_geojson": {
+      "type": "Point",
+      "coordinates": [
+        29.11297445,
+        -3.530912354
+      ]
+    },
+    "type_details": {
+      "name": "Health Care",
+      "code": 2,
+      "id": 2,
+      "colour": "#011e41",
+      "image_url": "https://goadmin.ifrc.org/static/images/local_units/local_unit_type/Healthcare.png"
+    },
+    "level_details": {
+      "name": "District/Regional",
+      "level": 2,
+      "id": 3
+    },
+    "country_details": {
+      "name": "Burundi",
+      "iso3": "BDI",
+      "id": 39
+    }
+  }
+}
