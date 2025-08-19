@@ -17,6 +17,26 @@ class APIConfig:
     """API相关配置"""
     base_url_v1: str = "https://goadmin.ifrc.org/api/v1"
     base_url_v2: str = "https://goadmin.ifrc.org/api/v2"
+    
+    # 预测API基础URL
+    prediction_base_url: str = "http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1"
+    
+    # Risk API endpoints
+    risk_api_endpoints: Dict[str, str] = field(default_factory=lambda: {
+        'earthquake': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/earthquake/',
+        'global_exposure': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/global-exposure-data/',
+        'seasonal': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/seasonal/',
+        'country_seasonal': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/',
+        'pdc': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/pdc/',
+        'early_actions': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/early-actions/',
+        'risk_score': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/risk-score/',
+        'adam_exposure': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/adam-exposure/',
+        'inform_score': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/inform-score/',
+        'gdacs': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/gdacs/',
+        'meteoswiss': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/meteoswiss/',
+        'gwis': 'http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/gwis/'
+    })
+    
     timeout: int = 30
     retry_attempts: int = 3
     retry_delay: float = 0.5
@@ -25,6 +45,9 @@ class APIConfig:
         'Accept': 'application/json',
         'Content-Type': 'application/json'
     })
+    
+    # API缓存配置
+    cache_timeout: int = 3600  # 1小时缓存
 
 
 class DataPathConfig:
@@ -185,6 +208,63 @@ class ProcessingConfig:
 
 
 @dataclass
+class PredictionConfig:
+    """灾害预测配置"""
+    
+    # 可预测的灾害类型 (基于历史数据分析结果)
+    predictable_disasters: Dict[int, str] = field(default_factory=lambda: {
+        15: "Fire", 12: "Flood", 21: "Food Insecurity", 19: "Heat Wave", 
+        24: "Landslide", 13: "Other", 27: "Pluvial/Flash Flood", 
+        5: "Population Movement", 23: "Storm Surge", 54: "Transport Accident", 
+        11: "Tsunami", 8: "Volcanic Eruption", 14: "Cold Wave", 
+        6: "Complex Emergency", 4: "Cyclone", 20: "Drought", 
+        2: "Earthquake", 7: "Civil Unrest", 62: "Insect Infestation", 
+        68: "Transport Emergency", 66: "Biological Emergency"
+    })
+    
+    # 国家ISO3代码映射
+    country_iso3_mapping: Dict[str, str] = field(default_factory=lambda: {
+        'Bangladesh': 'BGD', 'Philippines': 'PHL', 'Indonesia': 'IDN',
+        'India': 'IND', 'Nepal': 'NPL', 'Pakistan': 'PAK',
+        'Turkey': 'TUR', 'Afghanistan': 'AFG', 'Myanmar': 'MMR',
+        'Syria': 'SYR', 'Japan': 'JPN', 'China': 'CHN',
+        'United States': 'USA', 'Australia': 'AUS', 'Brazil': 'BRA',
+        'Mexico': 'MEX', 'Iran': 'IRN', 'Thailand': 'THA'
+    })
+    
+    # 预测模型参数
+    model_params: Dict[str, Any] = field(default_factory=lambda: {
+        'default_time_horizon_months': 12,
+        'confidence_thresholds': {
+            'high': 50,     # 50+个历史事件
+            'medium': 20,   # 20-49个历史事件  
+            'low': 5,       # 5-19个历史事件
+            'very_low': 0   # <5个历史事件
+        },
+        'enhancement_limits': {
+            'min_multiplier': 0.1,  # 最小增强系数
+            'max_multiplier': 3.0,  # 最大增强系数
+            'api_weight': 0.3,      # API数据权重
+            'historical_weight': 0.7 # 历史数据权重
+        }
+    })
+    
+    # 灾害类型关键词映射 (用于API数据匹配)
+    disaster_keywords: Dict[str, List[str]] = field(default_factory=lambda: {
+        'flood': ['flood', 'flooding', 'inundation'],
+        'drought': ['drought', 'dry', 'arid'],
+        'cyclone': ['cyclone', 'hurricane', 'typhoon', 'storm', 'tropical'],
+        'earthquake': ['earthquake', 'seismic', 'tremor'],
+        'fire': ['fire', 'wildfire', 'forest fire'],
+        'heat wave': ['heat', 'hot', 'temperature', 'heatwave'],
+        'cold wave': ['cold', 'freeze', 'winter', 'frost'],
+        'landslide': ['landslide', 'slope', 'landslip'],
+        'tsunami': ['tsunami', 'tidal'],
+        'volcanic eruption': ['volcanic', 'volcano', 'eruption']
+    })
+
+
+@dataclass
 class LoggingConfig:
     """日志配置"""
     level: str = "INFO"
@@ -204,6 +284,7 @@ class ProjectConfig:
         self.collection = CollectionConfig()
         self.ifrc_standards = IFRCStandardsConfig()
         self.processing = ProcessingConfig()
+        self.prediction = PredictionConfig()
         self.logging = LoggingConfig()
 
         # 为main.py兼容性添加的属性
@@ -322,18 +403,40 @@ class ProjectConfig:
             
             # 其他有用端点
             'disaster_types': f"{self.api.base_url_v2}/disaster_type/",
-            'appeals': f"{self.api.base_url_v2}/appeal/",  # 添加appeals端点
+            'appeals': f"{self.api.base_url_v2}/appeal/",
             'countries': f"{self.api.base_url_v2}/country/",
             'regions': f"{self.api.base_url_v2}/region/",
 
-            # V1 API端点 (如果需要预测数据)
-            'earthquake': f"{self.api.base_url_v1}/earthquake/",
-            'global_exposure': f"{self.api.base_url_v1}/global-exposure-data/",
+            # V1 API端点 (基础数据)
+            'pdc': f"{self.api.base_url_v1}/pdc/",
+            'publish_report': f"{self.api.base_url_v1}/publish-report/",
             'risk_score': f"{self.api.base_url_v1}/risk-score/",
-            'seasonal': "http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/seasonal/",
-            'country-seasonal': "http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/country-seasonal/",
-            'early_actions': f"{self.api.base_url_v1}/early-actions/",
-            'inform-score': "http://go-risk-staging.northeurope.cloudapp.azure.com/api/v1/inform-score/"
+            'adam_exposure': f"{self.api.base_url_v1}/adam-exposure/",
+            'inform_score': f"{self.api.base_url_v1}/inform-score/",
+            'gdacs': f"{self.api.base_url_v1}/gdacs/",
+            
+            # 灾害预测API端点 (来自预测服务器)
+            'earthquake': f"{self.api.prediction_base_url}/earthquake/",
+            'global_exposure_data': f"{self.api.prediction_base_url}/global-exposure-data/",
+            'seasonal': f"{self.api.prediction_base_url}/seasonal/",
+            'country_seasonal': f"{self.api.prediction_base_url}/country-seasonal/",
+            'early_actions': f"{self.api.prediction_base_url}/early-actions/",
+            'meteosiss': f"{self.api.prediction_base_url}/meteosiss/",
+            'gvfs': f"{self.api.prediction_base_url}/gvfs/"
+        }
+    
+    def get_prediction_endpoints(self) -> Dict[str, str]:
+        """获取专门的灾害预测API端点"""
+        return {
+            'earthquake': f"{self.api.prediction_base_url}/earthquake/",
+            'global_exposure': f"{self.api.prediction_base_url}/global-exposure-data/",
+            'seasonal': f"{self.api.prediction_base_url}/seasonal/",
+            'country_seasonal': f"{self.api.prediction_base_url}/country-seasonal/",
+            'risk_score': f"{self.api.prediction_base_url}/risk-score/",
+            'early_actions': f"{self.api.prediction_base_url}/early-actions/",
+            'inform_score': f"{self.api.prediction_base_url}/inform-score/",
+            'meteosiss': f"{self.api.prediction_base_url}/meteosiss/",
+            'gvfs': f"{self.api.prediction_base_url}/gvfs/"
         }
 
     def get_field_mappings(self) -> Dict[str, str]:
